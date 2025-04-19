@@ -1,0 +1,25 @@
+# OS-dependend
+.DS_Store
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# temporary & log files
+~$*
+*.tmp
+temp/
+*.log
+
+# environments
+venv/
+.venv/
+
+# testing
+test.py
