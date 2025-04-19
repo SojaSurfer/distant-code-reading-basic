@@ -63,8 +63,9 @@ def convertD64Files(vice_bin_path:Path, extraction_dir:Path) -> None:
 
     for path, dirs, files in extraction_dir.walk():
         for file in files:
-            if not (Path(file).suffix or file == '.DS_Store'):
-                filepath = Path(path, file).resolve()
+            file = Path(file)
+            if not (file.suffix or file == '.DS_Store'):
+                filepath = (path / file).resolve()
 
                 # conversion
                 terminal_cmd = f'{petcat_path} -o "{filepath.with_suffix('.bas')}" -- "{filepath}"'
