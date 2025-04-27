@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hierarchical Edge Bundling</title>
+  <style>
+    body { margin:0; }
+    svg  { width:100vw; height:100vh; display:block; }
+    text { font:10px sans-serif; }
+    #save {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+      padding: 6px 12px;
+      background: #357edd;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    #save:hover { background: #285bb5; }
+  </style>
+</head>
+<body>
+<button id="save" style="position: absolute; top: 10px; left: 10px; z-index: 10;">Save as SVG</button>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-save-svg@1.0.0/dist/d3-save-svg.min.js"></script>
+<script>
+
+// Load the CSV files
+Promise.all([
+  d3.csv("nodes.csv"), // Load nodes
+  d3.csv("edges.csv")  // Load edges
+]).then(([nodes, edges]) => {
+  console.log("Loaded nodes:", nodes);
+  console.log("Loaded edges:", edges);
+
+  // -- 1) Build the hierarchy --
+  const root = d3.stratify()
+    .id(d => d.name)
+    .parentId(d => d.parent)(nodes);
+
+  console.log("Hierarchy root:", root);
+
+  // -- 2) Layout parameters --
+  const width = window.innerWidth,
+        height = window.innerHeight,
+        radius = Math.min(width, height) / 2 - 40;
+
+  const cluster = d3.cluster()
+    .size([360, radius]);
+
+  cluster(root);
+
+  console.log("Clustered hierarchy:", root);
+
+  // -- 3) Map edges to actual node objects --
+  const idToNode = new Map(root.descendants().map(d => [d.data.name, d]));
+  console.log("ID to Node Map:", idToNode);
+
+  const links = edges.map(edge => ({
+    source: idToNode.get(edge.from),
+    target: idToNode.get(edge.to),
+    color: edge.color
+  }));
+
+  console.log("Processed links:", links);
+
+  // -- 4) Create the bundle curve generator --
+  const line = d3.lineRadial()
+    .curve(d3.curveBundle.beta(0.85))
+    .radius(d => d.y)
+    .angle(d => d.x * Math.PI / 180);
+
+  // -- 5) Draw everything --
+  const svg = d3.select("body").append("svg")
+  .attr("viewBox", [-width / 2, -height / 2 - 50, width, height + 50]); 
+
+  // Add a title
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", -radius - 60)
+    .attr("text-anchor", "middle")
+    .style("font-size", "24px")
+    .style("font-weight", "bold")
+    .text("Control Flow of 'zeichen-gen2'");
+
+    // Define arrowhead marker for directed edges
+  svg.append("defs").append("marker")
+    .attr("id", "arrowhead")
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 10) // Position of the arrowhead
+    .attr("refY", 0)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+    .append("path")
+    .attr("d", "M0,-5L10,0L0,5") // Arrowhead shape
+    .attr("fill", "black"); // Arrowhead color
+
+    // Draw the links with arrowheads
+  svg.append("g")
+    .selectAll("path")
+    .data(links)
+    .join("path")
+      .attr("d", d => line(d.source.path(d.target)))
+      .attr("fill", "none")
+      .attr("stroke-width", 1.5)
+      .attr("stroke", d => d.color)
+      .attr("opacity", 0.7)
+      .attr("marker-end", "url(#arrowhead)"); // Add arrowhead to the end of the path
+
+  // Define legend data
+  const legendData = [
+    { color: "blue", label: "GOTO" },
+    { color: "green", label: "GOSUB" },
+    { color: "purple", label: "THEN" },
+    { color: "yellow", label: "ELSE" }
+  ];
+
+  // Add a legend
+  const legend = svg.append("g")
+    .attr("transform", `translate(${radius - 100}, ${-radius + 20})`);
+
+  legend.selectAll("rect")
+    .data(legendData)
+    .join("rect")
+      .attr("x", 0)
+      .attr("y", (d, i) => i * 20)
+      .attr("width", 12)
+      .attr("height", 12)
+      .attr("fill", d => d.color);
+
+  legend.selectAll("text")
+    .data(legendData)
+    .join("text")
+      .attr("x", 20)
+      .attr("y", (d, i) => i * 20 + 10)
+      .attr("text-anchor", "start")
+      .style("font-size", "14px")
+      .text(d => d.label);
+
+  // Add save functionality
+  document.getElementById("save").addEventListener("click", () => {
+    const svgElement = d3.select("svg").node();
+    d3_save_svg.save(svgElement, { filename: "hierarchical-edge-bundling" });
+  });
+
+  // Draw the links:
+  svg.append("g")
+    .selectAll("path")
+    .data(links)
+    .join("path")
+      .attr("d", d => line(d.source.path(d.target)))
+      .attr("fill", "none")
+      .attr("stroke-width", 1.5)
+      .attr("stroke", d => d.color)
+      .attr("opacity", 0.7);
+
+  // Draw the leaves:
+  svg.append("g")
+    .selectAll("text")
+    .data(root.leaves())
+    .join("text")
+      .attr("transform", d => `
+        rotate(${d.x - 90})
+        translate(${d.y + 8},0)
+        ${d.x < 180 ? "" : "rotate(180)"}
+      `)
+      .attr("text-anchor", d => d.x < 180 ? "start" : "end")
+      .text(d => d.data.name);
+
+          // --- SAVE HANDLER ---
+document.getElementById("save").addEventListener("click", () => {
+  const svgNode = document.querySelector("svg");
+  const serializer = new XMLSerializer();
+  let source = serializer.serializeToString(svgNode);
+  // add namespace if missing
+  if (!source.match(/^<svg[^>]+xmlns="http\:\/\/www\.w3\.org\/2000\/svg"/)) {
+      source = source.replace(/^<svg/, '<svg xmlns="http://www.w3.org/2000/svg"');
+  }
+  if (!source.match(/^<svg[^>]+"http\:\/\/www\.w3\.org\/1999\/xlink"/)) {
+    source = source.replace(/^<svg/, '<svg xmlns:xlink="http://www.w3.org/1999/xlink"');
+  }
+  const blob = new Blob([source], { type: "image/svg+xml;charset=utf-8" });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement("a");
+  a.href     = url;
+  a.download = "hierarchical-edge-bundling.svg";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  });
+}).catch(error => {
+  console.error("Error loading data:", error);
+});
+</script>
+</body>
