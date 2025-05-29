@@ -1,10 +1,10 @@
-from pathlib import Path
 import sys
+from pathlib import Path
 
+from nltk import word_tokenize
 from tokenizers import Tokenizer
-from transformers import AutoTokenizer
 from tqdm import tqdm
-
+from transformers import AutoTokenizer
 
 ROOT = Path(__file__).parent
 MODEL_PATH = ROOT.parent.parent / 'models'
@@ -34,14 +34,24 @@ def showTokens(sentence, tokenizer) -> None:
     return None
 
 
-def save_tokens_html(sentences: list[str], tokenizerNames:list[str], out_path: Path) -> None:
+def save_tokens_html(sentences: list[str], tokenizerNames:list[str], out_path: Path, additionalTokenizer:tuple[AutoTokenizer, str] = None) -> None:
 
     body = ''
     tokenizerList = [None] * len(tokenizerNames)
 
     # preload tokenizers
-    tokenizerList = [AutoTokenizer.from_pretrained(name, cache_dir=MODEL_PATH, batched=True)
-                        for name in tokenizerNames]
+    if isinstance(tokenizerNames[0], str):
+        tokenizerList = [AutoTokenizer.from_pretrained(name, cache_dir=MODEL_PATH, batched=True)
+                            for name in tokenizerNames]
+        tokenizerNames_ = [tokenizer.__class__.__qualname__ for tokenizer in tokenizerList]
+
+    else:
+        tokenizerList = [tk[0] for tk in tokenizerNames]
+        tokenizerNames_ = [tk[1] for tk in tokenizerNames]
+
+    if additionalTokenizer is not None:
+        tokenizerList.insert(0, additionalTokenizer[0])
+        tokenizerNames_.insert(0, additionalTokenizer[1])
 
 
     for sentence in tqdm(sentences, ncols=80, desc='Visualize'):
@@ -50,10 +60,15 @@ def save_tokens_html(sentences: list[str], tokenizerNames:list[str], out_path: P
         body += f'  <pre class="sentence-text">{sentence}</pre>\n\n'
 
         for i, tokenizer in enumerate(tokenizerList):
-            token_ids = tokenizer(sentence)["input_ids"]
-            tokens = tokenizer.convert_ids_to_tokens(token_ids)
+            
+            tk = tokenizer(sentence)
+            try:
+                token_ids = tk["input_ids"]
+                tokens = tokenizer.convert_ids_to_tokens(token_ids)
+            except TypeError:
+                tokens = tk
 
-            body += create_html_body(tokens, tokenizer.__class__.__qualname__)
+            body += create_html_body(tokens, tokenizerNames_[i])
         
         body += "</div>\n\n"
 
@@ -153,8 +168,15 @@ if __name__ == '__main__':
     ]
 
     modelNames = ['google-bert/bert-base-uncased', 'FacebookAI/xlm-roberta-base', 'google-t5/t5-base', 'Xenova/gpt-4']
-    
-    save_tokens_html(randomCodeExamples, modelNames, ROOT / 'tokenizer_visualization.html')
+
+    # test NLTK & spacy tokenizer
+    # modelNames = [(word_tokenize, 'NLTK'),]
+
+    # save_tokens_html(randomCodeExamples, modelNames, ROOT / 'tokenizer_visualization_classical.html')
+    trainedTokenizerPath = Path('repository/inference/tokenization/models/BertTokenizerFast_trained')
+    trainedTokenizer = AutoTokenizer.from_pretrained(trainedTokenizerPath)
+
+    save_tokens_html(randomCodeExamples, modelNames, ROOT / 'tokenizer_visualization_.html', additionalTokenizer=[trainedTokenizer, trainedTokenizerPath.name])
 
 
 

@@ -115,8 +115,8 @@ def saveNodeEdgesInfo(codelines, linenos) -> None:
     codeDF['parent'] = 'root'
 
 
-    codeDF[['name', 'parent']].to_csv(Path(__file__, 'nodes.csv'), index=False)
-    edgesDF.to_csv(Path(__file__, 'edges.csv'), index=False)
+    codeDF[['name', 'parent']].to_csv(Path(__file__).parent / 'nodes.csv', index=False)
+    edgesDF.to_csv(Path(__file__).parent / 'edges.csv', index=False)
     return None
 
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     path = 'corpus/dataset/dataset.parquet'
     df = pd.read_parquet(path)
 
-    row = df.loc[1]
+    row = df.loc[4]
     codelines = row['code'].splitlines()
     linenos = [int(line.split(maxsplit=1)[0]) for line in codelines]
     print(row['name'])
