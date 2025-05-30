@@ -26,6 +26,7 @@ TAGSET0 = {
         'comment string': 'SC',
         'string': 'SD'
     },
+    'data': 'D'  # opcode-mnemonic table with DATA statement, like in assembler.bas line 10_000
 }
 
 TAGSET1 = {
@@ -55,4 +56,14 @@ TAGSET1 = {
         'comment string': 'SC',
         'string': 'S'
     },
+    'data': 'D'  # opcode-mnemonic table with DATA statement, like in assembler.bas line 10_000
+}
+
+TAGSET2 = {
+    'command': 'C',
+    'operators': 'O',
+    'variables': 'V',
+    'numbers': 'N',
+    'punctuations': 'P',
+    'string': 'S',
 }

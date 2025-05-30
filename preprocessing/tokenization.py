@@ -6,9 +6,14 @@ from typing import Any, Generator, Literal, Self
 
 import pandas as pd
 from rich import print, traceback
-
-from commodore64BASIC import ASCII_CODES, ASSEMBLY_CHARS, BYTE_TO_CMD, BYTE_TO_CTRL
 from tagset import TAGSET1
+
+from preprocessing.characterSet import (
+    ASCII_CODES,
+    ASSEMBLY_CHARS,
+    BYTE_TO_CMD,
+    BYTE_TO_CTRL,
+)
 
 traceback.install()
 """ Current problems:
@@ -16,6 +21,9 @@ traceback.install()
 - misclassified variables, like "umwandler", "tauchen"
 - make variables uppercase
 - inv-mc is excluded
+- pingi2 line 6030ff:  <6030 "{rvs_on}" rvs ON>
+- roulette line 10ff:    <10 * * * * * * * * * * * * * * * * * *>
+    skip non-valid BASIC statemtents? -> line-number not followed by a keyword or quoted string
 """
 
 
@@ -124,7 +132,7 @@ class BASICFile():
     def __str__(self) -> str:
         return f'{self.__class__.__qualname__}()'
     
-    def __getitem__(self, index) -> None:
+    def __getitem__(self, index) -> list[BASICToken]:
         return self.file[index]
     
 
@@ -136,7 +144,7 @@ class BASICFile():
         print(f'{index:>5d} {tokenLine}')
         return None
     
-    def addLine(self, tokens:list[BaseException], lineno:int) -> None:
+    def addLine(self, tokens:list[BASICToken], lineno:int) -> None:
         self.file[lineno] = tokens
         return None
     
@@ -241,7 +249,7 @@ class Detokenizer():
         return None
 
 
-    def _decodeLine(self, lineno:int, line:bytes) -> dict[str, list]:
+    def _decodeLine(self, lineno:int, line:bytes) -> list[BASICToken]:
 
         if len(line) == 1:
             hexbytes: list[int] = [line[0]]
@@ -251,10 +259,11 @@ class Detokenizer():
         self.commentCMD = False
         self.printCMD = False
         self.stringDecl = False
+        self.isDataBlock = False
         self.parenthesis = 0
-        self.lastChar = None
+        self.lastChar: BASICToken = None
         self.appendBtoken = True
-        self.detokenizedLine = []
+        self.detokenizedLine: list[BASICToken] = []
 
         for value in hexbytes:
             btoken = BASICToken(value, lineno)
@@ -302,6 +311,9 @@ class Detokenizer():
 
 
             self.lastChar = btoken
+            if self.detokenizedLine[-1].token == STRING[:-1] and btoken.syntax != 'D':
+                print()
+                sys.exit(1)
         
         self._checkLineLanguage()
 
@@ -323,6 +335,11 @@ class Detokenizer():
 
         elif btoken.value in (0xA8, 0xAF, 0xB0):
             syntax = TAGSET1['operators']['logical operators']
+
+        elif btoken.value == 0x83 and not self.detokenizedLine:
+            # first command of line is DATA
+            self.isDataBlock = True
+            syntax = TAGSET1['command']
 
         elif False:
             #TODO: implement strategy for identifying assignment operators
@@ -431,6 +448,9 @@ class Detokenizer():
             btoken.syntax = TAGSET1['string']['string']
         elif btoken.isDigit():
             self._disambiguateMinusSign()
+        
+        if self.isDataBlock and btoken.isLetter():
+            btoken.syntax = TAGSET1['data']
         return None
     
 
@@ -477,6 +497,9 @@ if __name__ == '__main__':
 
 
     # erronous files: inv-mc
+
+    STRING = 'maschinen'
+
     df = None
     for disk in ('Homecomp1', 'Homecomp2', 'Homecomp3'):
         for sourceFile in (sourcePath / disk).iterdir():
@@ -496,6 +519,7 @@ if __name__ == '__main__':
             detokenizer = Detokenizer()
             bfile = detokenizer.detokenizeBasicFile(sourceFile)
 
+
             bfile.saveFile(destFile)
             table = bfile.saveTable(tableFile)
 
@@ -505,6 +529,8 @@ if __name__ == '__main__':
             else:
                 df = pd.concat((df, table), axis=0)
 
+
+    print(df)
     df.to_parquet(tablePath / 'tokenized_dataset.parquet')
 
     # print()
