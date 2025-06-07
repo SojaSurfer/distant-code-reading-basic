@@ -93,3 +93,4 @@ if __name__ == "__main__":
     extractD64Files(vice_bin_path, d64_path, extraction_dir)
 
     convert_d64_files(vice_bin_path, extraction_dir)
+

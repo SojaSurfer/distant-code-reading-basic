@@ -6,27 +6,31 @@ from typing import Any, Generator, Literal, Self
 
 import pandas as pd
 from rich import print, traceback
-from tagset import TAGSET1
+from tagset import TAGSET1, TAGSET3
 
+from preprocessing.basics import BASICFile, BASICToken
 from preprocessing.characterSet import (
     ASCII_CODES,
     ASSEMBLY_CHARS,
     BYTE_TO_CMD,
     BYTE_TO_CTRL,
 )
+from preprocessing.parser import Parser
 
 
 
 
 traceback.install()
 """ Current problems:
-- number -1 is split into "-" and "1"
+- number -.1 is split into "-" and ".1"
 - misclassified variables, like "umwandler", "tauchen"
 - make variables uppercase
 - inv-mc is excluded
 - pingi2 line 6030ff:  <6030 "{rvs_on}" rvs ON>
 - roulette line 10ff:    <10 * * * * * * * * * * * * * * * * * *>
     skip non-valid BASIC statemtents? -> line-number not followed by a keyword or quoted string
+- pingi2 l. 100ff.: . and * are meant as boolean false and true!? . is definitive 0, but * gets Syntax error
+
 """
 
 
@@ -51,144 +55,15 @@ def show_file_diffs(file1: str, file2: str) -> None:
     return None
 
 
-class BASICToken:
-    """A class that represents one token in the Commodore BASIC programming language."""
 
-    def __init__(self, value: int, lineno: int, **kwargs) -> None:
-        self.value = value
-        self.lineno = lineno
-
-        self._byte = kwargs.get("byte", bytearray([value]))
-        self.byte_repr = kwargs.get("byteRepr", f"0x{value:02x}")
-        self.syntax = kwargs.get("syntax")
-        self.token = kwargs.get("token", "")
-        self.language = kwargs.get("language", "BASIC")
-
-    @property
-    def byte(self) -> bytes:
-        """The bytes representation of the token."""
-        return bytes(self._byte)
-
-    def __str__(self) -> str:
-        return (
-            f"{self.__class__.__qualname__}({self.value}, {self.byte}, {self.byte_repr}, {self.token}, {self.syntax})"
-        )
-
-    def __repr__(self) -> str:
-        return f"{self.__class__.__qualname__}(value={self.value!r}, byte={self.byte!r}, byteRepr={self.byte_repr!r}, token={self.token!r}, syntax={self.syntax!r})"
-
-    def __len__(self) -> int:
-        return len(self.byte)
-
-    def __add__(self, other: Self) -> Self:
-        self._add_check_other(other)
-
-        value = self.value  # hmm..
-        byte = self.byte + other.byte
-        byte_repr = self.byte_repr + other.byte_repr
-        token = self.token + " " + other.token
-
-        return self.__class__(value, self.lineno, byte=byte, byteRepr=byte_repr, token=token)
-
-    def __iadd__(self, other: Self) -> Self:
-        self._add_check_other(other)
-
-        self.value = other.value  # hmm..
-        self._byte = self.byte + other.byte
-        self.byte_repr = self.byte_repr + " " + other.byte_repr
-        self.token = self.token + other.token
-
-        return self
-
-    def _add_check_other(self, other: Any) -> None:
-        if not isinstance(other, self.__class__):
-            msg = "Can only add two BASICToken objects together"
-            raise TypeError(msg)
-
-        if self.lineno != other.lineno:
-            msg = f"Self and other must be in the same line number to be added together, found {self.lineno} and {other.lineno}"
-            raise ValueError(msg)
-        elif self.language != other.language:
-            msg = f"Self and other must be in the same language to be added together, found {self.language} and {other.language}"
-            raise ValueError(msg)
-        return None
-
-    def is_whitespace(self) -> bool:
-        """Check if token contains only an empty space."""
-        return self.byte == b" "
-
-    def is_digit(self) -> bool:
-        """Check if token is an ASCII digit."""
-        return self.value in ASCII_CODES["number"]
-
-    def is_letter(self) -> bool:
-        """Check if token is an ASCII letter."""
-        return self.value in ASCII_CODES["letter"]
-
-    def is_punctuation(self) -> bool:
-        """Check if token is an ASCII punctuation but not a sigil."""
-        return self.value in ASCII_CODES["punctuation"]
-
-    def is_sigil(self) -> bool:
-        """Check if token is an BASIC sigil."""
-        return self.value in ASCII_CODES["sigil"]
-
-
-class BASICFile:
-    """A class that represents a Commodore BASIC file containing a dict with BASICToken elements."""
-
-    def __init__(self) -> None:
-        self.file: dict[int, list[BASICToken]] = {}
-
-    def __str__(self) -> str:
-        return f"{self.__class__.__qualname__}()"
-
-    def __getitem__(self, index) -> list[BASICToken]:
-        return self.file[index]
-
-    def print_line(self, index: int = -1) -> None:
-        if index == -1:
-            index = max(self.file.keys())
-
-        token_line = " ".join([btoken.token for btoken in self.file[index]])
-        print(f"{index:>5d} {token_line}")
-        return None
-
-    def add_line(self, tokens: list[BASICToken], lineno: int) -> None:
-        self.file[lineno] = tokens
-        return None
-
-    def save_file(self, path: str|Path) -> None:
-        """Save the BASIC file as an text file."""
-        data = []
-        for lineno, tokens in self.file.items():
-            line = f"{lineno:>5d} {' '.join([tk.token for tk in tokens])}"
-
-            data.append(line)
-
-        with open(path, "w", encoding="utf-8") as file:
-            file.write("\n".join(data))
-        return None
-
-    def save_table(self, path: str|Path) -> pd.DataFrame:
-        """Save the BASIC file as an Excel file."""
-
-        df = pd.DataFrame(columns=["line", "token_id", "bytes", "token", "syntax", "language"])
-
-        for lineno, btokens in self.file.items():
-            for idx, btoken in enumerate(btokens):
-                df.loc[len(df)] = [lineno, idx, btoken.byte_repr, btoken.token, btoken.syntax, btoken.language]
-
-        df.to_excel(path)
-        return df
-
-
-class BASICDecoder:
+class BASICLexer:
     """A class to decode a Commodore BASIC binary file."""
 
-    def __init__(self) -> None:
-        self.filename = None
+    def __init__(self, tagset:dict) -> None:
+        self.parser = Parser(tagset)
+        self.tagset = tagset
 
+        self.filename = None
         self.asciiCodes = {char: key for key, value in ASCII_CODES.items() for char in value}
 
     def detokenize_basic_file(self, filename: str|Path) -> BASICFile:
@@ -274,7 +149,7 @@ class BASICDecoder:
         self.string_decl = False
         self.is_data_block = False
         self.parenthesis = 0
-        self.last_char: BASICToken
+        self.last_char: BASICToken = None
         self.append_btoken = True
         self.decoded_tokens: list[BASICToken] = []
 
@@ -284,8 +159,8 @@ class BASICDecoder:
             if btoken.is_whitespace() and not self._within_string_like_expression():
                 continue
 
-            if self.print_cmd:
-                self._decode_print_statement(btoken)
+            if self.string_decl:
+                self._decode_string(btoken)
 
             elif self.comment_cmd:
                 self._decode_comment_statement(btoken)
@@ -293,10 +168,8 @@ class BASICDecoder:
             elif value < 0x20:
                 # ASCII control char outside of print statement, unclear why
                 btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
-                if btoken.token == btoken.byte:
-                    btoken.syntax = "?_ascii_control_char"
-                else:
-                    btoken.syntax = TAGSET1["string"]["print string"]
+                btoken.syntax = self.parser.parse_string(btoken)
+
                 if self.string_decl:
                     self.append_btoken = False
 
@@ -323,51 +196,49 @@ class BASICDecoder:
 
             self.last_char = btoken
 
-
         self._check_line_language()
 
         return self.decoded_tokens
     
     def _decode_cmd(self, btoken: BASICToken) -> None:
         self.append_btoken = True
-
-        # other operators: O -> unequal, T, exponent
-        if btoken.value in (0xAA, 0xAB, 0xAC, 0xAD, 0xAE):
-            syntax = TAGSET1["operators"]["arithmetic operators"]
-
-        elif btoken.value in (0xB1, 0xB2, 0xB3):
-            syntax = TAGSET1["operators"]["relational operators"]
-            if self.last_char.value in (0xB1, 0xB3):
-                # 2-byte relational operator like <=, >=, <>
-                self.append_btoken = False
-
-        elif btoken.value in (0xA8, 0xAF, 0xB0):
-            syntax = TAGSET1["operators"]["logical operators"]
+        
+        if (btoken.value in (0xB1, 0xB2, 0xB3) and self.last_char.value in (0xB1, 0xB2, 0xB3)
+            and btoken.value != self.last_char.value):
+            # 2-byte relational operator like <=, >=, <>, =>, =<
+            self.append_btoken = False
 
         elif btoken.value == 0x83 and not self.decoded_tokens:
-            # first command of line is DATA
             self.is_data_block = True
-            syntax = TAGSET1["command"]
 
-        elif False:
-            # TODO: implement strategy for identifying assignment operators
-            syntax = TAGSET1["operators"]["assignment operators"]
 
-        else:
-            syntax = TAGSET1["command"]
-            self.print_cmd = btoken.value in (0x98, 0x99) if not self.print_cmd else self.print_cmd  # PRINT & PRINT#
-            self.comment_cmd = btoken.value in (0x8F,)  # REM
+        self.print_cmd = btoken.value in (0x98, 0x99) if not self.print_cmd else self.print_cmd  # PRINT & PRINT#
+        self.comment_cmd = btoken.value in (0x8F,)  # REM
 
         if self.string_decl:
             btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
-            btoken.syntax = TAGSET1["string"]["print string"]
+            btoken.syntax = self.parser.parse_string(btoken)
             self.append_btoken = False
         else:
             btoken.token = BYTE_TO_CMD[btoken.byte]
-            btoken.syntax = syntax
+            btoken.syntax = self.parser.parse_command(btoken, self.decoded_tokens)
+
+            # disambiguate equal sign
+            if btoken.value == 0xB2 and self.decoded_tokens:
+                btoken.syntax = self.tagset["operators"]["assignment"]["tag"]
+
+                for prior_token in self.decoded_tokens[::-1]:
+                    if prior_token.token == "IF":
+                        # relational equal sign
+                        btoken.syntax = self.parser.parse_command(btoken, self.decoded_tokens)
+                        break
+                    elif prior_token.token in (":", ";", "THEN"):
+                        # end of command span, since "IF" was not found it is an assignment
+                        break
+
         return None
 
-    def _decode_print_statement(self, btoken: BASICToken) -> None:
+    def _decode_string(self, btoken: BASICToken) -> None:
         # BASIC commands are not available in a string
         if btoken.byte == b'"':
             # first ", start of print statement
@@ -377,31 +248,46 @@ class BASICDecoder:
 
             if self.parenthesis == 2:
                 # second ", end of print statement
-                self.print_cmd = False
                 self.parenthesis = 0
                 self.append_btoken = False
+                self.string_decl = False
 
         elif self.parenthesis == 0:
-            # no " after PRINT detected, check for command
-            if btoken.value < 0x80:
-                # print(f'Warning: expected <"> as start of string print but found a non-CMD char: {btoken}')
-                btoken.token = btoken.byte.decode("ascii", errors="replace").lower()
-            else:
+            # no <"> after PRINT, expect variable or command
+            self.append_btoken = True
+
+            if btoken.value < 0x20:
+                # ASCII control char outside of print statement, unclear why
+                btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
+                btoken.syntax = self.parser.parse_string(btoken)
+
+
+            elif 0x20 <= btoken.value <= 0x7F:
+                # btoken.value is an ASCII printable character
+                self._decode_ascii(btoken)
+
+            elif btoken.value >= 0x80:
+                # BASIC command statement
                 self._decode_cmd(btoken)
 
-            self.print_cmd = True
+            else:
+                btoken.token = btoken.byte
+                btoken.syntax = "?_unknown"
 
         else:
             # anything in between "" in the print statement
             btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte.decode("ascii", errors="replace").lower())
             if btoken.value > 0x80 and btoken.byte not in BYTE_TO_CTRL:
+                # add those to the BYTE_TO_CTRL dict
                 print(btoken, btoken.lineno, [b.token for b in self.decoded_tokens])
             self.append_btoken = False
-        btoken.syntax = TAGSET1["string"]["print string"]
+
+            btoken.syntax = self.tagset["string"]["string"]["tag"]
         return None
 
+
     def _decode_comment_statement(self, btoken: BASICToken) -> None:
-        btoken.syntax = TAGSET1["string"]["comment string"]
+        btoken.syntax = self.tagset["string"]["comment"]["tag"]
         if btoken.value < 0x20:
             btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
         elif btoken.value < 0x80:
@@ -417,20 +303,8 @@ class BASICDecoder:
 
     def _decode_ascii(self, btoken: BASICToken) -> None:
         btoken.token = chr(btoken.value).lower()
-        ascii_type = self.asciiCodes.get(btoken.value, "unknown")
 
-        if ascii_type == "letter":
-            btoken.syntax = TAGSET1["variables"]["numerical variable"]
-        elif ascii_type == "number":
-            btoken.syntax = TAGSET1["numbers"]["integer"]
-        elif ascii_type in ("punctuation", "sigil"):
-            btoken.syntax = TAGSET1["punctuations"]["punctuation"]
-        else:
-            btoken.syntax = "?_" + ascii_type
-
-        if btoken.is_letter() and not self._within_string_like_expression():
-            # assumtion: variable
-            btoken.syntax = TAGSET1["variables"]["numerical variable"]
+        btoken.syntax = self.parser.parse_ascii(btoken, self.decoded_tokens)
 
         if self._belongs_to_previous_byte(btoken):
             # assumption: either multi-char var name or multi-digit number
@@ -442,27 +316,45 @@ class BASICDecoder:
         if btoken.byte == b'"':
             self.parenthesis += 1
             self.string_decl = True
-            btoken.syntax = TAGSET1["string"]["string"]
+
             if self.parenthesis == 2:
                 self.string_decl = False
                 self.parenthesis = 0
 
         if self.string_decl:
-            btoken.syntax = TAGSET1["string"]["string"]
-        elif btoken.is_digit():
+            btoken.syntax = self.parser.parse_string(btoken)
+        elif btoken.is_digit() or btoken.token == ".":
+            self._disambiguate_dot(btoken)
+
+        elif btoken.syntax.startswith("V") or btoken.syntax == "PB" or btoken.is_digit():
             self._disambiguate_minus_sign()
 
+        elif btoken.is_sigil():
+            if self.decoded_tokens and self.decoded_tokens[-1].is_letter():
+                if btoken.token == "$":
+                    self.decoded_tokens[-1].syntax = self.tagset["variables"]["string"]["tag"]
+                else:
+                    self.decoded_tokens[-1].syntax = self.tagset["variables"]["integer"]["tag"]
+            else:
+                btoken.syntax = self.tagset["punctuations"]["other"]["tag"]
+
+        elif btoken.token == "(" and self.decoded_tokens and self.decoded_tokens[-1].syntax.startswith("V"):
+            # disambiguate parenthesis, could hint at an array variable
+            self.decoded_tokens[-1].syntax = f"VA{self.decoded_tokens[-1].syntax[-1]}"
+
         if self.is_data_block and btoken.is_letter():
-            btoken.syntax = TAGSET1["data"]
+            btoken.syntax = self.tagset["data"]["tag"]
         return None
 
     def _belongs_to_previous_byte(self, btoken: BASICToken) -> bool:
         if self.last_char is None:
             return False
         elif (
-            (btoken.is_letter() and self.last_char.is_letter())
-            or (btoken.is_digit() and self.last_char.is_digit())
-            or self.string_decl
+            (btoken.is_letter() and self.last_char.is_letter())               # v, a -> va  (variable)
+            or (btoken.is_digit() and self.last_char.is_digit())              # 1, 2 -> 12  (number)
+            or (btoken.is_digit() and self.last_char.is_letter())             # v, 1 -> v2  (variable)
+            or self.string_decl                                               # "hell, o -> "hello (string literal)
+            or (btoken.is_sigil() and self.last_char.syntax.startswith("V"))  # v, $ -> v$  (variable)
         ):
             return True
 
@@ -494,20 +386,35 @@ class BASICDecoder:
 
         return None
 
+    def _disambiguate_dot(self, btoken:BASICToken) -> None:
+        """Add the current token to the previous token if the current token is a dot and
+        the previous token was a digit or the current token is a digit and the previous token was a dot.
+        """
+
+        if (self.last_char is not None
+            and (btoken.token == "." and self.last_char.is_digit()) 
+            or self.last_char.token == "."):
+
+                self.decoded_tokens[-1].syntax = self.tagset["numbers"]["real"]["tag"]
+                btoken.syntax = self.tagset["numbers"]["real"]["tag"]
+                self.append_btoken = False   
+
+        return None
+
+
 
 
 if __name__ == "__main__":
-    corpus_path = Path(__file__).resolve().parents[2] / "corpus"
+    corpus_path = Path("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus")
     source_path = corpus_path / "encoded"
     petcat_path = corpus_path / "decoded" / "petcat"
     dest_path = corpus_path / "decoded" / "tokenizer"
     table_path = corpus_path / "dataset"
 
-    # erronous files: inv-mc
-
-    STRING = "maschinen"
-
+    
     df = pd.DataFrame()
+    detokenizer = BASICLexer(TAGSET3)
+
     for disk in ("Homecomp1", "Homecomp2", "Homecomp3"):
         for source_file in (source_path / disk).iterdir():
             if source_file.name in (".DS_Store", "inv-mc"):
@@ -522,17 +429,30 @@ if __name__ == "__main__":
             dest_file.parent.mkdir(exist_ok=True)
             table_file.parent.mkdir(exist_ok=True)
 
-            detokenizer = BASICDecoder()
+            
             bfile = detokenizer.detokenize_basic_file(source_file)
 
+            dest_file = dest_path / source_file.parent.name / f"{source_file.name}_1.bas"
             bfile.save_file(dest_file)
+            table_file = table_path / source_file.parent.name / f"{source_file.name}_1.xlsx"
             table = bfile.save_table(table_file)
 
-            table.insert(0, "game", source_file.name)
+            table.insert(0, "name", source_file.name)
             df = table if df.empty else pd.concat((df, table), axis=0)
 
 
     print(df)
+
+    metadata_df = pd.read_excel("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/metadata.xlsx")
+
+    # Merge file_id and game_id from metadata_df into df based on the 'name' column
+    df = df.merge(
+        metadata_df[["name", "file_id", "game_id"]],
+        on="name",
+        how="left",
+    )
+
+    df = df[["file_id", "game_id", "name", "line", "token_id", "bytes", "token", "syntax", "language"]]
     df.to_parquet(table_path / "tokenized_dataset.parquet")
 
     # print()

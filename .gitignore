@@ -23,3 +23,6 @@ venv/
 
 # testing
 test.py
+
+repository.code-workspace
+models/
