@@ -87,36 +87,42 @@ class BASICToken:
     def is_sigil(self) -> bool:
         """Check if token is an BASIC sigil."""
         return self.value in ASCII_CODES["sigil"]
+    
+    def is_alpha(self) -> bool:
+        if not self.token:
+            return False
+        return self.token[0].lower() in "abcdefghijklmnopqrstuvwxyz"
+        
 
 
 class BASICFile:
     """A class that represents a Commodore BASIC file containing a dict with BASICToken elements."""
 
     def __init__(self) -> None:
-        self.file: dict[int, list[BASICToken]] = {}
+        self.file: list[tuple[int, list[BASICToken]]] = []
 
     def __str__(self) -> str:
         return f"{self.__class__.__qualname__}()"
 
-    def __getitem__(self, index) -> list[BASICToken]:
-        return self.file[index]
+    # def __getitem__(self, index) -> list[BASICToken]:
+    #     return self.file[index]
 
-    def print_line(self, index: int = -1) -> None:
-        if index == -1:
-            index = max(self.file.keys())
+    # def print_line(self, index: int = -1) -> None:
+    #     if index == -1:
+    #         index = max(self.file.keys())
 
-        token_line = " ".join([btoken.token for btoken in self.file[index]])
-        print(f"{index:>5d} {token_line}")
-        return None
+    #     token_line = " ".join([btoken.token for btoken in self.file[index]])
+    #     print(f"{index:>5d} {token_line}")
+    #     return None
 
     def add_line(self, tokens: list[BASICToken], lineno: int) -> None:
-        self.file[lineno] = tokens
+        self.file.append((lineno, tokens))
         return None
 
     def save_file(self, path: str|Path) -> None:
         """Save the BASIC file as an text file."""
         data = []
-        for lineno, tokens in self.file.items():
+        for lineno, tokens in self.file:
             line = f"{lineno:>5d} {' '.join([tk.token for tk in tokens])}"
 
             data.append(line)
@@ -130,7 +136,7 @@ class BASICFile:
 
         df = pd.DataFrame(columns=["line", "token_id", "bytes", "token", "syntax", "language"])
 
-        for lineno, btokens in self.file.items():
+        for lineno, btokens in self.file:
             for idx, btoken in enumerate(btokens):
                 df.loc[len(df)] = [lineno, idx, btoken.byte_repr, btoken.token, btoken.syntax, btoken.language]
 

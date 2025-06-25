@@ -23,9 +23,8 @@ from preprocessing.parser import Parser
 traceback.install()
 """ Current problems:
 - number -.1 is split into "-" and ".1"
-- misclassified variables, like "umwandler", "tauchen"
-- make variables uppercase
-- inv-mc is excluded
+- misclassified variables, like "umwandler", "tauchen" -> welche file?
+- invalid files: inv-mc, spukhaus2, 
 - pingi2 line 6030ff:  <6030 "{rvs_on}" rvs ON>
 - roulette line 10ff:    <10 * * * * * * * * * * * * * * * * * *>
     skip non-valid BASIC statemtents? -> line-number not followed by a keyword or quoted string
@@ -65,6 +64,7 @@ class BASICLexer:
 
         self.filename = None
         self.asciiCodes = {char: key for key, value in ASCII_CODES.items() for char in value}
+
 
     def detokenize_basic_file(self, filename: str|Path) -> BASICFile:
         """Detokenizes a BASIC file from the given filename.
@@ -109,6 +109,7 @@ class BASICLexer:
         with open(self.filename, "rb") as f:
             data = f.read()
 
+        text = ""
         pos = 2  # skip header
         end = len(data)
         while pos < end - 4:
@@ -120,7 +121,7 @@ class BASICLexer:
             (lineno,) = struct.unpack_from("<H", data, pos)
             pos += 2
 
-            if lineno == 0x00:  # EOF
+            if lineno == 0 and set(data[pos:]) == {0}: # rest of file contains only zero bytes
                 return None
 
             # read text until the 0x00 terminator
@@ -194,7 +195,8 @@ class BASICLexer:
                 else:
                     self.decoded_tokens.append(btoken)
 
-            self.last_char = btoken
+            # self.last_char = btoken
+            self.last_char = self.decoded_tokens[-1]
 
         self._check_line_language()
 
@@ -309,7 +311,6 @@ class BASICLexer:
         if self._belongs_to_previous_byte(btoken):
             # assumption: either multi-char var name or multi-digit number
             self.append_btoken = False
-
         else:
             self.append_btoken = True
 
@@ -330,7 +331,7 @@ class BASICLexer:
             self._disambiguate_minus_sign()
 
         elif btoken.is_sigil():
-            if self.decoded_tokens and self.decoded_tokens[-1].is_letter():
+            if self.decoded_tokens and self.decoded_tokens[-1].is_alpha():
                 if btoken.token == "$":
                     self.decoded_tokens[-1].syntax = self.tagset["variables"]["string"]["tag"]
                 else:
@@ -342,7 +343,8 @@ class BASICLexer:
             # disambiguate parenthesis, could hint at an array variable
             self.decoded_tokens[-1].syntax = f"VA{self.decoded_tokens[-1].syntax[-1]}"
 
-        if self.is_data_block and btoken.is_letter():
+        # if self.is_data_block and btoken.is_letter():
+        if self.is_data_block and btoken.token != ",":
             btoken.syntax = self.tagset["data"]["tag"]
         return None
 
@@ -392,16 +394,34 @@ class BASICLexer:
         """
 
         if (self.last_char is not None
-            and (btoken.token == "." and self.last_char.is_digit()) 
-            or self.last_char.token == "."):
+            and ((btoken.token == "." and self.last_char.is_digit()) 
+              or self.last_char.token[-1] == ".")):
 
-                self.decoded_tokens[-1].syntax = self.tagset["numbers"]["real"]["tag"]
                 btoken.syntax = self.tagset["numbers"]["real"]["tag"]
+                self.decoded_tokens[-1].syntax = btoken.syntax
                 self.append_btoken = False   
 
         return None
 
 
+
+def create_parquet(df:pd.DataFrame) -> None:
+    
+    metadata_df = pd.read_excel("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/metadata.xlsx")
+
+    # Merge file_id and game_id from metadata_df into df based on the 'name' column
+    df = df.merge(
+        metadata_df[["name", "file_id", "game_id"]],
+        on="name",
+        how="left",
+    )
+
+    df = df[["file_id", "game_id", "name", "line", "token_id", "bytes", "token", "syntax", "language"]]
+    df = df.sort_values(by="file_id")
+    df.reset_index(drop=True)
+
+    df.to_parquet(table_path / "tokenized_dataset.parquet")
+    return None
 
 
 if __name__ == "__main__":
@@ -413,13 +433,16 @@ if __name__ == "__main__":
 
     
     df = pd.DataFrame()
+
     detokenizer = BASICLexer(TAGSET3)
 
     for disk in ("Homecomp1", "Homecomp2", "Homecomp3"):
         for source_file in (source_path / disk).iterdir():
-            if source_file.name in (".DS_Store", "inv-mc"):
+            if source_file.name in (".DS_Store", "inv-mc", "spukhaus2"):
                 continue
-
+            
+            # if source_file.name not in ("computer blues"):
+            #     continue
             print(source_file.name)
 
             # sourceFile = sourcePath / 'Homecomp1' / game
@@ -432,9 +455,7 @@ if __name__ == "__main__":
             
             bfile = detokenizer.detokenize_basic_file(source_file)
 
-            dest_file = dest_path / source_file.parent.name / f"{source_file.name}_1.bas"
             bfile.save_file(dest_file)
-            table_file = table_path / source_file.parent.name / f"{source_file.name}_1.xlsx"
             table = bfile.save_table(table_file)
 
             table.insert(0, "name", source_file.name)
@@ -442,18 +463,6 @@ if __name__ == "__main__":
 
 
     print(df)
-
-    metadata_df = pd.read_excel("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/metadata.xlsx")
-
-    # Merge file_id and game_id from metadata_df into df based on the 'name' column
-    df = df.merge(
-        metadata_df[["name", "file_id", "game_id"]],
-        on="name",
-        how="left",
-    )
-
-    df = df[["file_id", "game_id", "name", "line", "token_id", "bytes", "token", "syntax", "language"]]
-    df.to_parquet(table_path / "tokenized_dataset.parquet")
-
+    # create_parquet(df)
     # print()
     # showFileDiffs(petcatFile, destFile)
