@@ -6,7 +6,7 @@ from typing import Any, Generator, Literal, Self
 
 import pandas as pd
 from rich import print, traceback
-from tagset import TAGSET1, TAGSET3
+from tagset import TAGSET
 
 from preprocessing.basics import BASICFile, BASICToken
 from preprocessing.characterSet import (
@@ -15,7 +15,7 @@ from preprocessing.characterSet import (
     BYTE_TO_CMD,
     BYTE_TO_CTRL,
 )
-from preprocessing.parser import Parser
+from preprocessing.parser import Tagger
 
 
 
@@ -30,6 +30,8 @@ traceback.install()
     skip non-valid BASIC statemtents? -> line-number not followed by a keyword or quoted string
 - pingi2 l. 100ff.: . and * are meant as boolean false and true!? . is definitive 0, but * gets Syntax error
 
+Pipeline: Detokeniser -> Lexer -> Chunker -> Tagger
+PETSCII codec!
 """
 
 
@@ -55,11 +57,11 @@ def show_file_diffs(file1: str, file2: str) -> None:
 
 
 
-class BASICLexer:
+class Lexer:
     """A class to decode a Commodore BASIC binary file."""
 
     def __init__(self, tagset:dict) -> None:
-        self.parser = Parser(tagset)
+        self.tagger = Tagger(tagset)
         self.tagset = tagset
 
         self.filename = None
@@ -169,7 +171,7 @@ class BASICLexer:
             elif value < 0x20:
                 # ASCII control char outside of print statement, unclear why
                 btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
-                btoken.syntax = self.parser.parse_string(btoken)
+                btoken.syntax = self.tagger.parse_string(btoken)
 
                 if self.string_decl:
                     self.append_btoken = False
@@ -187,6 +189,8 @@ class BASICLexer:
                 btoken.syntax = "?_unknown"
                 self.append_btoken = True
 
+            self._disambiguate_unary_signs()
+
             if self.append_btoken:
                 self.decoded_tokens.append(btoken)
             else:
@@ -197,6 +201,7 @@ class BASICLexer:
 
             # self.last_char = btoken
             self.last_char = self.decoded_tokens[-1]
+            self._check_for_system_var()
 
         self._check_line_language()
 
@@ -219,24 +224,16 @@ class BASICLexer:
 
         if self.string_decl:
             btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
-            btoken.syntax = self.parser.parse_string(btoken)
+            btoken.syntax = self.tagger.parse_string(btoken)
             self.append_btoken = False
         else:
             btoken.token = BYTE_TO_CMD[btoken.byte]
-            btoken.syntax = self.parser.parse_command(btoken, self.decoded_tokens)
+            btoken.syntax = self.tagger.parse_command(btoken)
 
             # disambiguate equal sign
             if btoken.value == 0xB2 and self.decoded_tokens:
-                btoken.syntax = self.tagset["operators"]["assignment"]["tag"]
+                self._disambiguate_equal_sign(btoken)
 
-                for prior_token in self.decoded_tokens[::-1]:
-                    if prior_token.token == "IF":
-                        # relational equal sign
-                        btoken.syntax = self.parser.parse_command(btoken, self.decoded_tokens)
-                        break
-                    elif prior_token.token in (":", ";", "THEN"):
-                        # end of command span, since "IF" was not found it is an assignment
-                        break
 
         return None
 
@@ -261,7 +258,7 @@ class BASICLexer:
             if btoken.value < 0x20:
                 # ASCII control char outside of print statement, unclear why
                 btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
-                btoken.syntax = self.parser.parse_string(btoken)
+                btoken.syntax = self.tagger.parse_string(btoken)
 
 
             elif 0x20 <= btoken.value <= 0x7F:
@@ -284,12 +281,12 @@ class BASICLexer:
                 print(btoken, btoken.lineno, [b.token for b in self.decoded_tokens])
             self.append_btoken = False
 
-            btoken.syntax = self.tagset["string"]["string"]["tag"]
+            btoken.syntax = self.tagset["strings"]["string"]["tag"]
         return None
 
 
     def _decode_comment_statement(self, btoken: BASICToken) -> None:
-        btoken.syntax = self.tagset["string"]["comment"]["tag"]
+        btoken.syntax = self.tagset["strings"]["comment"]["tag"]
         if btoken.value < 0x20:
             btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
         elif btoken.value < 0x80:
@@ -306,7 +303,7 @@ class BASICLexer:
     def _decode_ascii(self, btoken: BASICToken) -> None:
         btoken.token = chr(btoken.value).lower()
 
-        btoken.syntax = self.parser.parse_ascii(btoken, self.decoded_tokens)
+        btoken.syntax = self.tagger.parse_ascii(btoken, self.decoded_tokens)
 
         if self._belongs_to_previous_byte(btoken):
             # assumption: either multi-char var name or multi-digit number
@@ -323,12 +320,9 @@ class BASICLexer:
                 self.parenthesis = 0
 
         if self.string_decl:
-            btoken.syntax = self.parser.parse_string(btoken)
+            btoken.syntax = self.tagger.parse_string(btoken)
         elif btoken.is_digit() or btoken.token == ".":
             self._disambiguate_dot(btoken)
-
-        elif btoken.syntax.startswith("V") or btoken.syntax == "PB" or btoken.is_digit():
-            self._disambiguate_minus_sign()
 
         elif btoken.is_sigil():
             if self.decoded_tokens and self.decoded_tokens[-1].is_alpha():
@@ -375,16 +369,26 @@ class BASICLexer:
 
         return None
 
-    def _disambiguate_minus_sign(self) -> None:
-        if (self.last_char is not None
-            and self.last_char.token == "-"
-            and len(self.decoded_tokens) > 1
-            and self.decoded_tokens[-2].syntax
-            and self.decoded_tokens[-2].syntax.startswith("O")):
+    def _disambiguate_unary_signs(self) -> None:
 
-                # sign belongs to digit
-                self.decoded_tokens[-1].syntax = "digit"
-                self.append_btoken = False
+        last = self.last_char
+        tokens = self.decoded_tokens
+
+        # only care when last token is a “+” or “–”
+        if last and last.token in ("+", "-"):
+            # are we the very first token on the line?
+            is_first = len(tokens) == 1
+
+            # or did the token before last *not* look like an expression?
+            # i.e. not a variable (V...), not a number (N...), and not a closing ')'
+            prev = tokens[-2]
+            syntax = prev.syntax or ""
+            is_nonexpr = not (syntax.startswith(("V", "N", "S")) or prev.token == ")")
+
+            if is_first or is_nonexpr:
+                # it’s a unary sign, so re-tag as part of the literal
+                tokens[-1].syntax = self.tagset["operators"]["unary"]["tag"]
+                # self.append_btoken = False  # for now separate unary sign
 
         return None
 
@@ -403,6 +407,35 @@ class BASICLexer:
 
         return None
 
+
+    def _disambiguate_equal_sign(self, btoken:BASICToken) -> None:
+        btoken.syntax = self.tagset["operators"]["assignment"]["tag"]
+
+        for prior_token in self.decoded_tokens[::-1]:
+            if prior_token.token == "IF":
+                # relational equal sign
+                btoken.syntax = self.tagger.parse_command(btoken)
+                break
+            elif prior_token.token in (":", ";", "THEN"):
+                # end of command span, since "IF" was not found it is an assignment
+                break
+
+
+    def _check_for_system_var(self) -> None:
+        last_token = self.decoded_tokens[-1]
+        if last_token.syntax and last_token.syntax.startswith("V"):
+
+            if last_token.token.lower() in ("ti$", "time$"):
+                self.decoded_tokens[-1].syntax = self.tagset["system"]["time"]["tag"]
+
+            elif last_token.token.lower() in ("st", "status"):
+                self.decoded_tokens[-1].syntax = self.tagset["system"]["IO"]["tag"]
+
+        elif len(self.decoded_tokens) > 2 and self.decoded_tokens[-2].token.lower() in ("ti", "time"):
+            self.decoded_tokens[-2].syntax = self.tagset["system"]["time"]["tag"]
+
+        return None
+    
 
 
 def create_parquet(df:pd.DataFrame) -> None:
@@ -424,6 +457,7 @@ def create_parquet(df:pd.DataFrame) -> None:
     return None
 
 
+
 if __name__ == "__main__":
     corpus_path = Path("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus")
     source_path = corpus_path / "encoded"
@@ -434,7 +468,7 @@ if __name__ == "__main__":
     
     df = pd.DataFrame()
 
-    detokenizer = BASICLexer(TAGSET3)
+    detokenizer = Lexer(TAGSET)
 
     for disk in ("Homecomp1", "Homecomp2", "Homecomp3"):
         for source_file in (source_path / disk).iterdir():
@@ -460,9 +494,9 @@ if __name__ == "__main__":
 
             table.insert(0, "name", source_file.name)
             df = table if df.empty else pd.concat((df, table), axis=0)
-
+            #break
 
     print(df)
-    # create_parquet(df)
+    create_parquet(df)
     # print()
     # showFileDiffs(petcatFile, destFile)

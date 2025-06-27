@@ -1,6 +1,6 @@
 import string
 
-from preprocessing.basics import BASICFile, BASICToken
+from preprocessing.basics import BASICToken
 
 
 
@@ -18,7 +18,7 @@ ASCII_CODES = {
 ASSEMBLY_CHARS = string.digits + ", "
 
 
-class Parser():
+class Tagger:
 
     def __init__(self, tagset:dict) -> None:
         self.tagset = tagset
@@ -28,14 +28,14 @@ class Parser():
 
     
     def parse_print(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str:
-        return self.tagset["string"]["print"]["tag"]
+        return self.tagset["strings"]["print"]["tag"]
     
     
     def parse_comment(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str:
-        return self.tagset["string"]["comment"]["tag"]
+        return self.tagset["strings"]["comment"]["tag"]
 
     def parse_string(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str:
-        return self.tagset["string"]["string"]["tag"]
+        return self.tagset["strings"]["string"]["tag"]
     
 
     def parse_ascii(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str:
@@ -66,21 +66,25 @@ class Parser():
                 return "unknown"
 
     
-    def parse_command(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str:
+    def parse_command(self, btoken:BASICToken) -> str:
         
         operator = self._parse_operator(btoken)
         if operator is not None:
             return operator
 
-        for tagging in self.tagset["command"].values():
+        for tagging in self.tagset["commands"].values():
             if btoken.token in tagging["values"]:
                 return tagging["tag"]
         
+        for tagging in self.tagset["constants"].values():
+            if btoken.token in tagging["values"]:
+                return tagging["tag"]
+
         msg = f"can not parse command btoken of token {btoken.token}"
         raise ValueError(msg)
 
     
-    def _parse_operator(self, btoken:BASICToken, decoded_tokens:list[BASICToken] = None) -> str|None:
+    def _parse_operator(self, btoken:BASICToken) -> str|None:
         if btoken.value in (0xAA, 0xAB, 0xAC, 0xAD, 0xAE):
             return self.tagset["operators"]["arithmetic"]["tag"]
 
