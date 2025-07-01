@@ -35,9 +35,9 @@
     3.5.  string_tokens
     3.6.  variable_tokens
 4.  tools
-    4.1.  token_absolute_frequency_tables.r
-    4.2.  token_document_term_matrix.r
-    4.3.  token_relative_frequency_tables.r
-    4.4.  token_visualizer.r
+    4.1.  token_absolute_frequency_tables.R
+    4.2.  token_document_term_matrix.R
+    4.3.  token_relative_frequency_tables.R
+    4.4.  token_visualizer.R
 5.  game_id.xlsx
 6.  metadata.xlsx
