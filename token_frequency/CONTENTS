@@ -1,0 +1,43 @@
+1.  absolute_frequencies
+    1.1.  command_tokens
+        1.1.1.  document_term_matrix
+        1.1.2.  frequency_tables
+        1.1.3.  visualization
+    1.2.  number_tokens
+        1.2.1.  dtm
+        1.2.2.  ft
+        1.2.3.  vis
+    1.3.  operator_tokens
+        1.3.1.  dtm
+        1.3.2.  ft
+        1.3.3.  vis
+    1.4.  punctuation_tokens
+        1.4.1.  dtm
+        1.4.2.  ft
+        1.4.3.  vis
+    1.5.  string_tokens
+        1.5.1.  dtm
+        1.5.2.  ft
+        1.5.3.  vis
+    1.6.  variable_tokens
+        1.6.1.  dtm
+        1.6.2.  ft
+        1.6.3.  vis
+2.  dataset
+    2.1.  Homecomp1
+    2.2.  Homecomp2
+    2.3.  Homecomp3
+3.  relative_frequencies
+    3.1.  command_tokens
+    3.2.  number_tokens
+    3.3.  operator_tokens
+    3.4.  punctuation_tokens
+    3.5.  string_tokens
+    3.6.  variable_tokens
+4.  tools
+    4.1.  token_absolute_frequency_tables
+    4.2.  token_document_term_matrix
+    4.3.  token_relative_frequency_tables
+    4.4.  token_visualizer
+5.  game_id.xlsx
+6.  metadata.xlsx
