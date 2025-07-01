@@ -3,52 +3,21 @@ from collections import OrderedDict
 
 
 
-TAGSET1 = {
-    "command": "C",
-    "operators": {
-        "relational operators": "OR",
-        "arithmetic operators": "OM",
-        "logical operators": "OL",
-        "assignment operators": "OA",
+TAGSET = OrderedDict({
+    "system": {
+        "time": {
+            "tag": "YT",
+            "values": ["ti", "ti$"],
+        },
+        "IO": {
+            "tag": "YI",
+            "values": ["st"],
+        },
     },
-    "variables": {
-        "numerical variable": "VN",
-        "string variable": "VS",
-        "array variable": "VA",
-    },
-    "numbers": {
-        "integer": "NI",
-        "float": "NF",
-        "nan": "NA",
-    },
-    "punctuations": {
-        "semicolon": "PS",
-    },
-    "string": {
-        "print string": "SP",
-        "comment string": "SC",
-        "string": "SD",
-    },
-    "data": "D",  # opcode-mnemonic table with DATA statement, like in assembler.bas line 10_000
-}
-
-
-
-# opcode-mnemonic table with DATA statement, like in assembler.bas line 10_000
-TAGSET2 = {
-    "command": "C",
-    "operators": "O",
-    "variables": "V",
-    "numbers": "N",
-    "punctuations": "P",
-    "string": "S",
-}
-
-TAGSET3 = OrderedDict({
-    "command": {
+    "commands": {
         "arithmetic": {
             "tag": "CA",
-            "values": ["ABS", "INT", "LOG", "RND", "SGN", "SQR", "VAL"],
+            "values": ["ABS", "INT", "LOG", "RND", "SGN", "SQR", "VAL", "SIN", "COS", "TAN", "ATN", "EXP"],
         },
         "string": {
             "tag": "CS",
@@ -56,7 +25,7 @@ TAGSET3 = OrderedDict({
         },
         "IO": {
             "tag": "CI",
-            "values": ["CLOSE", "CMD", "GET", "INPUT", "INPUT#", "OPEN", "PRINT", "PRINT#", "SPC(", "TAB("],
+            "values": ["CLOSE", "CMD", "GET", "INPUT", "INPUT#", "OPEN", "PRINT", "PRINT#", "?", "SPC(", "TAB("],
         },
         "variables": {
             "tag": "CV",
@@ -86,10 +55,6 @@ TAGSET3 = OrderedDict({
             "tag": "CR",
             "values": ["PEEK", "POKE", "SYS", "USR", "WAIT"],
         },
-        "other": {
-            "tag": "CO",
-            "values": ["PI"],
-        },
     },
     "operators": {
         "arithmetic": {
@@ -107,6 +72,16 @@ TAGSET3 = OrderedDict({
         "assignment": {
             "tag": "OS",
             "values": ["="],
+        },
+        "unary": {
+            "tag": "OU",
+            "values": ["+", "-"],
+        },
+    },
+    "constants": {
+        "arithmetic": {
+            "tag": "TA",
+            "values": ["PI"],
         },
     },
     "variables": {
@@ -144,15 +119,11 @@ TAGSET3 = OrderedDict({
             "tag": "NI",
             "values": [0,1,2,3,4,5,6,7,8,9],
         },
-        "nan": {
-            "tag": "NA",
-            "values": [None],
-        },
     },
     "punctuations": {
-        "semicolon": {
-            "tag": "PS",
-            "values": [";"],
+        "colon": {
+            "tag": "PC",
+            "values": [":"],
         },
         "parenthesis": {
             "tag": "PP",
@@ -166,12 +137,16 @@ TAGSET3 = OrderedDict({
             "tag": "PB",
             "values": ["."],
         },
+        "separator": {
+            "tag": "PS",
+            "values": [",", ";"],
+        },
         "other": {
             "tag": "PO",
-            "values": [",", ":", "-", "@", "<", "#", "~", "*", "|"],  # also type chars if not used as sigils
+            "values": ["-", "@", "<", "#", "~", "*", "|"],  # also type chars if not used as sigils
         },
     },
-    "string": {
+    "strings": {
         "comment": {
             "tag": "SC",
             "values": [None],
