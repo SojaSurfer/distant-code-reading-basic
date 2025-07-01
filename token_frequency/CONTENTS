@@ -28,30 +28,38 @@
         1.6.1.  document_term_matrix
         1.6.2.  frequency_tables
         1.6.3.  visualization
-2.  dataset
-    2.1.  Homecomp1
-    2.2.  Homecomp2
-    2.3.  Homecomp3
-3.  relative_frequencies
+
+2.  relative_frequencies
     --> content descriptions apply to all following token types in "relative frequencies"!
-    3.1.  command_tokens
+    2.1.  command_tokens
         --> table containing the relative frequencies of all tokens of a token type in relation to all other tokens of 
             the same token type in the dataset.
-    3.2.  number_tokens
-    3.3.  operator_tokens
-    3.4.  punctuation_tokens
-    3.5.  string_tokens
-    3.6.  variable_tokens
-4.  tools
-    4.1.  token_absolute_frequency_tables.R
+    2.2.  number_tokens
+    2.3.  operator_tokens
+    2.4.  punctuation_tokens
+    2.5.  string_tokens
+    2.6.  variable_tokens
+
+3.  tools
+    3.1.  token_absolute_frequency_tables.R
         --> creates table of the absolute frequency of all tokens of a token type based on the whole dataset.
-    4.2.  token_document_term_matrix.R
+    3.2.  token_document_term_matrix.R
         --> creates DTM and DTM_merged of all tokens of a token type based on the whole dataset.
-    4.3.  token_relative_frequency_tables.R
+    3.3.  token_relative_frequency_tables.R
         --> creates table of the relative frequency of all tokens of a token type based on the DTM by
             adding all instances of a specific token across documents together and then dividing this number
             by the total amount of tokens in the DTM.
-    4.4.  token_visualizer.R
+    3.4.  token_visualizer.R
         --> creates a simple bar chart showcasing the absolute frequency of the top x most frequent tokens.
-5.  game_id.xlsx
+
+
+4.  game_id.xlsx
+    --> created manually by consulting the "game_id" and "name" rows in "metadata.xlsx". Pairs "game_id" with
+        a new "combined" game name to make results in DTM_merged contain both the game_id and the game name
+
+5.  dataset
+    5.1.  Homecomp1
+    5.2.  Homecomp2
+    5.3.  Homecomp3
+
 6.  metadata.xlsx
