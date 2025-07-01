@@ -1,0 +1,65 @@
+1.  absolute_frequencies
+    --> content descriptions apply to all following token types in "absolute frequencies"!
+    1.1.  command_tokens
+        1.1.1.  document_term_matrix 
+            --> DTM for token type based on the whole dataset.
+            --> DTM_merged for token type with merged rows based on game_id.
+        1.1.2.  frequency_tables
+            --> frequency tables for token type based on one file each.
+        1.1.3.  visualization
+            --> bar chart depicting the most frequent tokens of the token type.
+    1.2.  number_tokens
+        1.2.1.  document_term_matrix
+        1.2.2.  frequency_tables
+        1.2.3.  visualization
+    1.3.  operator_tokens
+        1.3.1.  document_term_matrix
+        1.3.2.  frequency_tables
+        1.3.3.  visualization
+    1.4.  punctuation_tokens
+        1.4.1.  document_term_matrix
+        1.4.2.  frequency_tables
+        1.4.3.  visualization
+    1.5.  string_tokens
+        1.5.1.  document_term_matrix
+        1.5.2.  frequency_tables
+        1.5.3.  visualization
+    1.6.  variable_tokens
+        1.6.1.  document_term_matrix
+        1.6.2.  frequency_tables
+        1.6.3.  visualization
+
+2.  relative_frequencies
+    --> content descriptions apply to all following token types in "relative frequencies"!
+    2.1.  command_tokens
+        --> table containing the relative frequencies of all tokens of a token type in relation to all other tokens of 
+            the same token type in the dataset.
+    2.2.  number_tokens
+    2.3.  operator_tokens
+    2.4.  punctuation_tokens
+    2.5.  string_tokens
+    2.6.  variable_tokens
+
+3.  tools
+    3.1.  token_absolute_frequency_tables.R
+        --> creates table of the absolute frequency of all tokens of a token type based on the whole dataset.
+    3.2.  token_document_term_matrix.R
+        --> creates DTM and DTM_merged of all tokens of a token type based on the whole dataset.
+    3.3.  token_relative_frequency_tables.R
+        --> creates table of the relative frequency of all tokens of a token type based on the DTM by
+            adding all instances of a specific token across documents together and then dividing this number
+            by the total amount of tokens in the DTM.
+    3.4.  token_visualizer.R
+        --> creates a simple bar chart showcasing the absolute frequency of the top x most frequent tokens.
+
+
+4.  game_id.xlsx
+    --> created manually by consulting the "game_id" and "name" rows in "metadata.xlsx". Pairs "game_id" with
+        a new "combined" game name to make results in DTM_merged contain both the game_id and the game name
+
+5.  dataset
+    5.1.  Homecomp1
+    5.2.  Homecomp2
+    5.3.  Homecomp3
+
+6.  metadata.xlsx

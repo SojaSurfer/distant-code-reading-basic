@@ -1,3 +1,5 @@
+"""The script provides functions to upload the corpus to HuggingFace Datasets."""
+
 import os
 import sys
 from pathlib import Path

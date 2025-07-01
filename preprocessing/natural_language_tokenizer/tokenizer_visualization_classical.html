@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>Token Visualization</title>
+        <style>
+            .sentence-block {
+            background-color: #f0f0f0;
+            padding: 12px;
+            margin-bottom: 24px;
+            border-radius: 6px;
+            }
+            .sentence-heading {
+            font-size: 24px;
+            margin: 0 0 8px;
+            font-family: sans-serif;
+            }
+            .sentence-text {
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.3;
+            background: none;
+            padding: 0;
+            margin: 0 0 12px;
+            }
+            .tokenizer-visualization {
+            margin-bottom: 16px;
+            }
+            .tokenizer-name {
+            font-size: 18px;
+            margin: 4px 0;
+            font-family: sans-serif;
+            font-weight: bold;
+            }
+            .tokenizer-visualization pre {
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.3;
+            background: none;
+            padding: 0;
+            margin: 4px 0 0;
+            }
+            .tokenizer-visualization span {
+            display: inline-block;
+            }
+        </style>
+        </head>
+        <body>
+        <div class="sentence-block">
+  <pre class="sentence-text">  520 ifi-1thena$(lc)=left$(l$,i-1):a(lc)=pc:lc=lc+1</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">520</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">ifi-1thena</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">$</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">lc</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">=left</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">$</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">l</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">$</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">,</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">i-1</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">a</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">lc</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">=pc</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">lc=lc+1</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">   20 print"{down}{down}load"chr$(34)"demon2"chr$(34)","peek(186)"{home}";</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">20</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">print</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">down</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">down</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">load</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">chr</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">$</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">34</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">demon2</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">chr</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">$</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">34</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">,</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">peek</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">186</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">home</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">;</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">  510 ifpeek(861)>aithengosub550</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">510</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">ifpeek</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">861</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">></span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">aithengosub550</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">10110 fori=256to511:pokef+i,peek(c+i):next:forz=0to31step8</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">10110</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">fori=256to511</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">pokef+i</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">,</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">peek</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">(</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">c+i</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">)</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">next</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">forz=0to31step8</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">    0 print"{clr}{down}{down}poke44,28:poke7168,0:new"</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">0</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">print</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">clr</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">down</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">down</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">poke44,28</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">poke7168,0</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">:</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">new</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">   40 print"{down}this is only the first part of the programm load second part later"</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">40</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">print</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">{</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">down</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">}</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">this</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">is</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">only</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">the</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">first</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">part</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">of</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">the</span> <span style="background-color: rgb(141,160,203); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">programm</span> <span style="background-color: rgb(231,138,195); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">load</span> <span style="background-color: rgb(166,216,84); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">second</span> <span style="background-color: rgb(255,217,47); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">part</span> <span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">later</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">''</span></pre>
+  </div>
+
+</div>
+
+<div class="sentence-block">
+  <pre class="sentence-text">   59 data46,104,172,40,46,0,0,0</pre>
+
+  <div class="tokenizer-visualization">
+    <div class="tokenizer-name">NLTK</div>
+    <pre><span style="background-color: rgb(102,194,165); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">59</span> <span style="background-color: rgb(252,141,98); color: black; padding: 2px 4px; margin: 0 2px; border-radius: 3px; font-family: monospace;">data46,104,172,40,46,0,0,0</span></pre>
+  </div>
+
+</div>
+
+
+        </body>
+        </html>
+        

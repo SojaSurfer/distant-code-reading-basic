@@ -1,0 +1,487 @@
+name,game_id,ngram,matched_token,matched_category,line
+zeichen-gen-16k,0,"['PRINT', '""{down}{down}load""', 'CHR$']",PRINT,command-int-var,20
+disassembler-8k,1,"['PRINT', '""{cyan}""', ';']",PRINT,command-int-var,1000
+disassembler-8k,1,"['PRINT', '""-{red}""', ':']",PRINT,command-int-var,1000
+disassembler-8k,1,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1300
+disassembler-8k,1,"['PRINT', 'f2$', '(']",PRINT,command-int-var,1240
+disassembler-8k,1,"['PRINT', 'f2$', '(']",PRINT,command-int-var,1320
+disassembler-8k,1,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1310
+disassembler-8k,1,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1320
+disassembler-8k,1,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1200
+disassembler-8k,1,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1205
+disassembler-8k,1,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1100
+disassembler-8k,1,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1220
+slalom2,2,"['PRINT', '""t = tagesbestenliste""', 'PRINT']",PRINT,command-int-var,2055
+robot-8k,3,"['PRINT', '""highscore:""', ';']",PRINT,command-int-var,660
+3d-labyrint-16k,4,"['PRINT', '""sie finden eine lampe""', ':']",PRINT,command-int-var,420
+3d-labyrint-16k,4,"['PRINT', '""ihre luft ist verbraucht!""', ':']",PRINT,command-int-var,410
+spukhaus-16k,5,"['PRINT', '""{down}{down}load""', 'CHR$']",PRINT,command-int-var,30
+spukhaus3,5,"['PRINT', '""du musst schlafen""', ':']",PRINT,command-int-var,15300
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,14460
+spukhaus3,5,"['PRINT', '""such den zettel""', ':']",PRINT,command-int-var,15010
+spukhaus3,5,"['PRINT', '""such das kreuz""', ':']",PRINT,command-int-var,14408
+spukhaus3,5,"['PRINT', '""du hast dracula""', ':']",PRINT,command-int-var,14440
+spukhaus3,5,"['PRINT', '""verjagt""', ':']",PRINT,command-int-var,14440
+spukhaus3,5,"['PRINT', '""du musst was trinken""', ':']",PRINT,command-int-var,15200
+spukhaus3,5,"['PRINT', '""du musst was essen""', ':']",PRINT,command-int-var,15100
+spukhaus3,5,"['PRINT', '""such den schlues-""', ':']",PRINT,command-int-var,15030
+spukhaus3,5,"['PRINT', '""{down}{down}dracula hat dich      {down}gebissen""', ':']",PRINT,command-int-var,46405
+spukhaus3,5,"['PRINT', '""{clr}{down}{down}{down}du hast gewonnen      {down}du hast jane befreit""', ':']",PRINT,command-int-var,46700
+spukhaus3,5,"['PRINT', '""{clr}{down}{down}{down}du hast verloren      {down}{down}{down}du bist verdurstet""', ':']",PRINT,command-int-var,46100
+spukhaus3,5,"['PRINT', '""{down}tod umgefallen""', ':']",PRINT,command-int-var,46210
+spukhaus3,5,"['PRINT', '""{down}{down}der gehilfe draculas  {down}hat dich getoetet""', ':']",PRINT,command-int-var,46305
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,47020
+spukhaus3,5,"['PRINT', 'q$', '""da ist ein hammer""']",PRINT,command-int-var,21000
+spukhaus3,5,"['PRINT', 'q$', '""da ist ein pflock""']",PRINT,command-int-var,21040
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,21010
+spukhaus3,5,"['PRINT', '""interesse""', ':']",PRINT,command-int-var,41000
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,40500
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,40700
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,41580
+spukhaus3,5,"['PRINT', '""in""', 'x']",PRINT,command-int-var,41585
+spukhaus3,5,"['PRINT', '""{home}{red}es ist""', 'zu']",PRINT,command-int-var,21210
+spukhaus3,5,"['PRINT', 'q$', '"" ""']",PRINT,command-int-var,21110
+spukhaus3,5,"['PRINT', 'q$', '""eingangstuer ist""']",PRINT,command-int-var,40100
+spukhaus3,5,"['PRINT', 'q$', '""befehl falsch""']",PRINT,command-int-var,40200
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,8040
+spukhaus3,5,"['PRINT', 'q$', '""ok hast genommen""']",PRINT,command-int-var,6180
+spukhaus3,5,"['PRINT', '""such das messer""', ':']",PRINT,command-int-var,14220
+spukhaus3,5,"['PRINT', 'q$', '""{rvs_on}{up}{up}{up}{right}{right}{right}{right}{right}{right}Z""']",PRINT,command-int-var,14310
+spukhaus3,5,"['PRINT', 'q$', '""{down}{down}{down}""']",PRINT,command-int-var,14310
+spukhaus3,5,"['PRINT', '""der gehilfe ist tot""', ':']",PRINT,command-int-var,14258
+spukhaus3,5,"['PRINT', '""jagt""', ':']",PRINT,command-int-var,14256
+spukhaus3,5,"['PRINT', '""du hast den gehilfen""', ':']",PRINT,command-int-var,14267
+spukhaus3,5,"['PRINT', '""verjagt""', ':']",PRINT,command-int-var,14267
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,12055
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,13050
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,13190
+spukhaus3,5,"['PRINT', '""getoetet""', ':']",PRINT,command-int-var,13190
+spukhaus3,5,"['PRINT', 'q$', '""{down}{down}""']",PRINT,command-int-var,14000
+spukhaus3,5,"['PRINT', 'q$', '""womit ?""']",PRINT,command-int-var,13160
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,3150
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,3200
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,3020
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,3050
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,1020
+spukhaus3,5,"['PRINT', 'q$', '""du bist in der""']",PRINT,command-int-var,1040
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,2180
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,2010
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,2050
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,4010
+spukhaus3,5,"['PRINT', 'q$', ';']",PRINT,command-int-var,6010
+spukhaus3,5,"['PRINT', '""{clr}{down}{down}das war gift""', ':']",PRINT,command-int-var,4230
+spukhaus3,5,"['PRINT', '""{clr}{down}{down}{down}{red}du stehst vor dem     {down}{down}{down}spukhaus""', ':']",PRINT,command-int-var,5000
+spukhaus3,5,"['PRINT', '""{down}{down}{down}es ist 14.00 uhr""', ':']",PRINT,command-int-var,5010
+editor,6,"['PRINT', '""bis zum anfang des""', ':']",PRINT,command-int-var,6010
+editor,6,"['PRINT', '""ok""', ':']",PRINT,command-int-var,6030
+assembler,7,"['PRINT', 'pc', 'TAB(']",PRINT,command-int-var,1080
+assembler,7,"['PRINT', '""opcode error in""', 'z']",PRINT,command-int-var,4010
+assembler,7,"['PRINT', '""cassette / disk {rvs_on}c{rvs_off}/{rvs_on}d{rvs_off}""', ':']",PRINT,command-int-var,200
+disassembler,8,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1310
+disassembler,8,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1320
+disassembler,8,"['PRINT', 'f2$', '(']",PRINT,command-int-var,1240
+disassembler,8,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1220
+disassembler,8,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1300
+disassembler,8,"['PRINT', '"" ""', ';']",PRINT,command-int-var,1300
+disassembler,8,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1205
+disassembler,8,"['PRINT', '""{cyan}""', ';']",PRINT,command-int-var,1000
+disassembler,8,"['PRINT', '""-{red}""', ':']",PRINT,command-int-var,1000
+disassembler,8,"['PRINT', '""{green}""', ';']",PRINT,command-int-var,1100
+invaders-8k,9,"['PRINT', '""{down}{down}load""', '(']",PRINT,command-int-var,30
+inv-game,12,"['PRINT', '""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{green}@@@@@@@@@@@@@@@@@@@@@""', ';']",PRINT,command-int-var,320
+inv-game,12,"['PRINT', '""{clr}{green}highscore: ""', 'RIGHT$']",PRINT,command-int-var,300
+inv-game,12,"['PRINT', '""{right}{right}{rvs_on}""', 'CHR$']",PRINT,command-int-var,580
+labyrinth,13,"['PRINT', '""licht""', ':']",PRINT,command-int-var,52
+labyrinth,13,"['PRINT', '""luft=0""', ':']",PRINT,command-int-var,51
+labyrinth,13,"['PRINT', '""ra""', ';']",PRINT,command-int-var,40
+labyrinth,13,"['PRINT', '""wand gerammt""', ':']",PRINT,command-int-var,41
+labyrinth,13,"['PRINT', '""sie gehen""', ':']",PRINT,command-int-var,39
+labyrinth,13,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,90
+car-crash2,14,"['PRINT', 'p$', '""{black}""']",PRINT,command-int-var,3020
+car-crash2,14,"['PRINT', '"" ""', ';']",PRINT,command-int-var,60
+car-crash2,14,"['PRINT', '""{down}{down}{rvs_on}""', ';']",PRINT,command-int-var,50
+car-crash2,14,"['PRINT', 'p$', ';']",PRINT,command-int-var,4050
+skipping-ball,15,"['PRINT', '""{rvs_off} {left}""', ';']",PRINT,command-int-var,880
+skipping-ball,15,"['PRINT', '""schwierigkeitsgrad    spieler""', 'k']",PRINT,command-int-var,1050
+skipping-ball,15,"['PRINT', '""{rvs_on} {left}""', ';']",PRINT,command-int-var,980
+skipping-ball,15,"['PRINT', '""{rvs_off}""', 'a$']",PRINT,command-int-var,1020
+einsiedler,16,"['PRINT', '""{down}{right}{right}es ist noch ein""', ':']",PRINT,command-int-var,1215
+einsiedler,16,"['PRINT', '""{clr}{down}{down}{down}{down}{down}{right}{right}geben sie \'W\'""', ':']",PRINT,command-int-var,300
+einsiedler,16,"['PRINT', '""{down}{down}{right}waehle eine der""', ':']",PRINT,command-int-var,80
+einsiedler,16,"['PRINT', '""{down}{right}1 : loesung""', ':']",PRINT,command-int-var,85
+einsiedler,16,"['PRINT', '""{clr}{down}{right}das einsiedlerspiel""', ':']",PRINT,command-int-var,50
+einsiedler,16,"['PRINT', '""{right}sie mit den cursor-""', ':']",PRINT,command-int-var,55
+einsiedler,16,"['PRINT', '""{right}und fahren dann ""', ':']",PRINT,command-int-var,65
+einsiedler,16,"['PRINT', '""{left}**{down}{left}{left}**   Q Q Q Q Q Q Q""', ':']",PRINT,command-int-var,110
+einsiedler,16,"['PRINT', '""{left}**{down}{left}{left}**   Q Q Q Q Q Q Q""', ':']",PRINT,command-int-var,120
+einsiedler,16,"['PRINT', '""{left}**""', ':']",PRINT,command-int-var,140
+einsiedler,16,"['PRINT', '""{up}{left}**{down}{left}{left}**""', ':']",PRINT,command-int-var,380
+einsiedler,16,"['PRINT', 'a$', ';']",PRINT,command-int-var,410
+einsiedler,16,"['PRINT', '""{up}{left}**{down}{left}{left}**""', ':']",PRINT,command-int-var,410
+einsiedler,16,"['PRINT', '""{clr}{down}{down}***********************""', ':']",PRINT,command-int-var,310
+einsiedler,16,"['PRINT', 'a$', ';']",PRINT,command-int-var,340
+einsiedler,16,"['PRINT', '""{up}{left}**{down}{left}{left}**""', ':']",PRINT,command-int-var,350
+prgreservoir-8k,17,"['PRINT', 'a$', ';']",PRINT,command-int-var,1400
+prgreservoir-8k,17,"['PRINT', '""{down}fuer ""', ';']",PRINT,command-int-var,1130
+prgreservoir-8k,17,"['PRINT', '""{down}""', ';']",PRINT,command-int-var,1140
+prgreservoir-8k,17,"['PRINT', '""{down}{down}{down}aus ""', ';']",PRINT,command-int-var,1110
+prgreservoir-8k,17,"['PRINT', '""{down}{rvs_on}fuer computer-typ?{rvs_off}    (vc-20/cbm/zx-81/...)""', ':']",PRINT,command-int-var,160
+prgreservoir-8k,17,"['PRINT', '""235 dt=""', ';']",PRINT,command-int-var,260
+prgreservoir-8k,17,"['PRINT', '""{clr}{rvs_on}programmtitel?{rvs_off}""', ':']",PRINT,command-int-var,120
+prgreservoir-8k,17,"['PRINT', '""{down}{rvs_on}heftnummer/jahrgang?{rvs_off}  (23/82)""', ':']",PRINT,command-int-var,140
+demon2,18,"['PRINT', '""{clr}""', 'SPC(']",PRINT,command-int-var,10
+roulette,19,"['PRINT', 'pe$', '""{blue}""']",PRINT,command-int-var,6010
+cool rock,21,"['PRINT', '""{clr}{down}{down}{blue}dieses  music-programmist nicht nur mit ein-fachen data\'s!mit vie-""', ';']",PRINT,command-int-var,550
+cool rock,21,"['PRINT', '""{clr}{down}{down}{down}{down}""', ';']",PRINT,command-int-var,610
+cool rock,21,"['PRINT', '""{blue}4. schlagzeug""', ':']",PRINT,command-int-var,640
+cool rock,21,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,520
+nager,23,"['PRINT', '""{rvs_on} {rvs_off}   {CBM-*} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {CBM-*}{rvs_on} {rvs_off}{SHIFT-POUND} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {CBM-*}{rvs_on}{CBM-*}{rvs_off}""', ';']",PRINT,command-int-var,5
+nager,23,"['PRINT', '""{down}{rvs_on}{blue}taste {rvs_off}""', ':']",PRINT,command-int-var,90
+nager,23,"['PRINT', '""bitte warten""', ':']",PRINT,command-int-var,91
+nager2,23,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,40
+nager2,23,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{black}punkte""', ';']",PRINT,command-int-var,35
+nager2,23,"['PRINT', '""{clr}{down}{down}{down}{down}{down}{down}ihre punkte :""', ';']",PRINT,command-int-var,42
+nager2,23,"['PRINT', '""hoechste punktzahl:""', ';']",PRINT,command-int-var,42
+seeschlacht-16k,24,"['PRINT', '""{down}nichts passiert!""', ':']",PRINT,command-int-var,3350
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{purple}maschinen werden""', ':']",PRINT,command-int-var,640
+seeschlacht-16k,24,"['PRINT', '""{down}repariert.{black}""', ':']",PRINT,command-int-var,640
+seeschlacht-16k,24,"['PRINT', '""{down}bedienen koennten.{black}""', ':']",PRINT,command-int-var,680
+seeschlacht-16k,24,"['PRINT', '""{down} 0  fahren""', ':']",PRINT,command-int-var,570
+seeschlacht-16k,24,"['PRINT', '""{down} 3  rakete""', ':']",PRINT,command-int-var,580
+seeschlacht-16k,24,"['PRINT', '""{down} 4  hoehe""', ':']",PRINT,command-int-var,580
+seeschlacht-16k,24,"['PRINT', '""{down} 6  andocken""', ':']",PRINT,command-int-var,590
+seeschlacht-16k,24,"['PRINT', '""{down} 7  sabotage""', ':']",PRINT,command-int-var,590
+seeschlacht-16k,24,"['PRINT', '""{down}wir empfehlen, in die-""', ':']",PRINT,command-int-var,1880
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}keine raketen mehr.""', ':']",PRINT,command-int-var,1860
+seeschlacht-16k,24,"['PRINT', '""{down}repariert.{black}""', ':']",PRINT,command-int-var,1820
+seeschlacht-16k,24,"['PRINT', '""{down}blindgaenger.""', ':']",PRINT,command-int-var,1800
+seeschlacht-16k,24,"['PRINT', '""{down}rakete ausserhalb der""', ':']",PRINT,command-int-var,2010
+seeschlacht-16k,24,"['PRINT', '""{down}sonarerfassung.rakete""', ':']",PRINT,command-int-var,2010
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben noch""', 'f']",PRINT,command-int-var,1970
+seeschlacht-16k,24,"['PRINT', '""{down}treibstoff.""', ':']",PRINT,command-int-var,1970
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}""', ';']",PRINT,command-int-var,1940
+seeschlacht-16k,24,"['PRINT', '""{down}torpedo ausserhalb...""', ':']",PRINT,command-int-var,1620
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{purple}keine torpedos mehr.{black}""', ':']",PRINT,command-int-var,1530
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}""', ';']",PRINT,command-int-var,1570
+seeschlacht-16k,24,"['PRINT', '""{down}{rvs_on}sie haben getroffen!!""', ':']",PRINT,command-int-var,1720
+seeschlacht-16k,24,"['PRINT', '""{down}torpedo an einer mine""', ':']",PRINT,command-int-var,1760
+seeschlacht-16k,24,"['PRINT', '""{down}verschwendet.""', ':']",PRINT,command-int-var,1760
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben ihr haupt-""', ':']",PRINT,command-int-var,1740
+seeschlacht-16k,24,"['PRINT', '""{down}quartier gesprengt!""', ':']",PRINT,command-int-var,1740
+seeschlacht-16k,24,"['PRINT', '""{down}{down}sie haben einen teil""', ':']",PRINT,command-int-var,1700
+seeschlacht-16k,24,"['PRINT', '""{down}der insel zerstoert.""', ':']",PRINT,command-int-var,1700
+seeschlacht-16k,24,"['PRINT', '""{down}treibst.""', 'TAB(']",PRINT,command-int-var,2510
+seeschlacht-16k,24,"['PRINT', '""torpedos""', 'TAB(']",PRINT,command-int-var,2480
+seeschlacht-16k,24,"['PRINT', '""raketen""', 'TAB(']",PRINT,command-int-var,2490
+seeschlacht-16k,24,"['PRINT', '""crew""', '15']",PRINT,command-int-var,2500
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}gegner""', 'TAB(']",PRINT,command-int-var,2460
+seeschlacht-16k,24,"['PRINT', '""{down}durch.{black}""', ':']",PRINT,command-int-var,2420
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{purple}andocken an das haupt-{down}quartier unmoeglich.{black}""', ':']",PRINT,command-int-var,2660
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}taucher kommen und""', ':']",PRINT,command-int-var,2670
+seeschlacht-16k,24,"['PRINT', '""{down}versorgen sie.""', ':']",PRINT,command-int-var,2670
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{purple}zu wenig leute um""', ':']",PRINT,command-int-var,2720
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{purple}schleusen verstopft{black}""', ':']",PRINT,command-int-var,2700
+seeschlacht-16k,24,"['PRINT', '""{clr}{purple}{down}{down}hauptquartier zer-""', ':']",PRINT,command-int-var,2620
+seeschlacht-16k,24,"['PRINT', '""{down}stoert.{black}""', ':']",PRINT,command-int-var,2620
+seeschlacht-16k,24,"['PRINT', '""{down}""', 's1']",PRINT,command-int-var,2590
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{purple}hauptquartier ist""', ':']",PRINT,command-int-var,2640
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben sich selbst""', ':']",PRINT,command-int-var,2150
+seeschlacht-16k,24,"['PRINT', '""{down}zerstoert!""', ':']",PRINT,command-int-var,2150
+seeschlacht-16k,24,"['PRINT', '""{down}trolle zu reparieren{black}""', ':']",PRINT,command-int-var,2320
+seeschlacht-16k,24,"['PRINT', '""{down}fertig.""', ':']",PRINT,command-int-var,2380
+seeschlacht-16k,24,"['PRINT', '""{down}verlorene energie:""', ';']",PRINT,command-int-var,2380
+seeschlacht-16k,24,"['PRINT', '""{down}{down}wand durch aussendruck{down}zerquetscht!""', ':']",PRINT,command-int-var,2360
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben einen teil""', ':']",PRINT,command-int-var,2190
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben""', 'd5']",PRINT,command-int-var,2210
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben""', 'd4']",PRINT,command-int-var,2240
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{purple}{down}ballastkontrolle wird""', ':']",PRINT,command-int-var,2290
+seeschlacht-16k,24,"['PRINT', '""{down}monster getroffen.""', ':']",PRINT,command-int-var,2240
+seeschlacht-16k,24,"['PRINT', 'd3', '""feind-""']",PRINT,command-int-var,2250
+seeschlacht-16k,24,"['PRINT', '""{down}liche schiffe zer-""', ':']",PRINT,command-int-var,2250
+seeschlacht-16k,24,"['PRINT', '""{purple}{clr}{down}{down}nicht genug leute""', ':']",PRINT,command-int-var,1150
+seeschlacht-16k,24,"['PRINT', '""{down}zum bedienen des""', ':']",PRINT,command-int-var,1150
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}{down}""', ';']",PRINT,command-int-var,1200
+seeschlacht-16k,24,"['PRINT', '""{down}entkommen.""', ':']",PRINT,command-int-var,1060
+seeschlacht-16k,24,"['PRINT', '""{purple}{clr}{down}{down}sonar wird repariert.{black}""', ':']",PRINT,command-int-var,1130
+seeschlacht-16k,24,"['PRINT', '""{down}atomreaktor ist""', ':']",PRINT,command-int-var,1100
+seeschlacht-16k,24,"['PRINT', '""{down}ausgefallen.""', ':']",PRINT,command-int-var,1100
+seeschlacht-16k,24,"['PRINT', '"".""', ';']",PRINT,command-int-var,1240
+seeschlacht-16k,24,"['PRINT', '""{down}{down}nicht verlassen!""', ':']",PRINT,command-int-var,830
+seeschlacht-16k,24,"['PRINT', '""{down}aus der zone !!""', ':']",PRINT,command-int-var,780
+seeschlacht-16k,24,"['PRINT', '""{down}sie sind auf eine""', ':']",PRINT,command-int-var,980
+seeschlacht-16k,24,"['PRINT', '""{down}mine gelaufen!""', ':']",PRINT,command-int-var,980
+seeschlacht-16k,24,"['PRINT', '""{down}sie laufen auf grund.""', ':']",PRINT,command-int-var,880
+seeschlacht-16k,24,"['PRINT', '""{down}sie haben ihr haupt-""', ':']",PRINT,command-int-var,960
+seeschlacht-16k,24,"['PRINT', '""{down}quartier gerammt!""', ':']",PRINT,command-int-var,960
+seeschlacht-16k,24,"['PRINT', '""{down}gerammt! sie sinken.""', ':']",PRINT,command-int-var,920
+seeschlacht-16k,24,"['PRINT', 'z$', '(']",PRINT,command-int-var,1280
+seeschlacht-16k,24,"['PRINT', '"" ""', 'x']",PRINT,command-int-var,1430
+seeschlacht-16k,24,"['PRINT', '""{purple}{clr}{down}{down}torpedorohre werden""', 'PRINT']",PRINT,command-int-var,1480
+seeschlacht-16k,24,"['PRINT', '""{clr}{down}{down}kein schiff in sicht.""', ':']",PRINT,command-int-var,2820
+star-wars2,25,"['PRINT', '""{clr}{white}einen moment bitte....""', '""{clr}{white}einen moment bitte....""']",PRINT,command-int-var,10
+star-wars2,25,"['PRINT', '""{down}{rvs_on}       {green}bye bye ...!{home}{black}""', '""{down}{rvs_on}       {green}bye bye ...!{home}{black}""']",PRINT,command-int-var,1005
+star-wars3,25,"['PRINT', '""{clr}""', ';']",PRINT,command-int-var,20100
+star-wars3,25,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,28000
+star-wars3,25,"['PRINT', 's$', ':']",PRINT,command-int-var,20020
+star-wars3,25,"['PRINT', '""{home}""', 'RIGHT$']",PRINT,command-int-var,20020
+star-wars3,25,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,4110
+star-wars3,25,"['PRINT', 'x', ')']",PRINT,command-int-var,1030
+star-wars3,25,"['PRINT', '""{home}{white}""', 'RIGHT$']",PRINT,command-int-var,1030
+star-wars3,25,"['PRINT', '""{home}""', 'RIGHT$']",PRINT,command-int-var,1130
+star-wars3,25,"['PRINT', '""{clr}{red}""', 'fa$']",PRINT,command-int-var,2005
+blue-munster-3k,26,"['PRINT', '""{rvs_on} jeder {rvs_off},{rvs_on}bersprungene   stern   = +20  bonus  ""', ';']",PRINT,command-int-var,740
+blue-munster-3k,26,"['PRINT', '""{down}{down}load""', 'CHR$']",PRINT,command-int-var,965
+blue-munster-3k,26,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,16
+monsterjagd,28,"['PRINT', '""{down}{down}{down}{rvs_on}{red}bravo{rvs_off}, das war gut.""', ':']",PRINT,command-int-var,2201
+monsterjagd,28,"['PRINT', '""{rvs_on} {rvs_off}""', ';']",PRINT,command-int-var,2800
+monsterjagd,28,"['PRINT', '""{left}{down}{down}{down}{down}{rvs_on} {rvs_off}{up}{up}{up}{up}""', ';']",PRINT,command-int-var,2801
+monsterjagd,28,"['PRINT', '""{clr}""', ';']",PRINT,command-int-var,2800
+monsterjagd,28,"['PRINT', '""{down}{down}{blue}press a key""', ':']",PRINT,command-int-var,2100
+ufo-attack,29,"['PRINT', '""{clr}{rvs_on}           {right}          ""', ';']",PRINT,command-int-var,20040
+ufo-attack,29,"['PRINT', '""{home}{down}{down}{right}{right}{right}{right}{right}{right} a l e r t""', ':']",PRINT,command-int-var,40180
+ufo-attack,29,"['PRINT', '""{clr}{down}{right}{right}{right}{right}{right}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I    ""', ';']",PRINT,command-int-var,40000
+ufo-attack,29,"['PRINT', '""U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W} a l e r t {CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-*}I{SHIFT--}    J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K   {SHIFT--}""', ';']",PRINT,command-int-var,40020
+ufo-attack,29,"['PRINT', '""{SHIFT--} ein scwarm vogoni- {SHIFT--}{SHIFT--} scher ufos greift  {SHIFT--}""', ';']",PRINT,command-int-var,40040
+ufo-attack,29,"['PRINT', '""{SHIFT--} eine staffel von 4 {SHIFT--}{SHIFT--} jaegern , ein teil {SHIFT--}""', ';']",PRINT,command-int-var,40080
+ufo-attack,29,"['PRINT', '""{SHIFT--} des irdischen ver- {SHIFT--}{SHIFT--} teidigungssystems. {SHIFT--}""', ';']",PRINT,command-int-var,40100
+ufo-attack,29,"['PRINT', '""{SHIFT--} um die erde zu ret-{SHIFT--}{SHIFT--} ten muessen sie 1/4{SHIFT--}""', ';']",PRINT,command-int-var,40120
+ufo-attack,29,"['PRINT', '""{SHIFT--} aller vogonischen  {SHIFT--}{SHIFT--} schiffe in 1:30    {SHIFT--}""', ';']",PRINT,command-int-var,40140
+ufo-attack,29,"['PRINT', '""{clr}{down}{down}{down}""', ';']",PRINT,command-int-var,20000
+ufo-attack,29,"['PRINT', '""sie haben ""', 'INT']",PRINT,command-int-var,20010
+ufo-attack,29,"['PRINT', '""{rvs_on}       NM                   N  M            ""', ';']",PRINT,command-int-var,40530
+ufo-attack,29,"['PRINT', '""   N A A  A  {CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}  N A     AA M        ""', ';']",PRINT,command-int-var,40570
+ufo-attack,29,"['PRINT', '""{home}{down}{down}{right}{right}{right}{right}{right}{right} a l e r t""', 'i']",PRINT,command-int-var,40390
+ufo-attack,29,"['PRINT', '""{home}{down}{down}{right}{right}{right}{right}{right}{right}          ""', ':']",PRINT,command-int-var,40200
+ufo-attack,29,"['PRINT', '""{clr}{right}{right}{right}{right}{down}{right}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I    U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W} a l e r t {CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-*}I""', ';']",PRINT,command-int-var,40310
+ufo-attack,29,"['PRINT', '""{SHIFT--}    {CBM-Z}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-X}   {SHIFT--}{SHIFT--}   links:\'j\'        {SHIFT--}""', ';']",PRINT,command-int-var,40330
+ufo-attack,29,"['PRINT', '""{SHIFT--}  rechts:\'k\'        {SHIFT--}{SHIFT--}  schuss:\'d\'        {SHIFT--}""', ';']",PRINT,command-int-var,40350
+ufo-attack,29,"['PRINT', '""{home}{rvs_on}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', ';']",PRINT,command-int-var,201
+pingi-3k,30,"['PRINT', '""{down}{down}Steuerung mit dem JOY-{down}STICK !""', ':']",PRINT,command-int-var,150
+pingi-3k,30,"['PRINT', '""{clr}Spielanleitung:""', ':']",PRINT,command-int-var,200
+pingi-3k,30,"['PRINT', '""{clr}{down}{down}load""', 'CHR$']",PRINT,command-int-var,20
+pingi-3k,30,"['PRINT', '""{clr}PUNKTE:""', ':']",PRINT,command-int-var,340
+pingi-3k,30,"['PRINT', '""{down}{down}Bewegung:""', ':']",PRINT,command-int-var,270
+pingi-3k,30,"['PRINT', '""{down}{down}ACHTUNG !""', ':']",PRINT,command-int-var,310
+pingi-3k,30,"['PRINT', '""{down}{down} - Taste oder FIRE -""', ';']",PRINT,command-int-var,1000
+pingi2,30,"['PRINT', '""{rvs_on}{purple}{down}dennoch erreichten sie""', ':']",PRINT,command-int-var,580
+pingi2,30,"['PRINT', '""{up}{green}""', '=']",PRINT,command-int-var,2135
+rasen2,31,"['PRINT', '""{black}{clr}{down}{rvs_on}     rasenmaeher""', ':']",PRINT,command-int-var,80
+zerbrochene2,32,"['PRINT', '""@{white}                    {black}@@{white} {black}@@@@@@@@@@@@@@@@@@{white} {black}@""', ';']",PRINT,command-int-var,1280
+zerbrochene2,32,"['PRINT', '""@{white}                    {black}@@@@@@@@@@@@@@@@@@@@@@@{white}""', ';']",PRINT,command-int-var,1290
+zerbrochene2,32,"['PRINT', '""@ @@@@@@@@@@@@@@@@@@ @""', ';']",PRINT,command-int-var,1170
+zerbrochene2,32,"['PRINT', '""{down}{down}{rvs_on}score:""', ';']",PRINT,command-int-var,1670
+zerbrochene2,32,"['PRINT', '""{cyan}e{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}eeeeeeeeeeeeeeeeeeeeeee""', ';']",PRINT,command-int-var,1420
+zerbrochene2,32,"['PRINT', '""{cyan}@{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}@@{yellow}a{cyan}@@@@@@@@@@@@@@@@@@{yellow}a{cyan}@{yellow}""', ';']",PRINT,command-int-var,710
+zerbrochene2,32,"['PRINT', '""{rvs_on}{green}score =""', ';']",PRINT,command-int-var,840
+zerbrochene2,32,"['PRINT', '""{down}{down}{down}{down}{yellow}{rvs_off}@{rvs_on}space{rvs_off}@@@@@@@@@@@@@@@@{home}""', ';']",PRINT,command-int-var,860
+planetoid,34,"['PRINT', '""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{yellow}{CBM-G}      {CBM-M}""', 'NEXT']",PRINT,command-int-var,5
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{right}{purple}""', ';']",PRINT,command-int-var,8
+planetoid,34,"['PRINT', '""{purple}{right}{rvs_on}          ""', ':']",PRINT,command-int-var,8
+planetoid,34,"['PRINT', '""{clr}{red}{up}  p l a n e t o i d   ""', ':']",PRINT,command-int-var,2
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,460
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,450
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,480
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,410
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,440
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,515
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,517
+planetoid,34,"['PRINT', '""{red}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,495
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,507
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,285
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,275
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,290
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,305
+planetoid,34,"['PRINT', '""{rvs_on}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}""', ':']",PRINT,command-int-var,230
+planetoid,34,"['PRINT', '""{rvs_on}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}""', ':']",PRINT,command-int-var,240
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,250
+planetoid,34,"['PRINT', '""{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}""', ':']",PRINT,command-int-var,170
+planetoid,34,"['PRINT', '""{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}""', ':']",PRINT,command-int-var,190
+planetoid,34,"['PRINT', '""{rvs_on}{CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  ""', ':']",PRINT,command-int-var,200
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,265
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,270
+planetoid,34,"['PRINT', '""{purple}{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,255
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,260
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,360
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,320
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,325
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,310
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,315
+planetoid,34,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', 'TAB(']",PRINT,command-int-var,330
+feuerwehr-3k,35,"['PRINT', '""{down}{down}lO""', 'CHR$']",PRINT,command-int-var,40
+feuerwehr2,35,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,100
+feuerwehr2,35,"['PRINT', '""{rvs_on}{black}zeit:{rvs_off}""', ';']",PRINT,command-int-var,100
+diamantenmine,36,"['PRINT', '""{clr}{down}{red}{right}{right}{right}ZZZZZZZZZZZZZZZZZ""', ',']",PRINT,command-int-var,20
+diamantenmine,36,"['PRINT', '""{right}{right}{right}ZZZZZZZZZZZZZZZZZ""', '""{down}{down}{down}{yellow}{right}{right}von ramin irannejad""']",PRINT,command-int-var,30
+diamantenmine,36,"['PRINT', '""{white}""', 'a$']",PRINT,command-int-var,110
+diamantenmine,36,"['PRINT', '""{clr}{white}? einhgabefehler{down}{down}{down}""', ':']",PRINT,command-int-var,85
+diamantenmine,36,"['PRINT', '""{cyan}{down}{down}{right}{right}{right}{right}{right}{rvs_on}f3{rvs_off}{green} erklaerung""', ',']",PRINT,command-int-var,90
+diamantenmine,36,"['PRINT', '""{cyan}""', 'a$']",PRINT,command-int-var,120
+diamanten2,36,"['PRINT', '""{rvs_on}noch eine bonusminute.""', ':']",PRINT,command-int-var,80
+diamanten2,36,"['PRINT', '""{rvs_on}{right}{right}{right}{right}{down}{black}spielanleitung""', ',']",PRINT,command-int-var,40
+diamanten2,36,"['PRINT', '""{rvs_on}{black}{right}{right}{right}{right}{right}{right}goldstaub""', ',']",PRINT,command-int-var,170
+diamanten2,36,"['PRINT', '""{clr}? error{down}{down}{down}""', ':']",PRINT,command-int-var,15
+diamanten2,36,"['PRINT', '""{down}{rvs_on}best.zeit die robotter{down}fangen:""', ':']",PRINT,command-int-var,220
+diamanten2,36,"['PRINT', '""{clr}{down}{down}{down}{right}{right}{right}{right}{purple}l{blue}{rvs_on} = 20 punkte""', ',']",PRINT,command-int-var,230
+diamanten3,36,"['PRINT', 'a$', ',']",PRINT,command-int-var,215
+adventurelnd-3k,37,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,100
+adventurelnd2,37,"['PRINT', '""a  aaaaaaaaaaaaaaa aaa""', ';']",PRINT,command-int-var,690
+adventurelnd2,37,"['PRINT', '""a                    a""', ';']",PRINT,command-int-var,240
+zyklo,39,"['PRINT', '""hindern sie daran.""', 'PRINT']",PRINT,command-int-var,32
+zyklo,39,"['PRINT', '""wenn sie eine der ""', ':']",PRINT,command-int-var,66
+zyklo,39,"['PRINT', '""schliessen sich von""', ':']",PRINT,command-int-var,44
+zyklo,39,"['PRINT', '""{right}{right}{right}{right}{right}{down}{down}{right}{right}-taste-""', ':']",PRINT,command-int-var,58
+zyklo,39,"['PRINT', '""{down}{down}{right}{right}{right}{right}{right}{right}{right}-taste-""', ':']",PRINT,command-int-var,84
+zyklo,39,"['PRINT', '""{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}""', 'PRINT']",PRINT,command-int-var,90
+zyklo,39,"['PRINT', '""{down}{down}{down}wenn sie nun eine""', ':']",PRINT,command-int-var,102
+zyklo,39,"['PRINT', '""taste druecken,wird ""', ':']",PRINT,command-int-var,104
+zyklo,39,"['PRINT', '""{clr}{white}""', ':']",PRINT,command-int-var,1
+zyklo3,39,"['PRINT', '""{up}""', 'a$']",PRINT,command-int-var,2
+zyklo3,39,"['PRINT', '""{clr}{white}""', ':']",PRINT,command-int-var,1
+zyklo3,39,"['PRINT', '""{up}""', 'a$']",PRINT,command-int-var,2
+zyklo3,39,"['PRINT', '""{down}{down}punkte:""', 'p']",PRINT,command-int-var,2030
+zyklo3,39,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,2000
+star-wars,41,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,299
+star-wars,41,"['PRINT', '""{white}""', ':']",PRINT,command-int-var,499
+star-wars,41,"['PRINT', '""{clr}{down}{down}load""', 'CHR$']",PRINT,command-int-var,403
+star-wars2,41,"['PRINT', '""{red}{down}{right}{right}{right}{right}{right}{right}""', '""{red}{down}{right}{right}{right}{right}{right}{right}""']",PRINT,command-int-var,517
+mister-jump2,42,"['PRINT', '""{blue}(((({right}(((((((({right}((((((((""', ';']",PRINT,command-int-var,9060
+catchthefish,43,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,5000
+catchthefish,43,"['PRINT', '""{black}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{CBM-I}{CBM-O}{CBM-P}{CBM-@}{rvs_off}{green}h{rvs_on}{black}{CBM-@}{CBM-P}{CBM-O}{CBM-I}{CBM-O}{CBM-I}{CBM-I}{CBM-O}{CBM-P}{CBM-O}{CBM-I}{CBM-P}{CBM-@}{rvs_off}{green}h{rvs_on}{black}{CBM-@}{CBM-P}{CBM-I}""', ';']",PRINT,command-int-var,5100
+ghosts-egg2,44,"['PRINT', '""{right}{right}{down}{rvs_on}{white}taste""', ':']",PRINT,command-int-var,43
+ghosts-egg2,44,"['PRINT', '""{right}nnnnq{right}{right}{right}{right}@biiiii""', ':']",PRINT,command-int-var,6
+ghosts-egg2,44,"['PRINT', '""{right}{right}{down}{rvs_on}{white}taste""', ':']",PRINT,command-int-var,18
+ghosts-egg2,44,"['PRINT', '""{home}{rvs_on}sammeln sie ({rvs_off}t{rvs_on}) alle{right}{right}eier ({rvs_off}q{rvs_on}) auf,ohne von{right}geistern ({rvs_off}rs{rvs_on}) ge""', ';']",PRINT,command-int-var,11
+ghosts-egg2,44,"['PRINT', '""k""', ')']",PRINT,command-int-var,2
+ghosts-egg2,44,"['PRINT', '""{clr}{black}p1=7748:gO{white}""', ':']",PRINT,command-int-var,47
+ghosts-egg2,44,"['PRINT', '""load""', 'CHR$']",PRINT,command-int-var,47
+fox-hunt,46,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,172
+fox-hunt,46,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,95
+fox-hunt,46,"['PRINT', '""vvv{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}vvv""', ':']",PRINT,command-int-var,110
+fox-hunt,46,"['PRINT', '""{home}{down}{down}{red}vvv{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}vvv""', ';']",PRINT,command-int-var,103
+fox-hunt2,46,"['PRINT', '""{clr}{white}{down}{down}{down}{down}{down}{down} {rvs_on}Viel Spass wuenscht {rvs_off}  {rvs_on}Ihnen Frogsoft Ltd.!""', ':']",PRINT,command-int-var,6
+collector2,47,"['PRINT', '""d@@@@@@@@@@@@@@@@@@@@d""', ';']",PRINT,command-int-var,502
+collector2,47,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}pu:""', 'p']",PRINT,command-int-var,50
+collector2,47,"['PRINT', '""{clr}{cyan}iiiiiiiiiiiiiiiiiiiiii""', ';']",PRINT,command-int-var,400
+collector2,47,"['PRINT', '""{black}dddddddddddddddddddddd""', ';']",PRINT,command-int-var,301
+collector2,47,"['PRINT', '""d@@@@@@@@@@@@@@@@@@@@d""', ';']",PRINT,command-int-var,302
+collector2,47,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,300
+collector2,47,"['PRINT', '""{blue}dddddddddddddddddddddd""', ';']",PRINT,command-int-var,501
+collector2,47,"['PRINT', '""iiii@iiiiiiii@iiiiiiii""', ';']",PRINT,command-int-var,406
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,407
+collector2,47,"['PRINT', '""i@@@iiiii@iii@iiiiii@i""', ';']",PRINT,command-int-var,408
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,409
+collector2,47,"['PRINT', '""iiiii@iii@iiiiiiiiii@i""', ';']",PRINT,command-int-var,410
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,411
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,401
+collector2,47,"['PRINT', '""iiiiiiii@iiii@iii@iiii""', ';']",PRINT,command-int-var,402
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,403
+collector2,47,"['PRINT', '""iiii@iiii@iii@iii@iiii""', ';']",PRINT,command-int-var,414
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,415
+collector2,47,"['PRINT', '""iiiiiiii@@iiiiiii@iiii""', ';']",PRINT,command-int-var,416
+collector2,47,"['PRINT', '""i@@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,417
+collector2,47,"['PRINT', '""iiiiiiii@@ii@@iiiiiiii""', ';']",PRINT,command-int-var,418
+collector2,47,"['PRINT', '""ii@@@@@@@@@@@@@@@@@@@i""', ';']",PRINT,command-int-var,419
+collector2,47,"['PRINT', '""d@@@@@@d@@@@@d@@@@@@@d""', ';']",PRINT,command-int-var,101
+collector2,47,"['PRINT', '""d@@@@@@@@@@@@@@@@@@@@d""', ';']",PRINT,command-int-var,102
+collector2,47,"['PRINT', '""d@@@@@@d@@d@@@@@@@@@@d""', ';']",PRINT,command-int-var,113
+collector2,47,"['PRINT', '""d@dddd@d@@d@dddddddddd""', ';']",PRINT,command-int-var,114
+collector2,47,"['PRINT', '""d@d@@d@@@@d@d@@@@@@@@d""', ';']",PRINT,command-int-var,115
+collector2,47,"['PRINT', '""d@@@@d@d@@d@dddd@ddddd""', ';']",PRINT,command-int-var,116
+collector2,47,"['PRINT', '""d@d@@d@d@@d@@@@@@@@@@d""', ';']",PRINT,command-int-var,117
+collector2,47,"['PRINT', '""d@dddd@d@@d@dddddddddd""', ';']",PRINT,command-int-var,118
+collector2,47,"['PRINT', '""d@@@@@@d@@d@@d@@ddd@@d""', ';']",PRINT,command-int-var,105
+collector2,47,"['PRINT', '""d@@@@@@d@@d@@@@@@@@@@d""', ';']",PRINT,command-int-var,106
+collector2,47,"['PRINT', '""d@@dd@@d@@d@@d@@@@@@@d""', ';']",PRINT,command-int-var,107
+collector2,47,"['PRINT', '""d@@@@@@d@@d@@dddd@dddd""', ';']",PRINT,command-int-var,108
+collector2,47,"['PRINT', '""d@@@@@@d@@d@@d@@@@@@@d""', ';']",PRINT,command-int-var,109
+collector2,47,"['PRINT', '""ddddddddddd@@d@@@@@@@d""', ';']",PRINT,command-int-var,110
+collector2,47,"['PRINT', '""iiiiiiiiiiiiiiiiiiiiii""', ':']",PRINT,command-int-var,203
+collector2,47,"['PRINT', '""{blue}iiiiiiiiiiiiiiiiiiiiii""', ';']",PRINT,command-int-var,201
+collector2,47,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,200
+collector2,47,"['PRINT', '""{clr}{down}{down}{down}{down}{down}{white}deinen namen bitte""', ':']",PRINT,command-int-var,1001
+breakout,48,"['PRINT', '""{home}{down}{white}""', 'SPC(']",PRINT,command-int-var,510
+breakout,48,"['PRINT', '""{home}{right}{right}{right}{right}{right}{right}""', 'e']",PRINT,command-int-var,5075
+breakout,48,"['PRINT', '""{home}{down}{down}{left}{left}{left}""', 'g']",PRINT,command-int-var,5080
+breakout,48,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}""', 'LEFT$']",PRINT,command-int-var,40
+breakout,48,"['PRINT', '""{clr}{white}{down}   {rvs_on}{CBM-D}""', 'a$']",PRINT,command-int-var,10
+breakout,48,"['PRINT', '""balls:""', 's']",PRINT,command-int-var,120
+breakout,48,"['PRINT', '""{down}{down}{down}{right}{right}{rvs_on}{red} bonus:""', 'uv']",PRINT,command-int-var,21020
+breakout,48,"['PRINT', '""{down}{down}{right}{right}{cyan}{rvs_on} prepare for next {right}{right}{right}{right}     level        ""', ':']",PRINT,command-int-var,21040
+breakout,48,"['PRINT', '""{home}{down}{right}{right}{right}{right}{right}{right}""', 's']",PRINT,command-int-var,7200
+breakout,48,"['PRINT', '""{right}{green}""', 'a$']",PRINT,command-int-var,8010
+breakout,48,"['PRINT', '""{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{down}{CBM-T}{up}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}""', ':']",PRINT,command-int-var,8530
+breakout,48,"['PRINT', '""{right}""', 'a$']",PRINT,command-int-var,8050
+breakout,48,"['PRINT', '""{home}""', 'SPC(']",PRINT,command-int-var,8510
+breakout,48,"['PRINT', '""{right}{rvs_on}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}""', 'RND']",PRINT,command-int-var,8060
+q-bert-3k,49,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{blue}      < taste >       ""', ':']",PRINT,command-int-var,161
+q-bert2,49,"['PRINT', '""{down}{right}{right}{right}{right}{right}{blue}score:""', 'sc']",PRINT,command-int-var,25
+q-bert2,49,"['PRINT', '""{down}{right}{right}hi.score:""', 'hi']",PRINT,command-int-var,30
+q-bert2,49,"['PRINT', '""hi""', '""{down}{blue} ok.""']",PRINT,command-int-var,1251
+salvage crew,50,"['PRINT', '""{down}{down}lO""', 'CHR$']",PRINT,command-int-var,910
+salvage cre2,50,"['PRINT', '""{home}""', ':']",PRINT,command-int-var,3200
+salvage cre2,50,"['PRINT', '""{right}{right}{right}{right}{right}{right}89{down}{left}{left}889{down}{left}{left}{left}89{down}{down}{down}{left}""', ';']",PRINT,command-int-var,3200
+salvage cre2,50,"['PRINT', '""{home}{black}""', ':']",PRINT,command-int-var,3220
+salvage cre2,50,"['PRINT', '""899{down}9{up}{left}898989""', ':']",PRINT,command-int-var,3160
+salvage cre2,50,"['PRINT', '""{black}{left}{left}{left}{left}{left}{left}{down}{down}{down}:>{down}{left}{left}:{down}{left}:{down}{left}""', ';']",PRINT,command-int-var,3160
+salvage cre2,50,"['PRINT', '""{down}{down}{right}{right}{right}{right}{right}{right}<{down}{left}{left}={rvs_on}  {rvs_off}{down}{left}{left}{left}:{down}{left}::""', ';']",PRINT,command-int-var,3170
+salvage cre2,50,"['PRINT', '""{right}{right}{right}{right}{right}{right}:{right}::{right}{down}:""', ';']",PRINT,command-int-var,3240
+salvage cre2,50,"['PRINT', '""{home}{down}{down}{down}89{right}{right}{up}89{up}{left}8989899{up}{left}{left}{left}{left}""', ';']",PRINT,command-int-var,3070
+salvage cre2,50,"['PRINT', '""{purple}{home}{down}{left}{left}{left}{left}{left}{left}898989{left}{left}{left}{left}{left}{down}89""', ':']",PRINT,command-int-var,3090
+salvage cre2,50,"['PRINT', '""{down}{down}{left}{left}{left}{left}89""', ':']",PRINT,command-int-var,3090
+dog-fight,51,"['PRINT', '""{down}{down}1.Spieler: Joystick""', ':']",PRINT,command-int-var,42
+dog-fight2,51,"['PRINT', '""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{yellow}{right}{right}{right}{right}{right}{right}{right}{rvs_on}""', ';']",PRINT,command-int-var,34
+dog-fight2,51,"['PRINT', '""{home}{down}{down}{down}{down}{down}{rvs_on}{yellow}spieler 1 hat verloren""', ':']",PRINT,command-int-var,202
+schwitzbad2,52,"['PRINT', '""{clr}""', 'TAB(']",PRINT,command-int-var,77
+earth-rescue-3k,53,"['PRINT', '""{clr}{yellow}{down}{down}{down}{down}{right}{right}{right}{right}ein funkspruch""', ':']",PRINT,command-int-var,410
+earth-rescue-3k,53,"['PRINT', '""{clr}{down}{down}load""', 'CHR$']",PRINT,command-int-var,500
+earth-rescue-3k,53,"['PRINT', '""{down}{down}die forscher sind die {down}einzigen, die die erde{down}vor der bevorstehenden""', ';']",PRINT,command-int-var,425
+earth-rescue-3k,53,"['PRINT', '""{clr}{yellow}{down}{down}entspannen sie sich !""', ':']",PRINT,command-int-var,480
+earth-rescue-3k,53,"['PRINT', '""{yellow}{down}{down}{down}{down}{down}ich melde mich wieder""', ':']",PRINT,command-int-var,485
+earth-rescue2,53,"['PRINT', 'v$', ';']",PRINT,command-int-var,230
+earth-rescue2,53,"['PRINT', 'x', 'o']",PRINT,command-int-var,165
+earth-rescue2,53,"['PRINT', '""{right}{right}{right}{yellow}ab{right}{green}ef{right}{right}{right}{blue}yy{purple}y{right}y{black}yy{purple}y{right}y""', ':']",PRINT,command-int-var,65
+earth-rescue2,53,"['PRINT', '""{clr}""', ':']",PRINT,command-int-var,40
+earth-rescue2,53,"['PRINT', '""{home}{right}{right}{right}{right}{right}{right}{right}#$%&{left}{left}{left}{left}{down}\'()*{left}{left}{left}{left}{down}+,-.{left}{left}{left}{left}{down}/012{left}{left}{left}{left}{down}34{blue}y""', ';']",PRINT,command-int-var,45
+tank-3k,54,"['PRINT', '""{right}{right}{right}{right}{right}{right}{right}{right}{right}@""', ';']",PRINT,command-int-var,101
+tank-3k,54,"['PRINT', '""{right}{right}{right}{right}{right}{right}{right}{right}{right}{up}h""', ':']",PRINT,command-int-var,124
+tank-3k,54,"['PRINT', '""{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}j""', ':']",PRINT,command-int-var,120
+tank-3k,54,"['PRINT', '""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{up}f""', ':']",PRINT,command-int-var,126
+tank-3k,54,"['PRINT', '""c""', ':']",PRINT,command-int-var,110
+tank-3k,54,"['PRINT', '""a""', ';']",PRINT,command-int-var,104
+tank-3k,54,"['PRINT', '""{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}k""', ':']",PRINT,command-int-var,118
+tank-3k,54,"['PRINT', '""{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}e""', ':']",PRINT,command-int-var,113
+terra 2,55,"['PRINT', '""{rvs_on}aber hueten sie sich{right}{right}vor radioaktiven{right}{right}{right}{right}{right}{right}blitzen,die neue ver-{right}seuchte ""', ';']",PRINT,command-int-var,290
+terra 2-2,55,"['PRINT', 'h$', '""{home}{rvs_on}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{black}""']",PRINT,command-int-var,805
+terra 2-2,55,"['PRINT', '""{home}{blue}""', ';']",PRINT,command-int-var,41
+terra 2-2,55,"['PRINT', '""{down}{down}{down}{rvs_on}""', 'b$']",PRINT,command-int-var,41
+terra 2-2,55,"['PRINT', '""{right}{right}{right}{right}lllll{right}{right}{right}{right}slllv""', ':']",PRINT,command-int-var,130
+terra 2-2,55,"['PRINT', '""{right}{right}{right}slllllv{right}{right}slllllv""', ':']",PRINT,command-int-var,130
+terra 2-2,55,"['PRINT', '""{up}   mlp   mlllp   mp""', ':']",PRINT,command-int-var,80
+terra 2-2,55,"['PRINT', '""    z     mlp""', ':']",PRINT,command-int-var,80
+terra 2-2,55,"['PRINT', '""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}z""', ':']",PRINT,command-int-var,80
+terra 2-2,55,"['PRINT', '""{clr}{black}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}@{right}a{right}bcdefghi{right}tk{up}{left}{left}wj_""', ':']",PRINT,command-int-var,36
+terra 2-2,55,"['PRINT', '""{rvs_on}{blue}{down}{down}{right}{right}andreas spindler{down}{black}{right}{right}{right}{right}""', 'e$']",PRINT,command-int-var,36
+terra 2-2,55,"['PRINT', '""{rvs_on}{right}all rights reserved!{black}{down}{right}""', 'e$']",PRINT,command-int-var,38
+terra 2-2,55,"['PRINT', '""{home}{down}{down}""', 'e$']",PRINT,command-int-var,39
+terra 2-2,55,"['PRINT', '""{rvs_on}{blue}{home}{right}{right}{right}{right}** terra 2 **""', ':']",PRINT,command-int-var,300
+terra 2-2,55,"['PRINT', '""{rvs_on}{black}{down}time:""', 'ti$']",PRINT,command-int-var,300
+pac-ball-3k,56,"['PRINT', '""{home}{red}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""', ';']",PRINT,command-int-var,11
+pac-ball2,56,"['PRINT', '""{home}{white}{rvs_on}{down}{down}""', 'SPC(']",PRINT,command-int-var,1130
+pac-ball2,56,"['PRINT', '""   {red}r    ""', 'CHR$']",PRINT,command-int-var,1060
+pac-ball2,56,"['PRINT', '""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{black}""', ':']",PRINT,command-int-var,1540
+economy,57,"['PRINT', '""{clr}{down}{down}{down}{black}computer laedt haupt-""', ':']",PRINT,command-int-var,7
+economy,57,"['PRINT', '""{down}{down}load""', 'CHR$']",PRINT,command-int-var,8
+economy2,57,"['PRINT', '""{black}{down}erzeugte portionen    eis:{red}""', 'sl']",PRINT,command-int-var,82
+economy2,57,"['PRINT', '""{black}{down}{down}neues kapital:{red}dm""', 'k']",PRINT,command-int-var,91
+economy2,57,"['PRINT', '""{black}{down}gewinn:       {red}dm""', 'g']",PRINT,command-int-var,85
+economy2,57,"['PRINT', '""{black}""', 'n$']",PRINT,command-int-var,79
+economy2,57,"['PRINT', 'n$', '(']",PRINT,command-int-var,113
+economy2,57,"['PRINT', '""{down}""', ';']",PRINT,command-int-var,30
+economy2,57,"['PRINT', 'n$', '(']",PRINT,command-int-var,23
+economy2,57,"['PRINT', '""{black}{down}eine portion eis      kostet    {red} dm""', ';']",PRINT,command-int-var,35
+economy2,57,"['PRINT', '""{black}{down}eine werbetafel kostet{red}           dm""', ';']",PRINT,command-int-var,36
+economy2,57,"['PRINT', '""{black}{down}ihr kapital betraegt {red}            dm""', ';']",PRINT,command-int-var,37
+economy2,57,"['PRINT', '""{down}{yellow}**********************{blue}""', ';']",PRINT,command-int-var,38
+economy2,57,"['PRINT', '""{down}{rvs_on}>name max. 10 zeichen<{rvs_off}""', ':']",PRINT,command-int-var,14
+economy2,57,"['PRINT', '""{down}""', ':']",PRINT,command-int-var,14
+economy2,57,"['PRINT', '""name des""', 'i']",PRINT,command-int-var,13

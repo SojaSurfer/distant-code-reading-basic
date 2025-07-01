@@ -1,0 +1,12 @@
+[tool.ruff.isort]
+lines-after-imports = 4
+
+
+[tool.ruff]
+exclude = [
+    "external/",
+    "third_party/",
+    "vendor/",
+    "some_module/scripts/",
+    "some_file.py"
+]
