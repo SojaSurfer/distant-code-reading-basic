@@ -9,7 +9,7 @@ from rich import print, traceback
 from tagset import TAGSET
 
 from preprocessing.basics import BASICFile, BASICToken
-from preprocessing.characterSet import (
+from preprocessing.petscii import (
     ASCII_CODES,
     ASSEMBLY_CHARS,
     BYTE_TO_CMD,

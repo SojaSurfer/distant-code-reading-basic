@@ -3,7 +3,7 @@ from typing import Any, Self
 
 import pandas as pd
 
-from preprocessing.characterSet import ASCII_CODES
+from preprocessing.petscii import ASCII_CODES
 
 
 
