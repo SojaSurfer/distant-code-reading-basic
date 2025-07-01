@@ -57,9 +57,4 @@
     --> created manually by consulting the "game_id" and "name" rows in "metadata.xlsx". Pairs "game_id" with
         a new "combined" game name to make results in DTM_merged contain both the game_id and the game name
 
-5.  dataset
-    5.1.  Homecomp1
-    5.2.  Homecomp2
-    5.3.  Homecomp3
-
-6.  metadata.xlsx
+5.  metadata.xlsx
