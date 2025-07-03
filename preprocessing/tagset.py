@@ -4,16 +4,6 @@ from collections import OrderedDict
 
 
 TAGSET = OrderedDict({
-    "system": {
-        "time": {
-            "tag": "YT",
-            "values": ["ti", "ti$"],
-        },
-        "IO": {
-            "tag": "YI",
-            "values": ["st"],
-        },
-    },
     "commands": {
         "arithmetic": {
             "tag": "CA",
@@ -84,6 +74,16 @@ TAGSET = OrderedDict({
             "values": ["PI"],
         },
     },
+    "system": {
+        "time": {
+            "tag": "YT",
+            "values": ["ti", "ti$"],
+        },
+        "IO": {
+            "tag": "YI",
+            "values": ["st"],
+        },
+    },
     "variables": {
         "real": {
             "tag": "VR",
@@ -120,6 +120,16 @@ TAGSET = OrderedDict({
             "values": [0,1,2,3,4,5,6,7,8,9],
         },
     },
+    "strings": {
+        "comment": {
+            "tag": "SC",
+            "values": [None],
+        },
+        "string": {
+            "tag": "SL",
+            "values": [None],
+        },
+    },
     "punctuations": {
         "colon": {
             "tag": "PC",
@@ -144,16 +154,6 @@ TAGSET = OrderedDict({
         "other": {
             "tag": "PO",
             "values": ["-", "@", "<", "#", "~", "*", "|"],  # also type chars if not used as sigils
-        },
-    },
-    "strings": {
-        "comment": {
-            "tag": "SC",
-            "values": [None],
-        },
-        "string": {
-            "tag": "SL",
-            "values": [None],
         },
     },
     "data": {

@@ -67,10 +67,10 @@ def create_parquet(df:pd.DataFrame) -> None:
     )
 
     df = df[["file_id", "game_id", "name", "line", "token_id", "bytes", "token", "syntax", "language"]]
-    df = df.sort_values(by="file_id")
+    df = df.sort_values(by=["game_id", "name", "line", "token_id"])
     df.reset_index(drop=True)
 
-    df.to_parquet(table_path / "tokenized_dataset.parquet")
+    df.to_parquet(table_path / "tokenized_dataset.parquet", index=False)
     return None
 
 
@@ -488,7 +488,7 @@ if __name__ == "__main__":
             
             bfile = detokenizer.detokenize_basic_file(source_file)
 
-            bfile.save_file(dest_file)
+            # bfile.save_file(dest_file)
             table = bfile.save_table(table_file)
 
             table.insert(0, "name", source_file.name)
