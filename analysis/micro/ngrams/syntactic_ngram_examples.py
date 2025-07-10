@@ -65,11 +65,11 @@ if __name__ == "__main__":
     df = pd.read_parquet(path)
 
 
-    df["ngram_tokens"] = df["syntax"].mask(is_command, df["token"])
+    df["ngram_tokens"] = df["syntax"].mask(is_not_number, df["token"])
 
     print(df[["token", "syntax", "ngram_tokens"]])
 
-    # sentences = sentence_split(df)
+    sentences = sentence_split(df)
 
     # calculate_ngrams(sentences)
 

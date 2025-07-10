@@ -1,5 +1,5 @@
 [tool.ruff.isort]
-lines-after-imports = 4
+lines-after-imports = 3
 
 
 [tool.ruff]
