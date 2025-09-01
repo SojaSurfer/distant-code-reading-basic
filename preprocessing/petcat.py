@@ -7,7 +7,6 @@ from pathlib import Path
 
 
 
-
 def extractD64Files(vice_bin_path:Path, d64_path:Path, extraction_dir:Path) -> None:
     """Extract all d64 files with c1541 from a source dir to a dest dir.
     
@@ -52,9 +51,9 @@ def convert_d64_files(vice_bin_path:Path, extraction_dir:Path) -> None:
     
     Parameters
     ----------
-        vice_bin_path: Path
+        vice_bin_path : Path
             The path to the bin directory of VICE (https://vice-emu.sourceforge.io/).
-        extraction_dir: Path
+        extraction_dir : Path
             The path where the c64 source code files are stored.
     """
     

@@ -30,12 +30,12 @@ control_flow_regex = re.compile("|".join(control_flow_cmds))
 
 COLOR_MAP = {"M": "tab:green", "S": "tab:blue", "T": "tab:gray", "D": "tab:orange", "E": "tab:purple", "L": "tab:red"}
 PYDOT_COLOR_MAP = {
+    "E": "#9467bd",  # tab:purple
     "M": "#2ca02c",  # tab:green
     "S": "#1f77b4",  # tab:blue  
-    "T": "#7f7f7f",  # tab:gray
     "D": "#ff7f0e",  # tab:orange
-    "E": "#9467bd",  # tab:purple
-    "L": "#d62728"   # tab:red
+    "L": "#d62728",  # tab:red
+    "T": "#7f7f7f",  # tab:gray
 }
 
 
@@ -93,6 +93,20 @@ def get_prefix(row) -> str:
         return "T"
     else:
         return "M"
+
+
+def get_output_file_names(file_df:pd.DataFrame, output_dir:Path) -> tuple[Path, Path, Path]:
+    file_name = file_df["name"].values[0]
+
+    plot_path = output_dir / "plots" / f"{file_name}.png"
+    graph_path = output_dir / "pickle" / f"{file_name}.pkl"
+    metric_path = output_dir / "metrics.xlsx"
+
+    plot_path.parent.mkdir(exist_ok=True)
+    graph_path.parent.mkdir(exist_ok=True)
+
+    return plot_path, graph_path, metric_path
+
 
 
 
@@ -440,20 +454,6 @@ class ControlFlowGraph:
         return None
     
 
-def get_output_file_names(file_df:pd.DataFrame, output_dir:Path) -> tuple[Path, Path, Path]:
-    file_name = file_df["name"].values[0]
-
-    plot_path = output_dir / "plots" / f"{file_name}.png"
-    graph_path = output_dir / "pickle" / f"{file_name}.pkl"
-    metric_path = output_dir / "metrics.xlsx"
-
-    plot_path.parent.mkdir(exist_ok=True)
-    graph_path.parent.mkdir(exist_ok=True)
-
-    return plot_path, graph_path, metric_path
-
-
-
 
 if __name__ == "__main__":
     # problems: star-wars2: duplicate filenames but create duplicate graphs...
@@ -468,22 +468,30 @@ if __name__ == "__main__":
     metrics = Metrics()
 
 
-    for file in df["file_id"].unique():
-        file_df: pd.DataFrame = df[df["file_id"] == file]
+    for game_id in df["game_id"].unique():
+        game_df: pd.DataFrame = df[df["game_id"] == game_id]
+        game_graphs = []
+        line_count = 0
 
-        file_df = file_df.drop_duplicates() # why are there duplicates?
-        plot_path, graph_path, metric_path = get_output_file_names(file_df, output_dir)
-        print(plot_path.stem)
+        for file in game_df["file_id"].unique():
+            file_df: pd.DataFrame = game_df[game_df["file_id"] == file]
 
-
-        graph = cfg.create_graph(file_df)
-        if CREATE_NEW_PLOTS:
-            write_graph(graph, plot_path)
-            cfg.save_graph(graph_path)
-            # show_graph(graph)
+            file_df = file_df.drop_duplicates() # why are there duplicates?
+            plot_path, graph_path, metric_path = get_output_file_names(file_df, output_dir)
+            print(plot_path.stem)
 
 
-        metrics.calculate(graph, len(cfg.file_lines), file_df)
+            graph = cfg.create_graph(file_df)
+            if CREATE_NEW_PLOTS:
+                write_graph(graph, plot_path)
+                cfg.save_graph(graph_path)
+                # show_graph(graph)
+
+            game_graphs.append(graph)
+            line_count += len(cfg.file_lines)
+
+
+        metrics.calculate(game_graphs, line_count, game_df)
         # metrics.print_metrics()
 
 

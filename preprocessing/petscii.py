@@ -5,7 +5,6 @@ import sys
 
 
 
-
 BYTE_TO_CMD = {
     b"\x80": "END",
     b"\x81": "FOR",

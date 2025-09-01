@@ -19,7 +19,6 @@ from preprocessing.tagger import Tagger
 
 
 
-
 traceback.install()
 """ Current problems:
 - number -.1 is split into "-" and ".1"
@@ -104,9 +103,9 @@ class Lexer:
         bfile = BASICFile()
         lines_inbetween = (0, 99_999)
 
-        for ln, txt in self.split_basic_line():
+        for ln, txt in self._detokenize_line():
             if lines_inbetween[0] <= ln <= lines_inbetween[1]:
-                detokenized_line = self._decode_line(ln, txt)
+                detokenized_line = self._lex_line(ln, txt)
                 bfile.add_line(detokenized_line, ln)
 
                 # bfile.printLine()
@@ -116,7 +115,7 @@ class Lexer:
 
         return bfile
 
-    def split_basic_line(self) -> Generator[tuple[int, bytes], None, None]:
+    def _detokenize_line(self) -> Generator[tuple[int, bytes], None, None]:
         """Parse a tokenized Commodore-BASIC source file into (lineno, content bytes) tuples.
 
         Assumption:
@@ -159,7 +158,7 @@ class Lexer:
 
         return None
 
-    def _decode_line(self, lineno: int, line: bytes) -> list[BASICToken]:
+    def _lex_line(self, lineno: int, line: bytes) -> list[BASICToken]:
         if len(line) == 1:
             hexbytes: list[int] = [line[0]]
         else:

@@ -2,7 +2,6 @@ from collections import OrderedDict
 
 
 
-
 TAGSET = OrderedDict({
     "commands": {
         "arithmetic": {
