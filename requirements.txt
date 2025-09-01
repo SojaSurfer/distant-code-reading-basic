@@ -1,4 +1,8 @@
 huggingface_hub
+matplotlib
+networkx
+numpy
 pandas
-scikit-learn
+plotly
 rich
+scikit-learn
