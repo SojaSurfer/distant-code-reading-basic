@@ -82,15 +82,14 @@ class Metrics:
         m["cyclomatic_complexity"] = m["edges"] - m["nodes"] + 2 * p
         m["weakly_components"] = p  # weakly connected components
 
-        try:
-            # NP-hard problem
-            cycles = list(nx.simple_cycles(self.G))
-            lengths = [len(cycle) for cycle in cycles]
-            m["longest_cycle"] = max(lengths)
-            m["shortest_cycle"] = min(lengths)
-        except:
-            m["longest_cycle"] = None
-            m["shortest_cycle"] = None
+        # NP-hard problem, take too long
+        # cycles = list(nx.simple_cycles(self.G))
+        # lengths = [len(cycle) for cycle in cycles]
+        # m["longest_cycle"] = max(lengths)
+        # m["shortest_cycle"] = min(lengths)
+        
+        m["longest_cycle"] = None
+        m["shortest_cycle"] = None
 
         self._calculate_centrality(nx.degree_centrality)
         self._calculate_centrality(nx.in_degree_centrality)

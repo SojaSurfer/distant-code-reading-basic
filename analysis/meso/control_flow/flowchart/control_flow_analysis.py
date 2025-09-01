@@ -3,9 +3,8 @@ import re
 import sys
 from numbers import Real
 from pathlib import Path
-from typing import Self
 
-import matplotlib
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
@@ -22,7 +21,7 @@ traceback.install()
 
 control_flow_cmds = ["RUN", "STOP", "END", "GOSUB", "GOTO", "THEN", "RETURN"]
 terminal_cf = ["STOP", "END", "RETURN"]
-load_cms = ["LOAD", ]
+load_cms = ["LOAD"]
 control_flow_cmds_narrow = ["GOSUB", "GOTO", "RUN"] + terminal_cf
 
 control_flow_regex = re.compile("|".join(control_flow_cmds))
@@ -39,7 +38,7 @@ PYDOT_COLOR_MAP = {
 }
 
 
-matplotlib.use('TkAgg')  # or 'Qt5Agg' 
+mpl.use("TkAgg")
 plt.ion()
 
 def write_graph(graph:nx.Graph, path: str|Path = "graph.png", *, only_connected: bool = False) -> None:
@@ -96,7 +95,7 @@ def get_prefix(row) -> str:
 
 
 def get_output_file_names(file_df:pd.DataFrame, output_dir:Path) -> tuple[Path, Path, Path]:
-    file_name = file_df["name"].values[0]
+    file_name = file_df["name"].to_numpy()[0]
 
     plot_path = output_dir / "plots" / f"{file_name}.png"
     graph_path = output_dir / "pickle" / f"{file_name}.pkl"
@@ -291,6 +290,11 @@ class ControlFlowGraph:
                     raise
                 self.G.add_edge(node, child_node.name)
 
+                if child_node.subroutine and child_node.name.startswith("S"):
+                    # we want to analyze all line jumps, so the mandatory jump back at the end of a subroutine is added here
+                    self.G.add_edge(child_node.name, node)
+
+
         return None
 
 
@@ -479,20 +483,25 @@ if __name__ == "__main__":
             file_df = file_df.drop_duplicates() # why are there duplicates?
             plot_path, graph_path, metric_path = get_output_file_names(file_df, output_dir)
             print(plot_path.stem)
+            # if plot_path.stem == "zeichen-gen-16k":
+            #     continue
 
 
             graph = cfg.create_graph(file_df)
+            cfg.save_graph(graph_path)
+
             if CREATE_NEW_PLOTS:
                 write_graph(graph, plot_path)
                 cfg.save_graph(graph_path)
                 # show_graph(graph)
+            
 
             game_graphs.append(graph)
             line_count += len(cfg.file_lines)
-
 
         metrics.calculate(game_graphs, line_count, game_df)
         # metrics.print_metrics()
 
 
     metrics.save_df(metric_path)
+    print(metric_path)
