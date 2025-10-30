@@ -9,8 +9,6 @@ from rich import traceback
 from preprocessing.tagset import TAGSET2
 
 
-
-
 traceback.install()
 
 

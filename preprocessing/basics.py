@@ -6,8 +6,6 @@ import pandas as pd
 from preprocessing.petscii import ASCII_CODES
 
 
-
-
 class BASICToken:
     """A class that represents one token in the Commodore BASIC programming language."""
 
@@ -17,7 +15,7 @@ class BASICToken:
 
         self._byte = kwargs.get("byte", bytearray([value]))
         self.byte_repr: str = kwargs.get("byteRepr", f"0x{value:02x}")
-        self.syntax: str|None = kwargs.get("syntax")
+        self.syntax: str | None = kwargs.get("syntax")
         self.token: str = kwargs.get("token", "")
         self.language: str = kwargs.get("language", "BASIC")
 
@@ -27,7 +25,9 @@ class BASICToken:
         return bytes(self._byte)
 
     def __str__(self) -> str:
-        return f"{self.__class__.__qualname__}({self.value}, {self.byte}, {self.byte_repr}, {self.token}, {self.syntax})"
+        return (
+            f"{self.__class__.__qualname__}({self.value}, {self.byte}, {self.byte_repr}, {self.token}, {self.syntax})"
+        )
 
     def __repr__(self) -> str:
         return f"{self.__class__.__qualname__}(value={self.value!r}, byte={self.byte!r}, byteRepr={self.byte_repr!r}, token={self.token!r}, syntax={self.syntax!r})"
@@ -87,12 +87,11 @@ class BASICToken:
     def is_sigil(self) -> bool:
         """Check if token is an BASIC sigil."""
         return self.value in ASCII_CODES["sigil"]
-    
+
     def is_alpha(self) -> bool:
         if not self.token:
             return False
         return self.token[0].lower() in "abcdefghijklmnopqrstuvwxyz"
-        
 
 
 class BASICFile:
@@ -119,7 +118,7 @@ class BASICFile:
         self.file.append((lineno, tokens))
         return None
 
-    def save_file(self, path: str|Path) -> None:
+    def save_file(self, path: str | Path) -> None:
         """Save the BASIC file as an text file."""
         data = []
         for lineno, tokens in self.file:
@@ -131,7 +130,7 @@ class BASICFile:
             file.write("\n".join(data))
         return None
 
-    def save_table(self, path: str|Path) -> pd.DataFrame:
+    def save_table(self, path: str | Path) -> pd.DataFrame:
         """Save the BASIC file as an Excel file."""
 
         df = pd.DataFrame(columns=["line", "token_id", "bytes", "token", "syntax", "language"])
@@ -142,4 +141,3 @@ class BASICFile:
 
         df.to_excel(path)
         return df
-

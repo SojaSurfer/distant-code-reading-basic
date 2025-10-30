@@ -10,7 +10,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from networkx.drawing.nx_pydot import pydot_layout, to_pydot
-from rich import print, traceback
+from rich import traceback
 
 from analysis.meso.control_flow.flowchart.metrics import Metrics
 from analysis.meso.control_flow.flowchart.utils import Node, NodeList
@@ -453,7 +453,7 @@ class ControlFlowGraph:
     
 
     def save_graph(self, path:str|Path) -> None:
-        with open(path, "wb") as file:
+        with Path(path).open("wb") as file:
             pickle.dump(self.G, file)
         return None
     
@@ -477,18 +477,20 @@ if __name__ == "__main__":
         game_graphs = []
         line_count = 0
 
+        if game_df["name"].str.contains("spukhaus").any():
+            # cyclomatic complexity takes too long
+            continue
+
+
         for file in game_df["file_id"].unique():
             file_df: pd.DataFrame = game_df[game_df["file_id"] == file]
 
             file_df = file_df.drop_duplicates() # why are there duplicates?
             plot_path, graph_path, metric_path = get_output_file_names(file_df, output_dir)
             print(plot_path.stem)
-            # if plot_path.stem == "zeichen-gen-16k":
-            #     continue
 
 
             graph = cfg.create_graph(file_df)
-            cfg.save_graph(graph_path)
 
             if CREATE_NEW_PLOTS:
                 write_graph(graph, plot_path)

@@ -1,8 +1,6 @@
 from collections import OrderedDict
 
 
-
-
 TAGSET = OrderedDict({
     "system": {
         "time": {
@@ -117,7 +115,7 @@ TAGSET = OrderedDict({
         },
         "integer": {
             "tag": "NI",
-            "values": [0,1,2,3,4,5,6,7,8,9],
+            "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
         },
     },
     "punctuations": {

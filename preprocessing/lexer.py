@@ -18,7 +18,6 @@ from preprocessing.petscii import (
 from preprocessing.tagger import Tagger
 
 
-
 traceback.install()
 """ Current problems:
 - number -.1 is split into "-" and ".1"
@@ -54,9 +53,10 @@ def show_file_diffs(file1: str, file2: str) -> None:
     return None
 
 
-def create_parquet(df:pd.DataFrame) -> None:
-    
-    metadata_df = pd.read_excel("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/metadata.xlsx")
+def create_parquet(df: pd.DataFrame) -> None:
+    metadata_df = pd.read_excel(
+        "/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/metadata.xlsx"
+    )
 
     # Merge file_id and game_id from metadata_df into df based on the 'name' column
     df = df.merge(
@@ -73,19 +73,17 @@ def create_parquet(df:pd.DataFrame) -> None:
     return None
 
 
-
 class Lexer:
     """A class to decode a Commodore BASIC binary file."""
 
-    def __init__(self, tagset:dict) -> None:
+    def __init__(self, tagset: dict) -> None:
         self.tagger = Tagger(tagset)
         self.tagset = tagset
 
         self.filename = None
         self.asciiCodes = {char: key for key, value in ASCII_CODES.items() for char in value}
 
-
-    def detokenize_basic_file(self, filename: str|Path) -> BASICFile:
+    def detokenize_basic_file(self, filename: str | Path) -> BASICFile:
         """Detokenizes a BASIC file from the given filename.
 
         This method reads a tokenized BASIC file, processes each line within a specified range,
@@ -140,7 +138,7 @@ class Lexer:
             (lineno,) = struct.unpack_from("<H", data, pos)
             pos += 2
 
-            if lineno == 0 and set(data[pos:]) == {0}: # rest of file contains only zero bytes
+            if lineno == 0 and set(data[pos:]) == {0}:  # rest of file contains only zero bytes
                 return None
 
             # read text until the 0x00 terminator
@@ -223,18 +221,20 @@ class Lexer:
         self._check_line_language()
 
         return self.decoded_tokens
-    
+
     def _decode_cmd(self, btoken: BASICToken) -> None:
         self.append_btoken = True
-        
-        if (btoken.value in (0xB1, 0xB2, 0xB3) and self.last_char.value in (0xB1, 0xB2, 0xB3)
-            and btoken.value != self.last_char.value):
+
+        if (
+            btoken.value in (0xB1, 0xB2, 0xB3)
+            and self.last_char.value in (0xB1, 0xB2, 0xB3)
+            and btoken.value != self.last_char.value
+        ):
             # 2-byte relational operator like <=, >=, <>, =>, =<
             self.append_btoken = False
 
         elif btoken.value == 0x83 and not self.decoded_tokens:
             self.is_data_block = True
-
 
         self.print_cmd = btoken.value in (0x98, 0x99) if not self.print_cmd else self.print_cmd  # PRINT & PRINT#
         self.comment_cmd = btoken.value in (0x8F,)  # REM
@@ -250,7 +250,6 @@ class Lexer:
             # disambiguate equal sign
             if btoken.value == 0xB2 and self.decoded_tokens:
                 self._disambiguate_equal_sign(btoken)
-
 
         return None
 
@@ -277,7 +276,6 @@ class Lexer:
                 btoken.token = BYTE_TO_CTRL.get(btoken.byte, btoken.byte)
                 btoken.syntax = self.tagger.parse_string(btoken)
 
-
             elif 0x20 <= btoken.value <= 0x7F:
                 # btoken.value is an ASCII printable character
                 self._decode_ascii(btoken)
@@ -300,7 +298,6 @@ class Lexer:
 
             btoken.syntax = self.tagset["strings"]["string"]["tag"]
         return None
-
 
     def _decode_comment_statement(self, btoken: BASICToken) -> None:
         btoken.syntax = self.tagset["strings"]["comment"]["tag"]
@@ -363,10 +360,10 @@ class Lexer:
         if self.last_char is None:
             return False
         elif (
-            (btoken.is_letter() and self.last_char.is_letter())               # v, a -> va  (variable)
-            or (btoken.is_digit() and self.last_char.is_digit())              # 1, 2 -> 12  (number)
-            or (btoken.is_digit() and self.last_char.is_letter())             # v, 1 -> v2  (variable)
-            or self.string_decl                                               # "hell, o -> "hello (string literal)
+            (btoken.is_letter() and self.last_char.is_letter())  # v, a -> va  (variable)
+            or (btoken.is_digit() and self.last_char.is_digit())  # 1, 2 -> 12  (number)
+            or (btoken.is_digit() and self.last_char.is_letter())  # v, 1 -> v2  (variable)
+            or self.string_decl  # "hell, o -> "hello (string literal)
             or (btoken.is_sigil() and self.last_char.syntax.startswith("V"))  # v, $ -> v$  (variable)
         ):
             return True
@@ -378,8 +375,12 @@ class Lexer:
 
     def _check_line_language(self) -> None:
         tokenized_line = [b.token for b in self.decoded_tokens]
-        if tokenized_line and tokenized_line[0].lower() == "data" and all(
-            (char in ASSEMBLY_CHARS for token in tokenized_line[1:] for char in token),
+        if (
+            tokenized_line
+            and tokenized_line[0].lower() == "data"
+            and all(
+                (char in ASSEMBLY_CHARS for token in tokenized_line[1:] for char in token),
+            )
         ):
             for b in self.decoded_tokens:
                 b.language = "ASSEMBLY"
@@ -387,7 +388,6 @@ class Lexer:
         return None
 
     def _disambiguate_unary_signs(self) -> None:
-
         last = self.last_char
         tokens = self.decoded_tokens
 
@@ -409,23 +409,21 @@ class Lexer:
 
         return None
 
-    def _disambiguate_dot(self, btoken:BASICToken) -> None:
+    def _disambiguate_dot(self, btoken: BASICToken) -> None:
         """Add the current token to the previous token if the current token is a dot and
         the previous token was a digit or the current token is a digit and the previous token was a dot.
         """
 
-        if (self.last_char is not None
-            and ((btoken.token == "." and self.last_char.is_digit()) 
-              or self.last_char.token[-1] == ".")):
-
-                btoken.syntax = self.tagset["numbers"]["real"]["tag"]
-                self.decoded_tokens[-1].syntax = btoken.syntax
-                self.append_btoken = False   
+        if self.last_char is not None and (
+            (btoken.token == "." and self.last_char.is_digit()) or self.last_char.token[-1] == "."
+        ):
+            btoken.syntax = self.tagset["numbers"]["real"]["tag"]
+            self.decoded_tokens[-1].syntax = btoken.syntax
+            self.append_btoken = False
 
         return None
 
-
-    def _disambiguate_equal_sign(self, btoken:BASICToken) -> None:
+    def _disambiguate_equal_sign(self, btoken: BASICToken) -> None:
         btoken.syntax = self.tagset["operators"]["assignment"]["tag"]
 
         for prior_token in self.decoded_tokens[::-1]:
@@ -437,11 +435,9 @@ class Lexer:
                 # end of command span, since "IF" was not found it is an assignment
                 break
 
-
     def _check_for_system_var(self) -> None:
         last_token = self.decoded_tokens[-1]
         if last_token.syntax and last_token.syntax.startswith("V"):
-
             if last_token.token.lower() in ("ti$", "time$"):
                 self.decoded_tokens[-1].syntax = self.tagset["system"]["time"]["tag"]
 
@@ -452,18 +448,17 @@ class Lexer:
             self.decoded_tokens[-2].syntax = self.tagset["system"]["time"]["tag"]
 
         return None
-    
-
 
 
 if __name__ == "__main__":
-    corpus_path = Path("/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus")
+    corpus_path = Path(
+        "/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus"
+    )
     source_path = corpus_path / "encoded"
     petcat_path = corpus_path / "decoded" / "petcat"
     dest_path = corpus_path / "decoded" / "tokenizer"
     table_path = corpus_path / "dataset"
 
-    
     df = pd.DataFrame()
 
     detokenizer = Lexer(TAGSET)
@@ -472,7 +467,7 @@ if __name__ == "__main__":
         for source_file in (source_path / disk).iterdir():
             if source_file.name in (".DS_Store", "inv-mc", "spukhaus2"):
                 continue
-            
+
             # if source_file.name not in ("computer blues"):
             #     continue
             print(source_file.name)
@@ -484,7 +479,6 @@ if __name__ == "__main__":
             dest_file.parent.mkdir(exist_ok=True)
             table_file.parent.mkdir(exist_ok=True)
 
-            
             bfile = detokenizer.detokenize_basic_file(source_file)
 
             # bfile.save_file(dest_file)
@@ -492,7 +486,7 @@ if __name__ == "__main__":
 
             table.insert(0, "name", source_file.name)
             df = table if df.empty else pd.concat((df, table), axis=0)
-            #break
+            # break
 
     print(df)
     create_parquet(df)

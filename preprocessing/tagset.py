@@ -1,12 +1,11 @@
 from collections import OrderedDict
 
 
-
 TAGSET = OrderedDict({
     "commands": {
         "arithmetic": {
             "tag": "CA",
-            "values": ["ABS", "INT", "LOG", "RND", "SGN", "SQR", "VAL", "SIN", "COS", "TAN", "ATN", "EXP"],
+            "values": ["ABS", "ATN", "COS", "EXP", "INT", "LOG", "RND", "SGN", "SIN", "SQR", "TAN", "VAL"],
         },
         "string": {
             "tag": "CS",
@@ -14,7 +13,7 @@ TAGSET = OrderedDict({
         },
         "IO": {
             "tag": "CI",
-            "values": ["CLOSE", "CMD", "GET", "INPUT", "INPUT#", "OPEN", "PRINT", "PRINT#", "?", "SPC(", "TAB("],
+            "values": ["?", "CLOSE", "CMD", "GET", "INPUT", "INPUT#", "OPEN", "PRINT", "PRINT#", "SPC(", "TAB("],
         },
         "variables": {
             "tag": "CV",
@@ -26,7 +25,7 @@ TAGSET = OrderedDict({
         },
         "control": {
             "tag": "CC",
-            "values": ["RUN", "STOP", "END"],
+            "values": ["END", "RUN", "STOP"],
         },
         "program": {
             "tag": "CP",
@@ -48,15 +47,15 @@ TAGSET = OrderedDict({
     "operators": {
         "arithmetic": {
             "tag": "OA",
-            "values": ["+", "-", "*", "/", "^"],
+            "values": ["*", "+", "-", "/", "^"],
         },
         "relational": {
             "tag": "OR",
-            "values": ["<", ">", "<=", ">=", "=<", "=>", "<>", "="],
+            "values": ["<", "<=", "<>", "=", "=<", "=>", ">", ">="],
         },
         "logical": {
             "tag": "OL",
-            "values": ["AND", "OR", "NOT"],
+            "values": ["AND", "NOT", "OR"],
         },
         "assignment": {
             "tag": "OS",
@@ -116,7 +115,7 @@ TAGSET = OrderedDict({
         },
         "integer": {
             "tag": "NI",
-            "values": [0,1,2,3,4,5,6,7,8,9],
+            "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
         },
     },
     "strings": {
@@ -152,7 +151,7 @@ TAGSET = OrderedDict({
         },
         "other": {
             "tag": "PO",
-            "values": ["-", "@", "<", "#", "~", "*", "|"],  # also type chars if not used as sigils
+            "values": ["#", "*", "-", "<", "@", "|", "~"],  # also type chars if not used as sigils
         },
     },
     "data": {

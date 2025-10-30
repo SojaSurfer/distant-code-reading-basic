@@ -8,27 +8,29 @@ import pandas as pd
 from networkx.drawing.nx_pydot import pydot_layout
 
 
-
 COLOR_MAP = {"M": "tab:green", "S": "tab:blue", "T": "tab:gray", "D": "tab:orange", "E": "tab:purple", "L": "tab:red"}
 PYDOT_COLOR_MAP = {
     "M": "#2ca02c",  # tab:green
-    "S": "#1f77b4",  # tab:blue  
+    "S": "#1f77b4",  # tab:blue
     "T": "#7f7f7f",  # tab:gray
     "D": "#ff7f0e",  # tab:orange
     "E": "#9467bd",  # tab:purple
-    "L": "#d62728"   # tab:red
+    "L": "#d62728",  # tab:red
 }
 
 
-matplotlib.use('TkAgg')  # or 'Qt5Agg' 
+matplotlib.use("TkAgg")  # or 'Qt5Agg'
 plt.ion()
 
-def show_graph(graph:nx.Graph, *, only_connected: bool = False) -> None:
 
+def show_graph(graph: nx.Graph, *, only_connected: bool = False) -> None:
     if only_connected:
         graph = graph.edge_subgraph(graph.edges)
 
-    node_colors = [PYDOT_COLOR_MAP.get(node[0], "white") if isinstance(node, str) else PYDOT_COLOR_MAP.get(node.prefix, "white") for node in graph.nodes()]
+    node_colors = [
+        PYDOT_COLOR_MAP.get(node[0], "white") if isinstance(node, str) else PYDOT_COLOR_MAP.get(node.prefix, "white")
+        for node in graph.nodes()
+    ]
 
     # Create hierarchical layout using pydot
     pos = pydot_layout(graph, prog="dot")
@@ -41,17 +43,14 @@ def show_graph(graph:nx.Graph, *, only_connected: bool = False) -> None:
 
 
 class Metrics:
-
     def __init__(self) -> None:
         self.G: nx.DiGraph = None
         self.metrics: dict[str, Any] = {}
         self.df = pd.DataFrame()
         self.prefixes = ("M", "S", "T", "D", "E", "L")
         return None
-    
-    
-    def calculate(self, graphs:list[nx.DiGraph], line_count:int, game_df:pd.DataFrame) -> dict[str, Any]:
-        
+
+    def calculate(self, graphs: list[nx.DiGraph], line_count: int, game_df: pd.DataFrame) -> None:
         self.G = self._merge_graphs(graphs)
 
         m = self.metrics = game_df[["game_id", "name"]].iloc[0].to_dict()
@@ -65,10 +64,9 @@ class Metrics:
             m[f"nodes_{prefix}_rel"] = m[f"nodes_{prefix}"] / m["nodes"]
 
         m["node_coverage"] = m["nodes"] / line_count
-            
+
         m["node_connectivity"] = nx.node_connectivity(self.G)
         m["edge_connectivity"] = nx.edge_connectivity(self.G)
-
 
         m["transitivity"] = nx.transitivity(self.G)
         m["density"] = nx.density(self.G)
@@ -83,13 +81,10 @@ class Metrics:
         m["weakly_components"] = p  # weakly connected components
 
         # NP-hard problem, take too long
-        # cycles = list(nx.simple_cycles(self.G))
-        # lengths = [len(cycle) for cycle in cycles]
-        # m["longest_cycle"] = max(lengths)
-        # m["shortest_cycle"] = min(lengths)
-        
-        m["longest_cycle"] = None
-        m["shortest_cycle"] = None
+        cycles = list(nx.simple_cycles(self.G))
+        lengths = [len(cycle) for cycle in cycles]
+        m["longest_cycle"] = max(lengths) if lengths else pd.NA
+        m["shortest_cycle"] = min(lengths) if lengths else pd.NA
 
         self._calculate_centrality(nx.degree_centrality)
         self._calculate_centrality(nx.in_degree_centrality)
@@ -104,16 +99,15 @@ class Metrics:
         # self._calculate_centrality(nx.clustering)
 
         self._update_df()
-        return m
-    
+        return None
 
-    def _calculate_centrality(self, centrality_func:Callable[[nx.DiGraph], dict[str, float]], **kwargs) -> None:
+    def _calculate_centrality(self, centrality_func: Callable[[nx.DiGraph], dict[str, float]], **kwargs) -> None:
         func_name = centrality_func.__name__
 
         try:
             centrality = centrality_func(self.G, **kwargs)
             max_key = max(centrality, key=centrality.get)
-            
+
             self.metrics[f"{func_name}_max_node"] = max_key
             self.metrics[f"{func_name}_max_value"] = centrality[max_key]
             self.metrics[f"{func_name}_avg_value"] = sum(centrality.values()) / len(centrality)
@@ -121,20 +115,19 @@ class Metrics:
             self.metrics[f"{func_name}_max_node"] = None
             self.metrics[f"{func_name}_max_value"] = None
             self.metrics[f"{func_name}_avg_value"] = None
-        
+
         return None
-    
+
     def _update_df(self) -> None:
         metrics_row = pd.DataFrame([self.metrics])  # Note the list wrapper
-        
+
         if self.df.empty:
             self.df = metrics_row
         else:
             self.df = pd.concat([self.df, metrics_row], ignore_index=True)
         return None
-    
 
-    def print_metrics(self, method:Literal["max", "average"] = "max") -> None:
+    def print_metrics(self, method: Literal["max", "average"] = "max") -> None:
         for metric_name, value in self.metrics.items():
             if isinstance(value, dict):
                 if method == "max":
@@ -149,29 +142,26 @@ class Metrics:
                 # For non-dict values, just print as-is
                 print(f"{metric_name}: {value}")
         return None
-    
 
-    def save_df(self, path:Path) -> None:
+    def save_df(self, path: Path) -> None:
         self.df.to_excel(path, index=False)
         return None
-    
 
-    def _merge_graphs(self, graphs:list[nx.DiGraph]) -> nx.DiGraph:
+    def _merge_graphs(self, graphs: list[nx.DiGraph]) -> nx.DiGraph:
         # in all games, the smaller graph loads the larger graph. Some games to not load their content "l0" instead of "load"
-        
-        def rename(g:nx.DiGraph, i:int) -> nx.DiGraph:
-            mapping =  {name: f"{name}_sub{i}" for name in g.nodes()}
+
+        def rename(g: nx.DiGraph, i: int) -> nx.DiGraph:
+            mapping = {name: f"{name}_sub{i}" for name in g.nodes()}
             return nx.relabel_nodes(g, mapping)
-        
+
         def get_entry_node(g: nx.DiGraph) -> str:
             """Get the first entry node (E_) from a graph."""
             entry_nodes = [n for n in g.nodes() if n.startswith("E")]
             return entry_nodes[0] if entry_nodes else list(g.nodes())[0]
 
-
         if len(graphs) == 1:
             return graphs[0]
-        
+
         # add the smaller CFG into the biggest file, can be 0,1 or 2
         graph, *other_graphs = sorted(graphs, key=lambda g: g.number_of_nodes())
 
@@ -180,7 +170,7 @@ class Metrics:
         if load_nodes:
             if len(load_nodes) >= len(other_graphs):
                 # the smaller graph loads all other files/graphs
-                for i, (l_node, subgraph) in enumerate(zip(load_nodes, other_graphs)):
+                for i, (l_node, subgraph) in enumerate(zip(load_nodes, other_graphs, strict=False)):
                     subgraph = rename(subgraph, i)
                     graph = nx.compose(graph, subgraph)
                     graph.add_edge(l_node, get_entry_node(subgraph))
@@ -202,7 +192,6 @@ class Metrics:
                         subgraph.add_edge(load_nodes_[0], get_entry_node(subgraph1))
                         entry_node = get_entry_node(subgraph2)
 
-
                 # now merge the main graph with the merged subgraph
                 graph = nx.compose(graph, subgraph)
                 graph.add_edge(load_nodes[0], entry_node)
@@ -213,6 +202,4 @@ class Metrics:
                 subgraph = rename(subgraph, i)
                 graph = nx.compose(graph, subgraph)
 
-
         return graph
-
