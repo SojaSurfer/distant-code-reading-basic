@@ -8,6 +8,7 @@ import pandas as pd
 from networkx.drawing.nx_pydot import pydot_layout
 
 
+
 COLOR_MAP = {"M": "tab:green", "S": "tab:blue", "T": "tab:gray", "D": "tab:orange", "E": "tab:purple", "L": "tab:red"}
 PYDOT_COLOR_MAP = {
     "M": "#2ca02c",  # tab:green
@@ -43,6 +44,7 @@ def show_graph(graph: nx.Graph, *, only_connected: bool = False) -> None:
 
 
 class Metrics:
+
     def __init__(self) -> None:
         self.G: nx.DiGraph = None
         self.metrics: dict[str, Any] = {}

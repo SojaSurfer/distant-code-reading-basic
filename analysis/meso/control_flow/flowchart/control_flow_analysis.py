@@ -10,14 +10,11 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from networkx.drawing.nx_pydot import pydot_layout, to_pydot
-from rich import traceback
 
 from analysis.meso.control_flow.flowchart.metrics import Metrics
 from analysis.meso.control_flow.flowchart.utils import Node, NodeList
 
 
-
-traceback.install()
 
 control_flow_cmds = ["RUN", "STOP", "END", "GOSUB", "GOTO", "THEN", "RETURN"]
 terminal_cf = ["STOP", "END", "RETURN"]
@@ -73,6 +70,7 @@ def show_graph(graph:nx.Graph, *, only_connected: bool = False) -> None:
 
     # Create hierarchical layout using pydot
     pos = pydot_layout(graph, prog="dot")
+
 
     nx.draw_networkx(graph, pos, with_labels=True, node_size=1000, node_color=node_colors)
     plt.tight_layout()
@@ -292,8 +290,8 @@ class ControlFlowGraph:
 
                 if child_node.subroutine and child_node.name.startswith("S"):
                     # we want to analyze all line jumps, so the mandatory jump back at the end of a subroutine is added here
-                    self.G.add_edge(child_node.name, node)
-
+                    # self.G.add_edge(child_node.name, node)
+                    pass
 
         return None
 
@@ -430,12 +428,12 @@ class ControlFlowGraph:
             if next_token.isdigit():
                 line_jumps.append(int(next_token))
             elif next_token != ",":
+                # 310 FOR t = 2 TO x : ON t GOSUB , 3020 , 3040 , 3070 , 3090 : NEXT
                 break
 
             idx += 1
             next_token = self._peek_next_line_token(idx, row)
 
-        #   310 FOR t = 2 TO x : ON t GOSUB , 3020 , 3040 , 3070 , 3090 , 3110 , 3150 , 3190 , 3220 : NEXT
         return line_jumps
     
 
@@ -465,8 +463,10 @@ if __name__ == "__main__":
     path = "/Users/julian/Documents/3 - Bildung/31 - Studium/314 Universität Stuttgart/314.2 Semester 2/Projektarbeit/corpus/dataset/tokenized_dataset.parquet"
     output_dir = Path("analysis/meso/control_flow/flowchart")
     
-    df = pd.read_parquet(path)
     CREATE_NEW_PLOTS = False
+    CALCULATE_METRICS = True
+
+    df = pd.read_parquet(path)
 
     cfg = ControlFlowGraph()
     metrics = Metrics()
@@ -477,9 +477,9 @@ if __name__ == "__main__":
         game_graphs = []
         line_count = 0
 
-        if game_df["name"].str.contains("spukhaus").any():
-            # cyclomatic complexity takes too long
-            continue
+        # if game_df["name"].str.contains("spukhaus").any():
+        #     # cyclomatic complexity takes too long
+        #     continue
 
 
         for file in game_df["file_id"].unique():
@@ -495,15 +495,16 @@ if __name__ == "__main__":
             if CREATE_NEW_PLOTS:
                 write_graph(graph, plot_path)
                 cfg.save_graph(graph_path)
-                # show_graph(graph)
-            
+                        
 
             game_graphs.append(graph)
             line_count += len(cfg.file_lines)
 
-        metrics.calculate(game_graphs, line_count, game_df)
-        # metrics.print_metrics()
+        if CALCULATE_METRICS:
+            metrics.calculate(game_graphs, line_count, game_df)
+            # metrics.print_metrics()
 
 
-    metrics.save_df(metric_path)
-    print(metric_path)
+    if CALCULATE_METRICS:
+        metrics.save_df(metric_path)
+        print(metric_path)
