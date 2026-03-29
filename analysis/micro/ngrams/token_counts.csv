@@ -1,0 +1,4998 @@
+token,count
+",",19686
+:,8673
+=,6991
+0,3811
+1,3373
+),3272
+POKE,3238
+(,3092
+PRINT,2748
++,2631
+{CTRL-U},2097
+IF,2079
+THEN,1933
+-,1421
+DATA,1340
+000,1132
+TO,1121
+FOR,1121
+GOTO,1098
+NEXT,1057
+2,1000
+i,996
+3,878
+255,840
+*,817
+GOSUB,794
+t,741
+a$,734
+;,688
+p,649
+?,631
+PEEK,607
+x,600
+a,554
+4,554
+22,552
+RETURN,493
+126,459
+b,457
+8,420
+y,409
+5,408
+32,404
+7,399
+l,383
+REM,380
+m,376
+c,360
+AND,355
+15,354
+s,350
+6,307
+>,303
+128,288
+h,284
+10,282
+OR,280
+{CTRL-P},271
+j,270
+f,264
+16,259
+r,258
+<,256
+24,252
+<>,250
+q,249
+INT,247
+240,246
+RND,242
+v,239
+d,229
+129,221
+20,217
+60,215
+127,213
+21,202
+k,196
+STEP,191
+sc,179
+9,177
+o,177
+CHR$,175
+12,174
+254,162
+GET,162
+28,161
+e,160
+36878,158
+198,157
+z,155
+098,152
+u,150
+vn$,149
+{run_stop},149
+n,149
+g,148
+024,148
+36879,147
+36,143
+192,143
+w,141
+34,140
+032,140
+200,139
+READ,137
+066,136
+56,135
+100,135
+TAB(,134
+004,128
+170,127
+64,127
+224,126
+008,124
+13,124
+225,124
+40,124
+66,124
+14,123
+36876,121
+50,120
+"""{clr}""",119
+195,117
+31,117
+b1,114
+19,109
+96,109
+252,107
+064,104
+"""""",104
+p1,103
+63,102
+{down},102
+1000,101
+36869,101
+z$,100
+/,100
+130,99
+48,99
+18,93
+120,92
+2000,89
+11,88
+LEFT$,87
+pc,85
+160,84
+124,84
+{CTRL-G},84
+248,84
+23,82
+7680,82
+36877,81
+r1,81
+80,81
+q$,81
+169,80
+17,79
+44,78
+231,78
+52,78
+012,76
+096,76
+002,76
+30,76
+500,76
+b$,75
+68,75
+186,75
+MID$,74
+xx,72
+145,72
+250,72
+144,72
+219,72
+ze,70
+42,69
+90,68
+ll,68
+62,67
+36874,67
+36875,67
+300,66
+85,65
+yy,65
+060,64
+201,64
+ti$,64
+112,63
+ON,63
+{swlc},61
+220,60
+215,60
+25,60
+le,59
+""" """,59
+p2,59
+f%,59
+175,58
+{CTRL-K},57
+062,56
+001,56
+102,56
+150,55
+WAIT,55
+t1,55
+230,55
+98,55
+{CTRL-O},55
+38,54
+SYS,53
+x1,53
+SPC(,53
+133,53
+INPUT,52
+k1,51
+"""{home}""",51
+b2,51
+a%,50
+END,50
+165,50
+140,50
+>=,50
+h1,49
+056,48
+82,48
+191,48
+29,48
+036,48
+""",""",48
+7702,47
+110,47
+s1,47
+122,47
+5000,46
+g$,46
+131,46
+189,46
+51,45
+106,45
+{CTRL-A},44
+251,44
+"""n""",44
+re,44
+99,43
+.,43
+227,43
+631,43
+135,43
+f1,42
+zn,42
+207,42
+238,42
+a1,42
+173,41
+7168,41
+234,41
+37,41
+pu,41
+tt,41
+048,40
+k2,40
+dz,39
+141,39
+4000,39
+sh,39
+c%,39
+157,38
+35,38
+55,37
+228,37
+p$,37
+.5,37
+l$,36
+c1,36
+lx,36
+VAL,36
+bs,36
+006,36
+pz,35
+46,35
+zs,35
+400,35
+72,35
+x2,35
+70,35
+f$,35
+156,35
+33,35
+c$,34
+ab,34
+RUN,34
+38400,34
+"""j""",34
+$,33
+pp,33
+247,33
+r2,33
+NEW,33
+f2,33
+n1,33
+pe,33
+3000,32
+74,32
+d$,32
+016,32
+180,32
+tc,32
+233,31
+30720,31
+146,31
+q1,31
+84,30
+dd,30
+dc,30
+j1,30
+81,30
+41,30
+76,30
+208,30
+ii,29
+PRINT#,29
+LEN,29
+223,29
+26,28
+197,28
+CLR,28
+108,28
+153,28
+176,28
+{rvs_on},28
+61,28
+174,28
+bc,28
+78,27
+pk,27
+fa,27
+199,27
+s2,27
+6000,27
+pl,27
+136,27
+222,27
+sl,27
+sd,27
+38422,27
+57,26
+4560,26
+aa,26
+b3,26
+600,26
+j3,26
+183,26
+37151,26
+c2,26
+114,26
+lg,26
+132,26
+RIGHT$,26
+232,25
+49000,25
+zz,25
+ci,25
+203,25
+245,25
+418,25
+36865,25
+j2,25
+vp,25
+{$0a},25
+s4,25
+171,24
+43,24
+646,24
+45,24
+STR$,24
+007,24
+DIM,24
+39,24
+oi,24
+10000,24
+RESTORE,24
+<=,24
+e$,24
+162,24
+{return},24
+015,24
+88,24
+^,24
+050,24
+158,23
+119,23
+ma,23
+bi,23
+253,23
+256,23
+kl,23
+226,23
+co,23
+148,22
+54,22
+sm,22
+pm,22
+a2,22
+hi,22
+209,22
+49,22
+cy,22
+800,22
+s3,22
+=>,22
+7000,21
+194,21
+ASC,21
+{ensh},21
+hs,21
+27,21
+mn,21
+j$,21
+cx,21
+eh,21
+190,21
+143,21
+58,21
+np,21
+py,20
+137,20
+nm,20
+n2,20
+tl,20
+bb,20
+210,20
+632,20
+FN,20
+104,20
+138,20
+"""000000""",20
+20000,20
+ox,20
+121,20
+242,20
+73,20
+y1,20
+47,20
+fw,19
+"""{down}""",19
+ff,19
+4096,19
+53,19
+jo,19
+x3,19
+d1,19
+m2,19
+1100,19
+{home},19
+59,19
+650,19
+37154,19
+qq,19
+dm,19
+e2,19
+86,18
+950,18
+107,18
+214,18
+900,18
+118,18
+am,18
+li,18
+164,18
+"""{down}{down}load""",18
+"""{up}""",18
+OPEN,18
+235,18
+CLOSE,18
+241,18
+op,18
+cb,18
+236,17
+a3,17
+i1,17
+94,17
+206,17
+193,17
+"""sieh""",17
+i$,17
+4500,17
+n$,17
+eor,16
+152,16
+8000,16
+168,16
+lda,16
+and,16
+ora,16
+149,16
+adc,16
+pe%,16
+j0,16
+zt,16
+177,16
+65,16
+310,16
+sbc,16
+cmp,16
+gg,16
+057,16
+239,16
+dw,16
+hh,16
+8185,16
+4370,16
+009,16
+ABS,16
+068,16
+070,16
+st,16
+bw,16
+516,16
+m1,16
+"""w""",16
+003,16
+030,16
+tr,16
+tre,16
+090,16
+d3,16
+042,16
+028,16
+k$,15
+l2,15
+116,15
+205,15
+184,15
+93,15
+{dish},15
+{CTRL-F},15
+161,15
+ai,15
+32768,15
+237,14
+188,14
+sta,14
+zi,14
+t2,14
+212,14
+n%,14
+zu,14
+c5,14
+"""s""",14
+pg,14
+sw,14
+im,14
+w1,14
+330,14
+bl,14
+b4,14
+430,14
+uy,13
+fu,13
+280,13
+{CTRL-L},13
+bp,13
+d2,13
+79,13
+ad,13
+bu,13
+x$,13
+115,13
+142,13
+202,13
+p3,12
+ ,12
+052,12
+gb,12
+40700,12
+j4,12
+gr,12
+d6,12
+ec,12
+me,12
+x4,12
+cm,12
+cp,12
+078,12
+6300,12
+229,12
+ic,12
+=<,12
+"""{up}{up}""",12
+ta,12
+249,12
+rt,12
+159,12
+103,12
+117,12
+"""{clr}{down}{down}load""",12
+de,12
+"""1""",12
+inc,12
+.2,12
+af,12
+hg,12
+37152,12
+ii%,12
+97,12
+1200,12
+151,12
+4100,12
+204,12
+420,12
+69,12
+s%,12
+c4,12
+87,11
+111,11
+o$,11
+673,11
+172,11
+77,11
+125,11
+320,11
+d4,11
+21100,11
+"""geh tuer""",11
+"""+""",11
+rp,11
+e3,11
+****************,11
+5120,11
+"""{right}""",11
+nl$,11
+14000,11
+ti,11
+l1,11
+196,10
+37137,10
+828,10
+m$,10
+lsr,10
+ror,10
+x0,10
+550,10
+{white},10
+asl,10
+w3,10
+ld,10
+ty,10
+91,10
+em,10
+2020,10
+h$,10
+40200,10
+"""",10
+187,10
+ldx,10
+mf,10
+ldy,10
+506,10
+za,10
+123,10
+163,10
+7944,10
+185,10
+.1,10
+t$,10
+75,10
+"""a                    a""",10
+147,10
+315,10
+ba,10
+ps,10
+"""i@@@@@@@@@@@@@@@@@@@@i""",10
+""".""",10
+pt,10
+rol,10
+511,9
+"""{rvs_on}""",9
+ss,9
+ww,9
+hc,9
+930,9
+pf,9
+ap,9
+154,9
+ge,9
+"""o""",9
+92,9
+41000,9
+"""{left}""",9
+30000,9
+633,9
+"""d""",9
+680,9
+pn$,9
+zy,9
+3020,9
+gk,9
+h2,9
+510,9
+308,9
+213,9
+1500,8
+tw,8
+880,8
+"""{rvs_off}""",8
+1350,8
+ol,8
+di,8
+vs,8
+br,8
+8164,8
+243,8
+gz,8
+072,8
+c1%,8
+ml,8
+dr,8
+36866,8
+vv,8
+mr,8
+3220,8
+95,8
+139,8
+f2$,8
+we,8
+999,8
+dec,8
+pe$,8
+3890,8
+4580,8
+"""Q""",8
+{del},8
+i2,8
+031,8
+063,8
+na$,8
+gv,8
+hj,8
+074,8
+034,8
+071,8
+067,8
+065,8
+079,8
+ce,8
+101,8
+520,8
+041,8
+ak,8
+q%,8
+"""k""",8
+mz,8
+"""{down}{down}{down}""",8
+gz%,8
+221,8
+014,8
+wm,8
+105,8
+073,8
+"""{black}""",8
+15000,8
+45000,8
+x%,8
+y%,8
+ay,8
+850,8
+670,8
+910,8
+7724,8
+37888,8
+970,8
+bf,8
+67,8
+"""l""",8
+"""{down}{down}""",8
+700,8
+g0,8
+f1$,8
+216,8
+gt,8
+1070,7
+"""{home}{down}{down}{down}{down}""",7
+2047,7
+oz,7
+"""{f1}""",7
+16000,7
+790,7
+1090,7
+560,7
+370,7
+bz,7
+gf,7
+vb,7
+13000,7
+LOAD,7
+yr,7
+un%,7
+bb%,7
+aa%,7
+ge%,7
+5500,7
+s$,7
+246,7
+181,7
+"""{clr}{white}""",7
+8028,7
+350,7
+hb,7
+ph,7
+da,7
+su,7
+7701,7
+36864,7
+"""{green}""",7
+q2,7
+4070,7
+xyz,7
+ha,7
+657,7
+e1,7
+rr,7
+SGN,7
+113,7
+"""00""",7
+.8,7
+.9,7
+INPUT#,7
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",7
+vf,7
+634,7
+4010,7
+"""oeffne tuer""",7
+40500,7
+ts,7
+50000,7
+d5,7
+ks,7
+440,7
+40000,7
+du,7
+f3,7
+et,6
+mi,6
+g1,6
+8016,6
+ ***************,6
+lc,6
+sr,6
+2100,6
+ac,6
+fr$,6
+"""  *               *""",6
+ag,6
+c3,6
+ga,6
+sty,6
+stx,6
+260,6
+jk,6
+20400,6
+00,6
+px,6
+sq,6
+ax,6
+aq,6
+i%,6
+570,6
+"""{up}{green}""",6
+rz,6
+25000,6
+sa$,6
+1130,6
+ls,6
+za%,6
+2300,6
+12000,6
+tz,6
+cz,6
+mu,6
+36881,6
+dl,6
+.02,6
+1470,6
+36867,6
+cpx,6
+pw,6
+cd,6
+{CTRL-B},6
+"""{f7}""",6
+360,6
+nk,6
+d7,6
+l%,6
+rm,6
+33792,6
+pv,6
+tm,6
+ms,6
+580,6
+7822,6
+6100,6
+lt,6
+wz,6
+we$,6
+mk,6
+cpy,6
+v5,6
+y$,5
+.05,5
+4556,5
+"""{white}""",5
+r$,5
+fe,5
+ok,5
+m4,5
+178,5
+3670,5
+"""{left} """,5
+ke,5
+sz,5
+4440,5
+1246,5
+83,5
+21200,5
+"""p""",5
+89,5
+xu,5
+"""m""",5
+db,5
+uv,5
+2200,5
+dy,5
+1520,5
+"""{purple} {down}{left}{CBM-G}{down}{left} """,5
+"""c{right}{right}{right}k""",5
+1400,5
+990,5
+td,5
+"""0""",5
+"""{purple} {down}{left}{CBM-M}{down}{left} """,5
+"""{home}{down}{down}""",5
+fx,5
+610,5
+dt,5
+906,5
+t%,5
+8142,5
+gp,5
+dx,5
+1640,5
+8089,5
+1690,5
+i5,5
+pi,5
+ts%,5
+fr,5
+"""                     """,5
+a1$,5
+se,5
+kk,5
+"""b""",5
+1030,5
+"""a""",5
+730,5
+"""{rvs_on}{down}{left}{left}ltd.{white}""",5
+"""{down}{down}{right}{right}{right}{right}{blue}e{right}{rvs_on}by{rvs_off}{right}mno{rvs_on}-soft""",5
+ei%,5
+ro%,5
+3100,5
+1050,5
+"""{home}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{yellow}fgh{down}{left}{left}{left}ijk""",5
+462,5
+499,5
+484,5
+4090,5
+540,5
+vm,5
+sg,5
+sp,5
+pm%,5
+lz,5
+2800,5
+q3,5
+7878,5
+v8,5
+wg,5
+dq,5
+sw%,5
+ko,5
+3040,5
+7729,5
+166,5
+134,5
+mm,5
+"""c""",5
+620,5
+"""{right}l""",5
+65017,5
+"""{right}{right}{down}{rvs_on}{white}taste""",5
+380,5
+211,5
+cv,5
+490,5
+lm,4
+410,4
+7435,4
+g2,4
+8097,4
+4330,4
+50200,4
+9000,4
+ zeichen datas,4
+7747,4
+.4,4
+gi,4
+*****************,4
+lu,4
+"""h""",4
+zl,4
+7834,4
+jy,4
+7432,4
+460,4
+450,4
+d%,4
+290,4
+270,4
+"""{purple} {CBM-@} """,4
+"""{red}{home}{down}{down}{down}{down}{down}""",4
+"""{purple} {CBM-T} """,4
+"""{left}**{down}{left}{left}**       Q Q Q""",4
+1010,4
+1140,4
+y3,4
+760,4
+890,4
+bo,4
+"""{red}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",4
+jmp,4
+bit,4
+082,4
+040,4
+7604,4
+1250,4
+1260,4
+pb,4
+740,4
+"""{SHIFT--}""",4
+780,4
+SQR,4
+4557,4
+11000,4
+4280,4
+217,4
+.15,4
+4040,4
+w2,4
+"""d@@@@@@@@@@@@@@@@@@@@d""",4
+m3,4
+oc,4
+8054,4
+"""{rvs_on}{SHIFT--}                   {SHIFT--}""",4
+"""{up}{cyan}""",4
+ee,4
+ab$,4
+h0,4
+21000,4
+es,4
+"""star-wars3""",4
+"""{clr}{down}{down}poke44,24:poke7168,0:new""",4
+"""@....................""",4
+590,4
+"""{red}{down}{right}{right}{right}{right}{right}{right}""",4
+38598,4
+5040,4
+sa,4
+"""{down}{down}lO""",4
+** lutz blomberg 1984  **,4
+** (c) by frogsoft ltd.**,4
+808,4
+ps%,4
+mc,4
+5100,4
+th,4
+7586,4
+"""{cyan}""",4
+jc,4
+7866,4
+v$,4
+w4,4
+"""{down}{right}{right}{rvs_on}{red}your time:""",4
+ember to buy the new frogsoft games!,4
+1002,4
+"""{down}{rvs_on}       {green}bye bye ...!{home}{black}""",4
+6143,4
+"""{clr}{white}einen moment bitte....""",4
+od,4
+640,4
+"""dddddddddddddddddddddd""",4
+298,4
+"""{home}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{black}ships""",4
+"""{down}{down}{down}{yellow}  mno{rvs_on}-soft wuenscht    ihnen viel sp{rvs_off}@{rvs_on}ss &      viele punkte !!""",4
+pl%,4
+o2,4
+o1,4
+1240,4
+244,4
+8072,4
+2030,4
+7670,4
+559,4
+NOT,4
+4130,4
+sf,4
+""" {yellow}s{red}   l   l   """,4
+"""    {white}b{red} l   l     """,4
+026,4
+"""{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}{del}",4
+gj,4
+"""    l         """,4
+"""       {white}b{red}     l """,4
+"""            l  {white}b""",4
+"""_""",4
+"""    l     l          """,4
+"""            l   l """,4
+"""       {white}b{red}   l""",4
+518,4
+"""{down}{down}{down}{rvs_on}{white} bevor sie's nochmal   probieren, relaxen    sie noch ein wenig!!""",4
+"""{down}{down}{down}{rvs_on}{blue} sie haben soeben alle ihre{right}leben verloren !""",4
+"""{home}{down}{down}{down}{down}{rvs_on}{yellow} wer nicht hoeren      will, muss fuehlen!""",4
+#,4
+"""{black}{home}""",4
+"""{home}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{white}ships""",4
+ *             *,4
+zv,4
+""",x""",4
+gh,4
+""",y""",4
+""" l               """,4
+""" {yellow}s{red}           l """,4
+"""  l  {yellow}s{red}    l    """,4
+"""  l              l""",4
+"""    l   {white}b{red}   """,4
+"""{down}{right}{right}{rvs_on}{yellow}your score:""",4
+v6,4
+8027,4
+wa$,4
+770,4
+kp,4
+zk,4
+"""{home}{black}""",4
+20100,4
+2500,4
+"""{blue}""",4
+8005,3
+"""q""",3
+1802,3
+7780,3
+505,3
+ef,3
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",3
+"""#""",3
+4600,3
+u$,3
+20300,3
+3500,3
+8050,3
+fa%,3
+14240,3
+"""@""",3
+19990,3
+1300,3
+1220,3
+810,3
+7756,3
+45001,3
+7932,3
+7424,3
+830,3
+"""{rvs_on}{cyan}""",3
+k3,3
+je,3
+jw,3
+js,3
+"""a  a                 a""",3
+"""$""",3
+><,3
+41100,3
+8001,3
+7849,3
+"""a    a               a""",3
+7677,3
+"""aaaaaaaaaaaaaaaaaaa  a""",3
+10015,3
+13200,3
+ad%,3
+"""a  a    a a a a a    a""",3
+jn,3
+.75,3
+"""{rvs_on}{black}{clr}    spielanleitung    """,3
+o%,3
+316,3
+38397,3
+tn,3
+zg,3
+1020,3
+ek,3
+zx,3
+40400,3
+218,3
+.3,3
+3090,3
+71,3
+jb,3
+ja,3
+"""{up}{left}**{down}{left}{left}**""",3
+"""W""",3
+"""*{left}""",3
+"""{clr}{rvs_on}drucker einschalten ! {rvs_off}""",3
+710,3
+"""x""",3
+7922,3
+"""!""",3
+37150,3
+"""{home}{down}{down}{down}{down}{down}""",3
+"""{home}{down}{down}{down}{down}{down}{down}""",3
+fa$,3
+.25,3
+"""{down}sie haben""",3
+"""cassette / disk {rvs_on}c{rvs_off}/{rvs_on}d{rvs_off}""",3
+"""filename""",3
+""",s,r""",3
+3150,3
+3200,3
+1410,3
+"""{left}**""",3
+"""-""",3
+1080,3
+5050,3
+"""{rvs_on} {left}""",3
+"""{rvs_off} {left}""",3
+7960,3
+1.1,3
+182,3
+2170,3
+"""{down}sie haben ihr haupt-""",3
+1650,3
+2040,3
+CMD,3
+"""{clr}ausgabe auf dem       {down}{rvs_on}b{rvs_off}ildschirm oder dem   {down}{rvs_on}d{rvs_off}rucker ?""",3
+1120,3
+"""*""",3
+u1,3
+8080,3
+860,3
+4578,3
+USR,3
+.13,3
+15420,3
+hp,3
+15600,3
+630,3
+8098,3
+109,3
+"""{down}repariert.{black}""",3
+50100,3
+26000,3
+fm,3
+fl,3
+.6,3
+7771,3
+cc,3
+qw,3
+38905,3
+"""geh luke""",3
+14430,3
+9999,3
+7976,3
+yt,3
+7440,3
+"""ok hast genommen""",3
+4900,3
+"""2""",3
+1018,3
+1.5,3
+"""{f3}""",3
+38884,3
+*             *,3
+tv,3
+20522,3
+el,3
+14500,3
+2140,3
+os,3
+no,3
+7679,3
+"""{clr}{black}""",3
+"""robot.zchn      """,3
+7030,3
+8010,3
+8032,3
+7723,3
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}''''{rvs_on}{CBM-B}""",3
+155,3
+"""z""",3
+p%,3
+8100,3
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",3
+3700,2
+"""^""",2
+rf%,2
+8030,2
+"""{red}""",2
+"""{clr}{down}""",2
+om,2
+3400,2
+"""verjagt""",2
+1600,2
+w$,2
+1560,2
+99999,2
+"""(j/n)""",2
+6200,2
+8094,2
+8139,2
+480,2
+648,2
+en,2
+ta$,2
+"""du musst was trinken""",2
+15030,2
+7804,2
+"""          {SHIFT-*}{SHIFT-*}         """,2
+"""schrank""",2
+"""nimm hammer""",2
+"""trink""",2
+7983,2
+"""{home}{white}{rvs_on}{down}{down}""",2
+**************,2
+"""{rvs_on}{CBM-Z}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-X}""",2
+***************,2
+38467,2
+"""{cyan}(""",2
+852,2
+"""<k> = kassette""",2
+"""<d> = disk     """,2
+ls%,2
+bpl,2
+php,2
+bvc,2
+38432,2
+7712,2
+861,2
+38444,2
+"""000300""",2
+7343,2
+"""{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}",2
+1023,2
+1017,2
+7703,2
+1021,2
+8060,2
+"""{home}{down}{down}{right}{right}{right}{right}{right}{right}          """,2
+tay,2
+bcs,2
+tax,2
+"""         {red}kl""",2
+1480,2
+s7,2
+s8,2
+840,2
+4503,2
+"""{SHIFT--}QQQQQQQQQ  QQQQQQQQQ{SHIFT--}""",2
+"""{rvs_on}           """,2
+22999,2
+22100,2
+21500,2
+22500,2
+13999,2
+720,2
+750,2
+470,2
+ 1983,2
+"""{home}{down}{down}{right}{right}{right}{right}{right}{right} a l e r t""",2
+8186,2
+38443,2
+"""{blue}{home}{down}{down}{down}{down}{down}""",2
+s5,2
+cf,2
+870,2
+4426,2
+4428,2
+pha,2
+cli,2
+sec,2
+bmi,2
+rti,2
+"""{clr}{down}{down}poke44,28:poke7168,0:new""",2
+clv,2
+txs,2
+2050,2
+50300,2
+4295,2
+660,2
+s9,2
+s6,2
+"""u""",2
+**********************,2
+12999,2
+20500,2
+21999,2
+"""{left}{left}""",2
+"""{SHIFT--}Q{SHIFT--}Q{SHIFT--}Q{SHIFT--}QQQ  QQQ{SHIFT--}Q{SHIFT--}Q{SHIFT--}Q{SHIFT--}""",2
+"""highscore:""",2
+"""i""",2
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",2
+* blue munster *,2
+* copyright by *,2
+4579,2
+sei,2
+"""{red}{home}{down}{down}{down}{down}{down}{down}{down}""",2
+"""{blue}{rvs_on}  {down}{left}{left}  {down}{down}{left}{left}  """,2
+"""{home}{down}{down}{down}{down}{down}{down}{down}{right}{purple}""",2
+*erich skorbier*,2
+*endresstr.  15*,2
+* 1230 w i e n *,2
+179,2
+"""{home}{white}""",2
+"""     """,2
+"""{SHIFT--}Q{SHIFT--}Q{SHIFT--}QQQQQ  QQQQQ{SHIFT--}Q{SHIFT--}Q{SHIFT--}""",2
+"""{SHIFT--}Q{SHIFT--}QQQQQQQ  QQQQQQQ{SHIFT--}Q{SHIFT--}""",2
+3900,2
+8042,2
+7448,2
+438,2
+"""{home}{down}{down}{down}""",2
+"""9""",2
+tx,2
+5045,2
+6144,2
+"""          """,2
+"""e""",2
+"""tab.""",2
+jsr,2
+clc,2
+plp,2
+rts,2
+brk,2
+txa,2
+bcc,2
+pla,2
+"""nimm schluessel""",2
+"""teppich""",2
+"""geh loch""",2
+"""{f5}""",2
+ musik,2
+ie$,2
+pp$,2
+ip$,2
+nn,2
+325,2
+295,2
+275,2
+788,2
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",2
+"""{home}{down}{down}{down}{down}{down}{down}{down}""",2
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}""",2
+"""truhe""",2
+6030,2
+"""nimm streichholz""",2
+38842,2
+8122,2
+8160,2
+ze$,2
+4162,2
+37954,2
+38372,2
+"""{rvs_on}{SHIFT--}{rvs_off}      {SHIFT--}   {SHIFT--}    {SHIFT--}    {rvs_on}{SHIFT--}""",2
+38491,2
+21040,2
+"""nimm pflock""",2
+"""paket""",2
+21030,2
+7176,2
+"""editor""",2
+14260,2
+bvs,2
+tya,2
+""" {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}  {rvs_on} """,2
+4118,2
+"""sen""",2
+"""womit ?""",2
+fsx,2
+bne,2
+iny,2
+dex,2
+ *diamantenmine*,2
+463,2
+383,2
+4135,2
+ai$,2
+7785,2
+un,2
+ob,2
+1230,2
+"""{clr}{red}""",2
+20200,2
+"""mit schluessel""",2
+40600,2
+"""aaaaaaaaaaaaaaaaaaaaaa""",2
+390,2
+""",x)""",2
+"""),y""",2
+dey,2
+7182,2
+4005,2
+"""p=""",2
+"""s=""",2
+"""{home}r=""",2
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",2
+1150,2
+u%,2
+38652,2
+8110,2
+"""vc-20""",2
+38586,2
+jf,2
+7727,2
+"""a  aaaaaaaaaaaaaaaaaaa""",2
+13100,2
+4140,2
+38748,2
+7978,2
+si$,2
+nz,2
+9040,2
+bs$,2
+2830,2
+2930,2
+"""star-wars2""",2
+"""{right}{right}{right}{right}{right} m&n:""",2
+"""{home}{white}sc:""",2
+8182,2
+sed,2
+===============,2
+dk,2
+100000,2
+6656,2
+"""{clr}{down}{down}{down}{down}{down}name """,2
+409,2
+1450,2
+1490,2
+"""{left}**{down}{left}{left}**   Q Q Q Q Q Q Q""",2
+"""{clr}{down}{down}***********************""",2
+980,2
+3120,2
+"""wieviel""",2
+7167,2
+"""ok""",2
+"""disassembler""",2
+""",s,w""",2
+"""-{red}""",2
+38736,2
+"""{down}der insel zerstoert.""",2
+"""{down}treibstoff""",2
+1670,2
+1940,2
+3190,2
+3160,2
+"""  """,2
+"""{clr}{down}{down}{down}""",2
+"""{down}zerstoert.""",2
+zp,2
+nop,2
+inx,2
+beq,2
+cld,2
+635,2
+7161,2
+2.6,2
+0.1,2
+8012,2
+byfrogsoft,2
+ltd,2
+',2
+lutzblomberg,2
+"""{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}pqr""",2
+9600,2
+{CTRL-D},2
+405,2
+2230,2
+2430,2
+e5,2
+1700,2
+1790,2
+"""d@@@@@@d@@d@@d@@ddd@@d""",2
+"""d@@@@@@d@@d@@@@@@@@@@d""",2
+"""d@dddd@d@@d@dddddddddd""",2
+902,2
+8086,2
+8090,2
+"""sie gehen""",2
+"""le""",2
+1180,2
+ bugfix(rms),2
+3990,2
+4120,2
+.7,2
+3710,2
+3850,2
+1.8,2
+781,2
+833,2
+7812,2
+"""{home}{down}{down}{left}{left}{left}""",2
+xxx,2
+"""   @abcSGGGGGGPdefg  """,2
+"""abc    H      O    de""",2
+"""{home}{red}""",2
+.66,2
+"""* schiff von monster *""",2
+"""r""",2
+d8,2
+d9,2
+"""{f2}""",2
+           felsen,2
+"""iiiiiiiiiiiiiiiiiiiiii""",2
+SAVE,2
+57809,2
+65493,2
+STOP,2
+.23,2
+3270,2
+"""{clr}pO43,1:pO44,28:pO7168,0""",2
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}____""",2
+"""regal""",2
+"""{right}{right}{right}{right}{right}____________""",2
+"""{right}____________________""",2
+349,2
+"""{down}                 {rvs_on}{red}>>>{rvs_off}""",2
+"""{down}{down}{down}{right}{right}{right}{right}{red}oliver sohinger""",2
+"""{right}{right}{red}""",2
+21.5,2
+30719,2
+7948,2
+37863,2
+1275,2
+"""{f4}""",2
+"""hi""",2
+"""{right}{right}{right}________________""",2
+1270,2
+1105,2
+1135,2
+"""g""",2
+ti%,2
+15100,2
+.07,2
+64802,2
+zr,2
+*            *,2
+"""{clr}{green}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}pac-ball{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}==========""",2
+"""{clr}  {green}bebienungsanleitun{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}====================""",2
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",2
+37877,2
+20992,2
+9100,2
+"""name""",2
+0.5,2
+t3,2
+11210,2
+"""t""",2
+7900,2
+7431,2
+3110,2
+3070,2
+"""du bist in der""",2
+340,2
+zt$,2
+"""{up}                    """,2
+"""{yellow}**********************{black}""",2
+41500,2
+"""lies zettel""",2
+"""nimm kerze""",2
+"""stuhl""",2
+7893,2
+7871,2
+7826,2
+1602,2
+7938,2
+7916,2
+8117,2
+"""{rvs_on}000000""",2
+ -------------,2
+8163,2
+"""nimm kreuz""",2
+"""nimm messer""",2
+"""{left}   """,2
+PI,2
+LOG,2
+"""{clr}{yellow}""",2
+"""${cyan}""",2
+"""&""",2
+8076,2
+ ----------------,2
+5119,2
+kz,2
+530,2
+"""zeichen-gen2""",1
+"""(max. 6 spieler)""",1
+"""{yellow}**********************{black}{down}{down}""",1
+"""{red}      rangliste{black}""",1
+38549,1
+"""heiter""",1
+"""bewoelkt""",1
+"""regen""",1
+"""gewitter""",1
+"""hitzeperiode""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}herstellen""",1
+"""{down}{down}{down}{green}  leertaste druecken""",1
+"""{clr}{down}{black}    e c o n o m y""",1
+"""{blue}{down}{down}{down}{down}{down}{down}{down}{down}{down}  {green}{CBM-+}{red}{CBM-+}""",1
+""" {rvs_on}{SHIFT-POUND}  {CBM-*}{rvs_off}""",1
+"""{yellow}{CBM-+}{CBM-+}{green}{CBM-+}{CBM-+}{red}{CBM-+}{CBM-+}""",1
+"""eingangshalle""",1
+"""ist verschlossen""",1
+"""oeffne luke""",1
+"""{black}{down}eine werbetafel kostet{red}           dm""",1
+"""{black}{down}ihr kapital betraegt {red}            dm""",1
+"""{down}{yellow}**********************{blue}""",1
+"""wieviel portionen eis stellen sie her""",1
+"""{down}{rvs_on}>name max. 10 zeichen<{rvs_off}""",1
+"""name des""",1
+"""{left}-ten spie-""",1
+"""{SHIFT--}{red}01{white}{SHIFT--}{black}02{white}{SHIFT--}{red}03{white}{SHIFT--}{black}04{white}{SHIFT--}{red}05{white}{SHIFT--}{black}06{white}{SHIFT--}{red}07{white}{SHIFT--}""",1
+"""{clr}{rvs_on}          0           {rvs_off}{white}{CBM-A}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{CBM-S}""",1
+"""{SHIFT--}{black}08{white}{SHIFT--}{red}09{white}{SHIFT--}{black}10{white}{SHIFT--}{black}11{white}{SHIFT--}{red}12{white}{SHIFT--}{black}13{white}{SHIFT--}{red}14{white}{SHIFT--}{white}""",1
+"""{SHIFT--}{black}22{white}{SHIFT--}{red}23{white}{SHIFT--}{black}24{white}{SHIFT--}{red}25{white}{SHIFT--}{black}26{white}{SHIFT--}{red}27{white}{SHIFT--}{black}28{white}{SHIFT--}""",1
+la,1
+3950,1
+3800,1
+"""{clr}{rvs_on}{black}     Spielstand :     """,1
+"""{CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{CBM-W}""",1
+"""ungerade""",1
+4179,1
+"""                    """,1
+"""{clr}{down}{down}{down}du hast verloren      {down}{down}{down}du bist verhungert""",1
+"""such das kreuz""",1
+46400,1
+"""{up}{up}{up}wieviel stueck werbe- tafeln kaufen sie""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}Einsatz""",1
+5055,1
+"""{up}{up}{up}""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}rot""",1
+"""gerade  """,1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}19-36""",1
+"""1-18 """,1
+"""{left}{left}{left}{left}{left}""",1
+"""{down}Zahl     """,1
+"""{right}Kapital:""",1
+"""{up}{up}{rvs_on}{black}{right}{right}{right}""",1
+5060,1
+"""{down}{down}    Weiter mit {black}{rvs_on}^{rvs_off} !""",1
+"""{clr}{down}{down}{red}  Nichts geht mehr!""",1
+"""DM""",1
+"""{SHIFT--}{black}29{white}{SHIFT--}{red}30{white}{SHIFT--}{black}31{white}{SHIFT--}{red}32{white}{SHIFT--}{black}33{white}{SHIFT--}{red}34{white}{SHIFT--}{black}35{white}{SHIFT--}""",1
+"""{down}{CBM-T}.bagdonat""",1
+3600,1
+3300,1
+4164,1
+rou,1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{red}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{blue}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}""",1
+"""{down}{down}{down}{black}  Weiter mit {rvs_on}^{rvs_off} !""",1
+"""{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-D}{rvs_on}  {rvs_off}{CBM-F}{down}{left}{left}{left}{left}{rvs_on} {right}{right} {rvs_off}{down}{left}{left}{left}{left}{CBM-C}{rvs_on}  {rvs_off}{CBM-V}""",1
+8026,1
+7025,1
+7090,1
+7070,1
+"""{SHIFT--}{black}15{white}{SHIFT--}{red}16{white}{SHIFT--}{black}17{white}{SHIFT--}{red}18{white}{SHIFT--}{red}19{white}{SHIFT--}{black}20{white}{SHIFT--}{red}21{white}{SHIFT--}""",1
+"""{SHIFT--}  {SHIFT--}  {SHIFT--}  {SHIFT--}{red}36{white}{SHIFT--}  {SHIFT--}  {SHIFT--}  {SHIFT--}{CBM-Z}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{CBM-X}""",1
+"""{down}schwarz""",1
+"""{blue} Jeder Spieler hat     als Anfangskapital    10.000 DM zur         Verfuegung.""",1
+"""{clr}{red}{rvs_on}      ROULETTE                              """,1
+pitschwiese38,1
+thomaskessler,1
+by,1
+1983,1
+te,1
+LET,1
+14450,1
+"""du hast dracula""",1
+"""zeig kreuz""",1
+4174,1
+4169,1
+4165,1
+"""{down}s.bagdonat""",1
+"""{down}{down}{down}{down}copyright""",1
+"""{CBM-K}h. gehrmann {CBM-K}",1
+"""{CBM-K} heinrich-  {CBM-K}",1
+"""{CBM-K}  str. 25   {CBM-K}",1
+"""{CBM-K}3  hannover {CBM-K}",1
+"""{CBM-K}  telefon   {CBM-K}",1
+"""{CBM-K}0511/344771 {CBM-K}",1
+"""{CBM-B}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-V}",1
+"""{black}{down}   holger gehrmann""",1
+6690,1
+""" {down}Spielen Sie gut!      {down}{down}Wieviele Spieler      (1-9)?""",1
+""" {down}Gesetzt werden        Chips zu je 100 DM.""",1
+14440,1
+"""du musst was essen""",1
+46000,1
+"""{rvs_on}{red}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}Y""",1
+15017,1
+"""{clr}{blue}{rvs_on}hg-software presents :{rvs_off}""",1
+"""{CBM-D}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}",1
+"""{clr}{down}{down}{blue}dieses  music-programmist nicht nur mit ein-fachen data's!mit vie-""",1
+"""len  rechnungen  wurdees auf ein minimum verkuerzt!{down}""",1
+"""{red}nur  das   hauptmusik-schema ist  in  data'sabgelegt.""",1
+"""{blue}{down}die restlichen stimmensind entweder in sche-ma-strings oder in dim""",1
+"""variablen abgelegt.""",1
+"""toene  zeit  einnimmt,kann es zu  takt-unge-nauigkeiten kommen.""",1
+"""{clr}{down}{down}{down}{down}""",1
+"""die melodie beinhaltet4 stimmen:""",1
+"""{down}{red}1. 3-ton melodie      {blue}2. jazz-unterstimme   {red}3. wechselbass""",1
+"""{blue}4. schlagzeug""",1
+"""{left}.Spieler""",1
+"""Spieler""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{yellow} 374 tones / 28 sec.{home}""",1
+"""{CBM-K}            {CBM-K}",1
+"""{down}{down}highscore:""",1
+"""{down}demons abgeschossen""",1
+"""da  alle  tongenerato-ren angesteuert wurdenund das ausrechnen der""",1
+"""{clr}{rvs_on}{blue}hg-software, abt.music{rvs_off}""",1
+ cool rock,1
+"""Q  telefon  Q         Q0511/344771Q         Q           Q         QQQQQQQQQQQQQ",1
+"""Q    25     Q         Q           Q         Q3000 hann.1Q         Q           Q",1
+"""Q           Q         Qh. gehrmannQ         Q           Q         QheinrichstrQ",1
+"""QQQQQQQQQQQQQ         Q           Q         Q cool rock Q         Q           Q",1
+"""{down}{down}{down}{down}{down}{down}{down}{purple}      cool rock""",1
+"""{down}{down}{down}{cyan}          by""",1
+"""   holger  gehrmann""",1
+"""101202""",1
+"""11213211""",1
+"""{cyan}{down}{down}{down}{down}          by""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{purple}the mad boogy""",1
+"""{down}{red} {rvs_on} 3 {rvs_off} {blue}frosch-effekt""",1
+"""{down}{red} {rvs_on} 2 {rvs_off} {blue}sanft""",1
+"""{down}{red} {rvs_on} 1 {rvs_off} {blue}normal""",1
+"""{down}{black}bitte waehlen sie den effekt:""",1
+"""{clr}{rvs_on}{blue} computer blues )hgss {rvs_off}""",1
+20478,1
+20479,1
+20480,1
+"""{white}{clr}""",1
+20530,1
+"""{SHIFT--}{SHIFT--}{SHIFT--}{rvs_on}{SHIFT-POUND} {rvs_on}Z {SHIFT-+} {CBM-*}{rvs_off}{SHIFT--}{SHIFT--}{SHIFT--}""",1
+"""{cyan}+++ {rvs_on}{SHIFT-POUND}   {CBM-*}{rvs_off} +++""",1
+"""{rvs_on}{SHIFT-POUND}             {CBM-*}""",1
+0.2,1
+"""{rvs_on}{SHIFT-POUND}   {rvs_off}{SHIFT-POUND}demon    {CBM-*}{rvs_on}   {CBM-*}{rvs_off}{white}""",1
+"""{rvs_on}{SHIFT-POUND}   {rvs_off}{SHIFT-POUND}{rvs_on}       {rvs_off}{CBM-*}{rvs_on}   {CBM-*}{rvs_on}""",1
+9050,1
+352,1
+"""QQQQQQQQQQQQQQ        Q            Q        Q computer-  Q        Q      blues Q",1
+"""{down}{white}NMNMNMNMNMNMNMNMNMNMNM""",1
+"""{clr}{down}{red}{rvs_on}{CBM-*}{rvs_off}   {rvs_on} {rvs_off}""",1
+"""{rvs_on} {CBM-*}{rvs_off}  {rvs_on} {rvs_off} {rvs_on}{SHIFT-POUND} {CBM-*}{rvs_off} {rvs_on}{SHIFT-POUND} {CBM-*}{rvs_off} {rvs_on}   {rvs_off} {rvs_on}  {CBM-*}{rvs_off}""",1
+"""{down}{down}{down}{cyan}          by:""",1
+"""{down}{black}   holger  gehrmann""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{green}  blues is running ! {left}{inst} {home}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{purple}{right}{right}{right}{right}computer blues""",1
+"""such den zettel""",1
+15015,1
+15020,1
+15520,1
+46700,1
+"""{clr}{blue}{rvs_on} hg-software systems: {rvs_off}""",1
+"""{down}{black}  bernd andraschko    """,1
+"""{down}{red}        &             """,1
+"""{down}{black}  oliver bardenheier  """,1
+"""{rvs_on} {rvs_off}  {CBM-*}{rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}   {rvs_on} {rvs_off}{SHIFT-POUND}{rvs_on}{SHIFT-POUND}{rvs_off}""",1
+7503,1
+"""{down}{rvs_on}{blue}taste {rvs_off}""",1
+"""bitte warten""",1
+"""{clr}{blue}ihre einzige chance   gegen die ungeheuer """,1
+"""Q            Q        QQQQQQQQQQQQQQ",1
+"""Q3 hannover 1Q        Q            Q        Q  telefon:  Q        Q(0511)344771Q",1
+"""Q            Q        Qheinrichstr.Q        Q     25     Q        Q            Q",1
+"""Q            Q        Q     by     Q        Q            Q        Q h.gehrmann Q",1
+"""warte""",1
+46100,1
+"""{rvs_on}{red}{left}{SHIFT-+}""",1
+"""{rvs_on}{red}{left}~""",1
+"""{down}{down}der gehilfe draculas  {down}hat dich getoetet""",1
+"""du musst noch""",1
+"""{down}{black}durch loslassen der   taste koennen sie die""",1
+"""{red}ungeheuer {black}bombardieren""",1
+"""{down}{blue}{rvs_on}   viel    glueck !!! {rvs_off}""",1
+"""nager2""",1
+"""{down}{rvs_on}{red}taste{rvs_off}""",1
+"""{clr}*********nager********""",1
+"""{down}sie definden sich in  einem turm der mit    """,1
+"""{down}fruechten gefuellt ist""",1
+"""{down}{blue}versuchen sie die     {down}gefraessigen gobbels  """,1
+"""abzuwehren. """,1
+"""{rvs_on} {rvs_off}{CBM-*}{rvs_on}{CBM-*}{rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}   {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off}""",1
+"""{rvs_on} {rvs_off} {CBM-*}{rvs_on}{CBM-*} {rvs_off} {rvs_on}   {rvs_off} {rvs_on} {CBM-H} {rvs_off} {rvs_on}  {rvs_off}  {rvs_on}  {rvs_off}{SHIFT-POUND}""",1
+"""{rvs_on} {rvs_off}   {CBM-*} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {CBM-*}{rvs_on} {rvs_off}{SHIFT-POUND} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {CBM-*}{rvs_on}{CBM-*}{rvs_off}""",1
+"""{white}MNMNMNMNMNMNMNMNMNMNMN{blue}         von""",1
+849,1
+8141,1
+"""{down}anzukommen ist ihr    flugzeug einzusetzen.""",1
+"""{down}{red}{rvs_on}     tastatur :       {rvs_off}""",1
+"""{down}{black}{rvs_on}_{rvs_off} {blue} : flugzeug links""",1
+"""{down}{black}{rvs_on}f1{rvs_off} {blue}: flugzeug rechts """,1
+"""{down}{down}{down}{down}sie haben""",1
+20477,1
+4597,1
+20516,1
+"""{down}ende""",1
+"""{clr}{down}{down}{down}demon attack""",1
+"""{clr}{down}{down}{down}du hast verloren      {down}{down}{down}du bist verdurstet""",1
+"""{clr}{down}{down}{down}du hast verloren      {down}{down}{down}du bist vor muedigkeit""",1
+"""{down}tod umgefallen""",1
+"""{clr}{down}{down}du hast verloren""",1
+"""{down}energie:""",1
+858,1
+"""{right}{right}{right}{right}{right}{right}{right}{down}{down}{green}))))))))""",1
+"""  {black}!{red}(({black}!  """,1
+"""{black}!!!{red}(({black}!!!""",1
+""" {black}!!{red}(({black}!! """,1
+"""{down}denn sie wollen an    ihre fruechte""",1
+"""{home}{down}{down}{rvs_on}{red}  spielanleitung :    {rvs_off}""",1
+7695,1
+"""du musst schlafen""",1
+46200,1
+"""es wird dunkel""",1
+jj,1
+"""spukhaus2""",1
+7686,1
+846,1
+"""   menue  nr.2  : ausgabe von allen gespeicherten programmen""",1
+"""{down}notwendig.""",1
+"""{down}schaedigung. reparatur""",1
+"""{down}mittelschwere be-""",1
+"""fjuezqpalkihftgrbdfvss""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{black}punkte""",1
+1019,1
+"""{clr}{down}{down}{down}{down}{down}{down}ihre punkte :""",1
+"""hoechste punktzahl:""",1
+"""{down}{down}noch einmal ?""",1
+4610,1
+"""{down}{down}{right}wollen sie die        {down}spielanleitung legen?""",1
+   seeschlacht,1
+ (c) d. formhals,1
+  friedberg,1
+"""{clr}{down}{black}{down}{down} s e e s c h l a c h t""",1
+"""{down}treibstoff:""",1
+DEF,1
+"""{down}sofort reparieren.""",1
+"""{down}schwere beschaedigung!""",1
+3550,1
+.983,1
+"""   onH R{SHIFT-*}{SHIFT-*}R{SHIFT-*}Q{SHIFT-*}Q O  O """,1
+"""   H {CBM-U}          {CBM-I} {CBM-I}O """,1
+"""   mnH{CBM-K}        {CBM-I} {CBM-I} O """,1
+"""such den schlues-""",1
+"""sel jetzt""",1
+"""{down}{down}noch einmal (j/n)?""",1
+"""code no.:""",1
+"""0 = das programm wurde noch nicht abgetippt!""",1
+"""2 - das programm ist in betrieb und o.k.!""",1
+"""1 = das programm wurde abgetippt,laeuft aber noch nicht korrekt!""",1
+"""{down}kein schiff in ihrem""",1
+3310,1
+"""{down}bereich, das sie be-""",1
+"""{down}schaedigen koennte.""",1
+"""{down}kollision an""",1
+"""steuerbord.""",1
+3340,1
+.975,1
+"""{down}liche beschaedigung.""",1
+3360,1
+.92,1
+"""{down}kein guter patriot!""",1
+"""{clr}{down}bastard! du bist """,1
+15416,1
+"""sauerstoff =""",1
+"""sie drehen sich""",1
+"""{down}leichte, oberflaech-""",1
+.96,1
+.36,1
+tauchen,1
+zustand,1
+hauptqu,1
+sabotage,1
+umwandler,1
+raketen,1
+maschinen,1
+sonar,1
+torpedos,1
+"""{up}           befehl?  """,1
+"""{down}           befehl ?""",1
+"""{down}wir brauchen hilfe!""",1
+3470,1
+"""                im hag 32",1
+"""                5180 eschweiler",1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}H  HO  O      """,1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}H  HO  O Ojk  """,1
+"""   H{CBM-K}            {CBM-I} {CBM-R} """,1
+"""   {CBM-U}              {CBM-I}  """,1
+"""{clr}{down}{down}{purple}sie haben nicht ge-""",1
+2410,1
+2610,1
+2690,1
+3210,1
+2280,1
+"""{down}nuegend leute an bord,""",1
+"""{down}die die maschinen""",1
+"""backbord.""",1
+"""{down}nichts passiert!""",1
+"""{down} 2 torpedo""",1
+"""{down} 3  rakete""",1
+"""{down} 4  hoehe""",1
+"""{down} 6  andocken""",1
+"""{down} 7  sabotage""",1
+"""{down} 5  bericht""",1
+"""~""",1
+"""{up}           {rvs_on}befehl?{rvs_off}  """,1
+"""{clr}{down}{down}{purple}maschinen werden""",1
+"""programmreservoir:""",1
+"""demon2""",1
+"""     bitte warten     """,1
+21280,1
+"""3 - ausgabe aller noch    nicht abgetippten     programme""",1
+"""                copyright by:",1
+"""                volker muecke",1
+"""spukhaus3""",1
+"""{down}{down}{down}  sie muessen""",1
+"""{down}gradiert!!""",1
+"""{down}deckschrubben de-""",1
+"""{down}sie werden zum""",1
+"""{down}uebrig.""",1
+"""{down}feindliche schiffe""",1
+"""{down}es sind noch""",1
+"""kurs""",1
+"""{down}bedienen koennten.{black}""",1
+1810,1
+"""{clr}{down}{down}befehle:""",1
+"""{down} 0  fahren""",1
+"""{down} 1  sonar""",1
+"""{down} 9  kapitulation""",1
+"""{down} 8  energieumwandlung""",1
+*torpedogeraeusch,1
+4400,1
+"""{down}gute arbeit! sie haben{down}sie alle erwischt!!""",1
+ *explosion,1
+x19,1
+"""{down}{down}noch ein spiel ?""",1
+4410,1
+"""* hauptq. v. monster *""",1
+"""* ein monsterkampf   *""",1
+"""* von monster gefr.  *""",1
+4060,1
+"""{down}schiffe zerstoeren,""",1
+"""{down}  um zu gewinnen.""",1
+"""sie haben eine wand gerammt""",1
+"""sie finden eine lampe""",1
+"""ihre luft ist verbraucht!""",1
+"""{down}{rvs_on} 1 {rvs_off} sonar.""",1
+4250,1
+"""  und eins stirbt!""",1
+"""  ist spannend!!""",1
+4270,1
+"""  unentschieden.""",1
+"""{rvs_on} 0 {rvs_off} in einer best.""",1
+"""{down}sonar :""",1
+"""{down}einer lienie liegen.""",1
+"""{down}senken kann, die in""",1
+"""{down}mehrere schiffe ver-""",1
+"""{down}fliegen kann und""",1
+"""{down}indem sie ueber land""",1
+"""richtung liegen""",1
+"""{down}{down}taste druecken""",1
+"""erstellt.""",1
+"""{down}{rvs_on} ! {rvs_off} seemonster""",1
+"""{rvs_on} 1 {rvs_off} die karte wird""",1
+"""x boote.""",1
+"""{down}{rvs_on} 3 {rvs_off} rakete.""",1
+"""{down}{rvs_on} 4 {rvs_off} heben/senken.""",1
+"""{down}{rvs_on} 5 {rvs_off} report.""",1
+"""hauptquartier.""",1
+"""{down}{rvs_on} 6 {rvs_off} andocken an das""",1
+"""unmittelbarer naehe.""",1
+"""ist fuer schiffe in""",1
+"""{down}{rvs_on} 2 {rvs_off} torpedo.""",1
+"""{down}det sich vom torpedo,""",1
+"""{clr}die rakete unterschei-""",1
+4810,1
+"""{down}{down}{rvs_on} taste druecken""",1
+"""{down}{rvs_on} 0 {rvs_off} fahren.""",1
+"""          geschrieben fuer vc-20, vc 1515  und evtl. speichererweiterung",1
+               menue,1
+"""{down}1 - neue eingabe""",1
+"""{down}2 - ausgabe von allen     gespeicherten prg.""",1
+"""   menue nr.1   : neue eingabe",1
+"""{clr}{rvs_on}programmtitel?{rvs_off}""",1
+"""6    5    4""",1
+""" N   ]   M""",1
+"""7 - -[- - 3""",1
+5080,1
+"""{down}mit {rvs_on}space{rvs_off} starten.""",1
+"""{down}anfang gesagt""",1
+"""{down}wird ihnen am """,1
+"""{down}{rvs_on} ~ {rvs_off} minen""",1
+"""{down}{rvs_on} h {rvs_off} hauptquartier""",1
+"""{down}{rvs_on} x {rvs_off} eigenes u-boot""",1
+"""{down}bung der befehle:""",1
+"""{down}nun folgt die beschrei-""",1
+"""ihres feindes zu zer- {down}stoeren.""",1
+"""{down}{black}sie sind ein u-boot   {down}kapitaen, und muessen {down}versuchen,alle schiffe""",1
+"""{clr}auf dieser karte be-""",1
+"""{down}die anzahl der gegner""",1
+"""genannten tasten.""",1
+"""{down}ueber die obenge-""",1
+"""{down}{down}die steuerung erfolgt""",1
+"""  {CBM-K}                {CBM-I} """,1
+"""   @abcSGGHOGGPdefg  """,1
+7200,1
+"""       H      O      """,1
+"""{down}{down}dracula hat dich      {down}gebissen""",1
+"""{clr}{down}{down}{down}du hast gewonnen      {down}du hast jane befreit""",1
+"""{clr}{down}{down}{down}du hast verloren""",1
+"""{down}{rvs_on} 8 {rvs_off} umwandlung von""",1
+ *fehlergeraeusch,1
+uu,1
+3830,1
+"""{cyan}{rvs_on}feindmanoever{rvs_off}{black}""",1
+"""{down}{rvs_on} * {rvs_off} insel""",1
+"""{down}deutet folgendes:""",1
+"""{down}um die steuerung des""",1
+"""{down}u-bootes zu erhalten,""",1
+""" M   ]   N""",1
+"""{clr}{down}8    1    2""",1
+4980,1
+"""{down} {rvs_on}space{rvs_off} druecken.""",1
+"""{clr}{down}{rvs_on} 7 {rvs_off} sabotage: das""",1
+ *raketenabschuss,1
+xyzl,1
+3650,1
+"""{down}hier ist der code:""",1
+"""{down}sende 'hilfe' codiert.""",1
+"""{up}******""",1
+"""{down}uebertragungsschwier-""",1
+"""sie sinken.{black}""",1
+"""{down}schaedigt.""",1
+"""{purple}{down}wurden zu stark be-""",1
+"""{down}keine hilfe!""",1
+"""{down}igkeiten.""",1
+"""{clr}{purple}{rvs_on}    spielanleitung    """,1
+"""{down}{rvs_on} 9 {rvs_off} aufgeben.""",1
+4700,1
+"""{down}{rvs_on}taste druecken""",1
+"""oder umgekehrt.""",1
+"""energie zu kerosin""",1
+"""{purple}{clr}{down}{down}raketensilos werden""",1
+3870,1
+4210,1
+4180,1
+"""* schiff auf mine    *""",1
+3970,1
+3940,1
+3920,1
+3860,1
+"""* hauptquartier ger. *""",1
+"""* von schiff gerammt *""",1
+"""{down}bitte geben sie den code ein.""",1
+3490,1
+"""{down}ihnen helfen.""",1
+"""{down}hilfe kommt und wird""",1
+"""{down}schnelle arbeit!""",1
+"""{down}{rvs_on}fuer computer-typ?{rvs_off}    (vc-20/cbm/zx-81/...)""",1
+"""{down}{rvs_on}code nr.?{rvs_off}""",1
+"""0=nicht eingetippt    1=laeuft nicht        2=im betrieb""",1
+"""{down}{rvs_on}sind alle angaben     richtig gewesen?(j/n) {rvs_off}""",1
+"""data""",1
+16384,1
+"""{clr}{down}{down}keine raketen mehr.""",1
+"""{down}raketen.""",1
+"""{down}zu feuern.""",1
+"""{down}wollen sie trotzdem?""",1
+1900,1
+"""{down}rakete explodiert beim{down}abfeuern. tot!""",1
+"""{down}nicht genug mannschaft{down}zum abfeuern der """,1
+"""{down}ihr torpedo gefressen!""",1
+"""{down}ein seemonster hat""",1
+1850,1
+1950,1
+4530,1
+"""{down}wir empfehlen, in die-""",1
+"""{down}ser tiefe nicht""",1
+1870,1
+"""ausgang erreicht!""",1
+"""ihr raumanzug wird zerstoert""",1
+"""sie verstecken sich   auf einem planeten in einem labyrinth""",1
+"""{down}{rvs_on}heftnummer/jahrgang?{rvs_off}  (23/82)""",1
+"""{down}{rvs_on}seite{rvs_off}""",1
+"""{down}{rvs_on}heftname{rvs_off}              (cp/chip/mc/cj/...)""",1
+"""   menue nr.3   : ausgabe aller noch nicht abgetippten programme""",1
+"""35leftnummer/jahrgang:""",1
+"""programmname:""",1
+"""programm ist bereits  in betrieb""",1
+"""          druckerausgabe""",1
+1540,1
+"""{clr}{down}{purple}keine torpedos mehr.{black}""",1
+"""{down}{down}sie werden zermatscht.""",1
+"""{clr}{down}{down}""",1
+"""{down}{rvs_on}sie haben getroffen!!""",1
+1710,1
+"""{down}torpedo an einer mine""",1
+"""{down}verschwendet.""",1
+1830,1
+"""{down}blindgaenger.""",1
+"""{down}rakete ausserhalb der""",1
+"""{down}sonarerfassung.rakete""",1
+"""{down}verloren.""",1
+1980,1
+"""{down}sie haben noch""",1
+"""{down}treibstoff.""",1
+"""{down}{down}sie haben einen teil""",1
+""".!.""",1
+1720,1
+1740,1
+1760,1
+1770,1
+"""{down}treibst.""",1
+"""{down}zustandsbericht ?""",1
+"""torpedos""",1
+"""raketen""",1
+4460,1
+"""{down}torpedo ausserhalb...""",1
+"""{down}unwirksam.""",1
+1570,1
+"""{clr}{down}innendruck sinkt""",1
+"""{down}pedos.{black}""",1
+"""crew""",1
+2540,1
+2580,1
+"""abt.         zust.""",1
+"""energie""",1
+"""{down}koennte.""",1
+"""{clr}{down}gegner""",1
+"""{down}bericht abgeben""",1
+"""{clr}{down}{purple}{down}es kommt kein bericht""",1
+"""{clr}{down}{down}niemand da der einen""",1
+"""{down}durch.{black}""",1
+2460,1
+2670,1
+"""{down}quartier gesprengt!""",1
+1680,1
+22016,1
+"""{clr}{down}{down}{purple}andocken an das haupt-{down}quartier unmoeglich.{black}""",1
+"""{clr}{down}{down}taucher kommen und""",1
+"""{down}versorgen sie.""",1
+2740,1
+"""{clr}{down}{down}{purple}zu wenig leute um""",1
+"""{down}den auftrag auszu-""",1
+2710,1
+"""{clr}{down}{down}{purple}schleusen verstopft{black}""",1
+2630,1
+"""{clr}{purple}{down}{down}hauptquartier zer-""",1
+"""{down}stoert.{black}""",1
+"""{down}position:""",1
+2650,1
+"""{clr}{down}{down}{purple}hauptquartier ist""",1
+"""{down}desertiert.{black}""",1
+"""{down}quartier zerstoert.""",1
+"""55seite:""",1
+"""{down}fuer """,1
+"""programm wurde noch   nicht abgetippt!""",1
+"""{down}seite """,1
+"""       bildschirmausgabe""",1
+"""{clr}{down}{down}{rvs_on}programm:             {rvs_off}""",1
+"""{down}{down}{down}aus """,1
+"""{down}trolle zu reparieren{black}""",1
+"""{clr}{down}neue tiefe""",1
+"""{down}mannschaft um die kon-""",1
+"""{clr}{down}{purple}sie haben zu wenig""",1
+2340,1
+"""{down}fertig.""",1
+"""{down}verlorene energie:""",1
+2370,1
+"""{down}{down}wand durch aussendruck{down}zerquetscht!""",1
+"""feind-""",1
+"""{down}liche schiffe zer-""",1
+"""{clr}{down}{down} 0 oder 1 ?""",1
+1170,1
+"""{down}{down}{up}dummkopf!!""",1
+"""{down}sie haben sich selbst""",1
+"""{down}zerstoert!""",1
+"""235 dt=""",1
+"""goto100""",1
+"""{down}4 - ausgabe aller noch    nicht richtig         laufender progr.""",1
+"""{down}5 - ende""",1
+"""73""",1
+"""        gespeicherte daten""",1
+"""35""",1
+"""55""",1
+"""62""",1
+1330,1
+"""{down}einem seemonster""",1
+"""{down}entkommen.""",1
+"""{down}navigation fertig.""",1
+"""{down}sie sind ganz knapp""",1
+"""{down}restenergie:""",1
+"""{down}gerade repariert.{black}""",1
+poll,1
+2250,1
+"""{down}sie haben einen teil""",1
+"""minen""",1
+"""{clr}{down}{purple}{down}ballastkontrolle wird""",1
+"""{down}stoert.""",1
+"""see-""",1
+"""{down}monster getroffen.""",1
+"""{down}gute arbeit.""",1
+1290,1
+"""{down}alles umgewandelt.""",1
+"""{clr}{down}{down}1=energie>tank""",1
+"""{down}sie koennen das gebiet""",1
+"""{purple}{clr}{down}{down}nicht genug leute""",1
+"""{down}zum bedienen des""",1
+"""{down}sonars.{black}""",1
+"""programm wurde abge-  tippt,laeuft aber     noch nicht!""",1
+"""25heftname:""",1
+"""nicht laufende programme :""",1
+"""nicht abgetippte programme :""",1
+"""   menue nr.4   : ausgabe aller noch nicht richtig laufenden programme""",1
+"""{CBM-Y}""",1
+"""25""",1
+"""62comp.typ:""",1
+"""73code:""",1
+"""{down}energievorrat:""",1
+"""{down}{down}energie ?""",1
+"""{down}atomreaktor ist ueber-""",1
+"""{down}kritisch! alle schiffe""",1
+"""{down}aus der zone !!""",1
+.21,1
+"""{down}sie sind auf eine""",1
+"""{down}mine gelaufen!""",1
+"""{down}sie laufen auf grund.""",1
+"""{purple}{clr}{down}{down}sonar wird repariert.{black}""",1
+"""{down}schaft erstickt.""",1
+"""{down}u-boot sinkt, mann-""",1
+"""{down}atomreaktor ist""",1
+"""{down}ausgefallen.""",1
+"""{down}energie""",1
+"""{down}2=tank>energie""",1
+"""{down}fuehren.{black}""",1
+"""{clr}{down}{purple}nicht genuegend leute""",1
+1310,1
+"""{purple}{clr}{down}{down}torpedorohre werden""",1
+1420,1
+"""{down}{down}nicht verlassen!""",1
+"""{right}steuertasten unter""",1
+""" den zu setzenden""",1
+""" stein, druecken ' '""",1
+"""{right}und fahren dann """,1
+"""{right}unter die""",1
+"""{left}**{down}{left}{left}**   Q Q Q W Q Q Q""",1
+"""{left}***********************{home}""",1
+"""{down}{right}{right}es sind noch """,1
+.43,1
+"""{down}zum abfeuern der tor-""",1
+"""{down}ein seemonster schnuef-""",1
+3010,1
+"""wurden gefressen.""",1
+"""{down}beschaedigt.{black}""",1
+"""{clr}{down}{down}{purple}energieumwandler ist""",1
+3060,1
+"""{down}bedienen.{black}""",1
+"""{down}um den umwandler zu""",1
+"""{clr}{down}{purple}nicht genug mannschaft""",1
+"""schollen.""",1
+"""maenner sind ver-""",1
+"""{down}quartier gerammt!""",1
+"""{down}sie sinken.""",1
+"""{down}sie haben ein schiff""",1
+"""{down}gerammt! sie sinken.""",1
+"""{clr}{down}{down}rich.  anz.  entf.""",1
+"""{clr}{down}{right}das einsiedlerspiel""",1
+"""{down}{down}{right}zum setzen fahren""",1
+"""{right}sie mit den cursor-""",1
+""" {down}{down} {up}{left}{left} {right}{right} {left}{up}{up} {down}{down} {up}{up}{right}{right} {left}{left} {down}{down}{down} {up}{up} {up} {down}{down} {right} {left}{left} {right}{down}{down}{down} {up}{up}""",1
+""" {up}{left}{left} {right}{right}  {down}{down} {up}{left}{left} {right}{right}  {down}{down} {up}{left}{left} {right}{right} {up}{up}{right}{right}{right} {left}{left} {right}{down}{down} {up}{up} {down}{down}{right}{right}""",1
+2870,1
+"""{clr}{down}{down}kein schiff in sicht.""",1
+"""{down}wieviele leute sollen{down} anschlag versuchen ?""",1
+"""schiffe""",1
+"""{clr}{down}es sind""",1
+"""{down}in der naehe.""",1
+"""{clr}{down}{down}poke44,24:poke6144,0:new""",1
+"""maenner""",1
+"""nach.""",1
+"""auf dem rueckweg""",1
+"""felt ihren leuten""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}  wird  {right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}:""",1
+4505,1
+"""{down}10 mann muessen an """,1
+"""finden sie den augang bevor ihnen der sauer-stoff ausgeht.""",1
+""" zeichen zu lang!""",1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+9990,1
+"""{clr}{down}{down}{down}{down}{down}{right}{right}geben sie 'W'""",1
+"""{down}{right}{right}oder 'Q' ein""",1
+"""{right}dreucken erneut ' '""",1
+"""{down}{down}{right}waehle eine der""",1
+"""{right}3 moeglichkeiten""",1
+"""{down}{right}1 : loesung""",1
+"""{right}3 : eigene einoabe""",1
+"""{right}2 : volles feld""",1
+"""{right}zielposition und""",1
+"""momentaner schwierig- keitsgrad       :""",1
+"""aenderungen (j/n)? """,1
+"""{down}weitere""",1
+"""s """,1
+"   ""M""",1
+"""{rvs_on}{SHIFT--}{rvs_off}""",1
+"""{clr}                     """,1
+"""{home}                     """,1
+585,1
+"""{clr}ergebnis :""",1
+"""{down}{down}{down}neues spiel: leertaste""",1
+"""sie finden eine karte""",1
+"""schiffe wurden""",1
+2840,1
+"""{down}bord bleiben.""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}        {right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}      """,1
+"""zum schiessen muessen""",1
+"""druecke leertaste""",1
+"""abzuschiessen.""",1
+""" {rvs_on} {rvs_off} {rvs_on} {rvs_off} {CBM-*}{rvs_on} {rvs_off}{SHIFT-POUND} {rvs_on}  {rvs_off}{SHIFT-POUND} {CBM-*}{rvs_on} {rvs_off}{SHIFT-POUND}  {rvs_on} """,1
+"""{down}{down}{down}by lutzian widuch 1982""",1
+"""{clr}sie muessen versuchen""",1
+"""{right} {left}{left}  {left}{left} {right}{right}{down}{down} {up}{up} {up} {down}{down} {left}{down} {up}{up} {left} {right}{right} {down} {up}{up} @""",1
+""" {left}{left} {up}{up}{left} {right}{right} {right} {left}{left} {up} {down}{down} {down} {up}{up} {down}{right}{right} {left}{left} {up} {down}{down} {left} {right}{right} {left}{down}{down} {up}{up} """,1
+"""{down}{right}{right}steine lebrig.""",1
+"""{down}{right}{right}es ist noch ein""",1
+"""{down}{right}{right}stein jebrig !""",1
+"""{down}{down}{down}{down}{down}{right}{right}{right}{right}press any key""",1
+"""{clr}{down}{down}{right}{right}sie haben """,1
+"""{down}{right}{right}steine gesclagen.""",1
+"""{down}punktdurchs.    :""",1
+"""{down}{down}neuer schwierigkeits- grad (1-9)? """,1
+"""abc{CBM-U}{CBM-U}{CBM-U}{CBM-U}H  HO  O    de""",1
+"""{rvs_on}aenderung der""",1
+"""{rvs_on}spiel nummer""",1
+"""{rvs_on}{CBM-Z}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-E}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-X}{rvs_off}""",1
+"""{rvs_on}{CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-+}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W}""",1
+"""{rvs_on}{SHIFT--}player{SHIFT--}dif{SHIFT--}pun.{SHIFT--}dur.{SHIFT--}""",1
+"""{clr}{rvs_on}{blue}{CBM-A}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-R}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-S}""",1
+1040,1
+7933,1
+"""{rvs_on}   schwierigkeit =""",1
+"""{rvs_on} {right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right} """,1
+"""{down}  {rvs_on}schuirigkeit(j/n){rvs_off} """,1
+"""da ist ein hammer""",1
+"""da ist ein pflock""",1
+"""da ist ein schluessel""",1
+"""{down}{down}alles klar?""",1
+9030,1
+"""X""",1
+"""=""",1
+"""mit moeglichst wenig""",1
+"""schuessen den roboter""",1
+""" {rvs_on} {rvs_off} {rvs_on}{CBM-*}{rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}{CBM-*}{rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}  {rvs_on} """,1
+"""da ist eine luke""",1
+"""da ist ein hebel""",1
+"""da ist nichts von""",1
+"""interesse""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}tuer ist zugeschlos-""",1
+"""ist geoeffnet""",1
+"""   HqH H  H O O O  O """,1
+"""       H  SGP O      """,1
+"""   hiH H  H O O Ojk  """,1
+"""   HrH H  {CBM-H} O O O  l """,1
+"""{rvs_on}*{rvs_off}""",1
+ps$,1
+"""{down}letzte punktzahl:""",1
+"""{down}{down}{green}   systax software""",1
+"""        J{red}soft{blue}""",1
+"""    {cyan}    JI""",1
+"""{down}{cyan}        UI""",1
+"""{down}       a.schnitz""",1
+"""{down}       m.quinke""",1
+"""{rvs_on}{red}skipping ball{blue}""",1
+"""{clr}{down}{down}{down}{down}{down}""",1
+"""{down}{down}     (c)1983 by:""",1
+"""{clr}{down} {rvs_on}  {CBM-*}{rvs_off} {rvs_on}{SHIFT-POUND} {CBM-*}{rvs_off} {rvs_on}  {CBM-*}{rvs_off} {rvs_on}{SHIFT-POUND} {CBM-*}{rvs_off} {rvs_on}   """,1
+""" {rvs_on}  {rvs_off}{SHIFT-POUND} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}  {rvs_off}{SHIFT-POUND} {rvs_on} {rvs_off} {rvs_on} {rvs_off}  {rvs_on} """,1
+"""sie die leertaste""",1
+"""druecken.""",1
+"""{clr}punktzahl:""",1
+"""l = load daten""",1
+456,1
+"""{home}{rvs_on} spieler""",1
+"""{rvs_on}    druecke return    """,1
+"""{down}spieleranzahl (1-9)? """,1
+"""{down}{rvs_on}{black}Q{red}Q{cyan}Q{purple}Q{green}Q{blue}Q{yellow}Q{black}Q{red}Q{cyan}Q{purple}Q{green}Q{blue}Q{yellow}Q{black}Q{red}Q{cyan}Q{purple}Q{green}Q{blue}Q{yellow}Q{black}Q{blue}""",1
+"""skippen mit {rvs_on}n{rvs_off} und {rvs_on}m{rvs_off}""",1
+"""{down}{down}treffe den punkt [W]""",1
+"""{clr}     {rvs_on}{red}skipping ball{blue}""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{SHIFT-@}   L""",1
+"""{SHIFT-@}    L""",1
+"""{SHIFT-@}  L""",1
+"""{rvs_on}{SHIFT--}""",1
+"""{clr}{down}{down}{down}spielernummer? """,1
+"""f""",1
+2005,1
+"""s = save daten""",1
+29000,1
+"""{clr}{white} zerstoere moeglichst {down}   viele angreifer !""",1
+"""{down}            a""",1
+"""{down} oder     , + .""",1
+"""{down}            z""",1
+"""{down}spiele mit d. joystick""",1
+"""{right}{right}{right}{right}{cyan}* star wars *""",1
+"""{clr}{down}{down}{down}{green}du wurdest von deinem {down}  gegner gerammt und  {down}     zerstoert !""",1
+"""{down}{down}{down}{down}deine punktezahl :{down}{down}{left}{left}{left}""",1
+"""punkte""",1
+"""{down} wenn dir dein gegner {down}zu nahe kommt,wirst du{down}gerammt und zerstoert!""",1
+ variablen,1
+"""{right}{right}""",1
+"""{home}{white}{down}{down}{down}{right}{right}{right}score:""",1
+ zerstoert!,1
+""" druecke eine taste!""",1
+"""{down}{right}{right}{right}{right}{right}{purple}(c) 1983 by""",1
+"""{down}{right}{right}{right}{right}{red}thomas elmer""",1
+"""{left}. """,1
+"""{clr}{down}wer spielt ?""",1
+"""{rvs_on}                       """,1
+"""schwierigkeitsgrad    spieler""",1
+"""(1-9)? """,1
+"""name von spieler""",1
+"""  {left}{left}{left}{left}{SHIFT--}""",1
+"""{rvs_on}druecke return""",1
+4075,1
+"""{down}{cyan}{CBM-E}""",1
+8015,1
+"""{rvs_on}hammer  =+100  bonus  schirm  =+300  bonus""",1
+"""{rvs_on}schl{rvs_off},{rvs_on}ssel= bedingung""",1
+"""{rvs_on}scheitern=bonus-300""",1
+"""{down}{down}{right}{right}{right}{right}{right}{rvs_on}blue munster""",1
+"""{down}{down}{down}{down}noch ein spiel (j/n)?""",1
+6140,1
+6132,1
+"""{down}{down}is zum naechsten mal!""",1
+30140,1
+ musik-data,1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{left}{left}{left}{left}{up}{up}{CBM-V}{left}{left}{up}{up}{up}{up}{CBM-V}{left}{left}{left}{left}{left}{left}{down}{CBM-B}{left}{left}{left}{left}{CBM-V}{left}{up}{up}{CBM-V}{left}{left}{left}{left}{down}{CBM-V}""",1
+"""{yellow}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{down}{down}{down}{down}{down}{CBM-B}{left}{left}{left}{down}{down}{down}{CBM-V}{down}{right}{right}{right}{right}{CBM-B}{right}{right}{up}{up}{CBM-V}{down}{down}{down}{right}{right}{right}{CBM-B}{CBM-V}{right}{right}{right}{up}{up}{up}{CBM-V}{left}{left}{left}{left}{left}{up}{up}{CBM-V}{right}{right}{right}{right}{right}{CBM-B}{left}{up}{up}{up}{up}{up}{CBM-B}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-C}{down}{left}{CBM-C}{down}{left}{left}{left}{CBM-F}{CBM-F}{right}{CBM-F}{CBM-F}{left}{left}{left}{down}{CBM-C}{down}{left}{CBM-C}""",1
+"""{down}    space... feuer""",1
+"""{home}{black}{down}{down}{down}{right}{right}{right}score:""",1
+167,1
+ treffer,1
+"""{white}{home}""",1
+***joystick,1
+"""{cyan}{down}{CBM-E}""",1
+"""{SHIFT--}QJ{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}KQ{SHIFT--}""",1
+"""{SHIFT--}Q{SHIFT--}QU{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}IQ{SHIFT--}Q{SHIFT--}""",1
+"""{SHIFT--}QU{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}IQ{SHIFT--}""",1
+"""{SHIFT--}Q{SHIFT--}Q{SHIFT--}QU{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}IQ{SHIFT--}Q{SHIFT--}Q{SHIFT--}""",1
+"""U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I""",1
+"""in""",1
+6900,1
+"""{home}{red}es ist""",1
+"""{down}{rvs_on}sie m{rvs_off},{rvs_on}ssen mit charly 5 mal zu maria laufen.""",1
+"""{rvs_on}aber vorsicht vor den herabrollenden sternen""",1
+"""{rvs_on} jeder {rvs_off},{rvs_on}bersprungene   stern   = +20  bonus  """,1
+"""L""",1
+"""S""",1
+5632,1
+"""{home}{down}{down}{right}{right}""",1
+"""{home}{down}{down}{right}""",1
+"""r{up}{left}r{up}{left}r{up}{left}r""",1
+"""{down}{blue}{rvs_on}bonus""",1
+"""{down}{down}{down}rssssssssssss{up}{up}{up}{blue}v{black}{down}{down}{down}{left}ssssst{down}{left}u{down}{left}u{down}{left}u{down}{left}u{right}{right}{right}sssssssssssssssssssss""",1
+"""{rvs_on} besuch  =versuch*200""",1
+"""{down}{rvs_on}  joystik einstecken""",1
+"""{up}{up}{up}{up}""",1
+"""blue-munster2""",1
+"""{down}{rvs_on}         taste""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{rvs_on}einen moment bitte""",1
+"""{down}{down}{rvs_on}{right}{right}ich lade das spiel""",1
+***sonderzeichen,1
+"""{SHIFT--}Q{SHIFT--}Q{SHIFT--}QJ{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}KQ{SHIFT--}Q{SHIFT--}Q{SHIFT--}""",1
+"""{SHIFT--}Q{CBM-C}Q{CBM-C}Q{CBM-C}QJ{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}KQ{CBM-C}Q{CBM-C}Q{CBM-C}Q{SHIFT--}""",1
+"""{SHIFT--}       {SHIFT--}{green}{CBM-E} 2 {blue}{SHIFT--}       {SHIFT--}""",1
+"""{SHIFT--}       {SHIFT--}    {SHIFT--}       {SHIFT--}""",1
+"""{rvs_on}blue munster""",1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{blue}{rvs_on}  {rvs_off}@ab{rvs_on}  {rvs_off}{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on} {rvs_off}cdefg{rvs_on} {rvs_off}{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on} {rvs_off}hijkl{rvs_on} {rvs_off}{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on} {rvs_off}mnopq{rvs_on} {rvs_off}{black}""",1
+**einleitung,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{cyan}&'{down}{left}({black}""",1
+"""{home}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{green}{CBM-+}{down}{left}{CBM-+}{down}{left}{CBM-+}{down}{left}{CBM-+}{down}{left}{CBM-+}{down}{left}{CBM-+}{black}{rvs_off}{up}{up}{up}sssst{up}{left}{left}{left}{left}{red}*{left}{up}){yellow}{down}{down}{down}+{black}{right}u{down}{left}u{down}{left}u""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{right}{purple}-./012345{black}""",1
+***hauptprog,1
+***links,1
+12115,1
+***auf,1
+"""C""",1
+***ab,1
+21070,1
+20850,1
+20070,1
+***bildaufbau,1
+"""{down}{down}{down}{down}{down}rssssssssssssssssst{down}{left}u{down}{left}u{down}{left}u{down}{left}u{right}{right}{right}{right}{right}{right}rssst{down}{left}u{down}{left}u{down}{left}u{down}{left}u{up}{up}{up}{up}ssssssssssssrr",1
+649,1
+"""{left}.""",1
+""" uhr """,1
+21105,1
+"""richtung nicht """,1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right} """,1
+"""{down}{down}minuten schlafen""",1
+47005,1
+"""stunden""",1
+"""{SHIFT--}Q{SHIFT--}QJ{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-D}  {CBM-F}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}KQ{SHIFT--}Q{SHIFT--}""",1
+13120,1
+***sprung,1
+12120,1
+***rechts,1
+***tot,1
+***todesstern,1
+27000,1
+11115,1
+11120,1
+"""{rvs_on}{red}S{black}""",1
+28000,1
+10999,1
+10105,1
+10115,1
+11999,1
+10120,1
+"""n = neues spiel""",1
+"""t = tagesbestenliste""",1
+"""p = persoenl. bestenl.""",1
+22090,1
+"""rrrr""",1
+27008,1
+"""{clr}{down}{down}{down}{rvs_on} ich bin sehr traurig    weil mein freier         nicht kam""",1
+30400,1
+30350,1
+"""mal kam""",1
+"""{down}{down}{down}{rvs_on} ich bin sehr traurig    weil mein freier       nur""",1
+"""{down}{down} high score""",1
+20090,1
+22070,1
+21090,1
+13115,1
+28005,1
+9010,1
+50230,1
+"""{SHIFT--}Q{CBM-V}Q{CBM-V}Q{CBM-V}QU{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}IQ{CBM-V}Q{CBM-V}Q{CBM-V}Q{SHIFT--}""",1
+"""{home}{red}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}T{right}H{right}E{right}{right}{right}{right}{right}{right}{right}{right}E{right}N{right}D{home}{blue}""",1
+4502,1
+"""{clr}{blue}{rvs_off}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}""",1
+5020,1
+"""{down}{down}      {green}car {purple}crash{home}""",1
+"""J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{rvs_on}   vc=20   """,1
+"""{blue}   (1) := 1 spieler""",1
+"""{down}   (2) := 2 spieler""",1
+"""{rvs_on} car crash """,1
+"""f = ende""",1
+"""{down}mit dem joystick.""",1
+30530,1
+"""{down}{down}{down}{down}{down}{down}{rvs_on}noch ein spiel? (j/n)""",1
+"""{down} score""",1
+30130,1
+30200,1
+30500,1
+"""{down}{down}{down}{rvs_on}  gratuliere,du hast   mich aus dem verlies        befreit.""",1
+30300,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{rvs_on}game over""",1
+"""{home}{black}{rvs_off}cde{rvs_on}:""",1
+"""{right}{right}{right}punkte:""",1
+"""kkkkkkkkkkkkkkkkkkkkkk""",1
+14999,1
+15400,1
+***absturz,1
+7805,1
+7783,1
+"""ffffffffffffffffffffff""",1
+38520,1
+38531,1
+38529,1
+38528,1
+38510,1
+7868,1
+7800,1
+7790,1
+ hauptprogramm,1
+7811,1
+7810,1
+7809,1
+"""{down}{down}{down}{down}    {rvs_on}drucke 'p'""",1
+"""{down}sie haben 5 min. zeit.""",1
+""">> monsterjagd <<""",1
+"""{down}{down}{down}{blue}versuchen sie die mon-ster in das zentrum zujagen.""",1
+"""{down}{down}{down}die steuerung erfolgt""",1
+"""{down}en wie moeglich.""",1
+"""{down}viele fische zu fang-""",1
+"""{down}{down}{down}versuchen sie so """,1
+"""{clr}  ***** {rvs_on}fishing{rvs_off} *****""",1
+ spielanleitung,1
+"""{rvs_on}{down}erreicht.""",1
+"""punkte  """,1
+"""{blue}{home}{rvs_on}{down}{down}{down}{down}{down}{down}{down}{down}sie haben""",1
+"""{home}{rvs_on}                     """,1
+ unterroutine,1
+"""{down}{down}{rvs_on}{right}{right}{right}druecke 'p'""",1
+"""{rvs_on}{down}{right}{right}highscore:""",1
+"""i{left}{down}{left}j+k{left}{left}{down}m""",1
+"""{down}{down}{down}{rvs_on}{red}bravo{rvs_off}, das war gut.""",1
+"""{down}{green}zeit:""",1
+"""sec.""",1
+"""{rvs_on} {rvs_off}""",1
+"""{left}{down}{down}{down}{down}{rvs_on} {rvs_off}{up}{up}{up}{up}""",1
+"""{down}{down}{down}leider nicht geschafft""",1
+"""{down}{down}{blue}press a key""",1
+7764,1
+7745,1
+7744,1
+7802,1
+ copyright,1
+ by martin kiesswetter 1983,1
+ *** fishing ***,1
+38532,1
+"""+.................+""",1
+"""+.+++++++.+++++++.+""",1
+"""+.+.+.+++.+++.+.+.+""",1
+"""+.+.+.........+.+.+""",1
+"""+.+.+++++.+++++.+.+""",1
+2805,1
+"""+++++++++++++++++++""",1
+"""{clr}{right}{right}{right}{right}{red}{rvs_on}>>monsterjagd<<{down}{down}{purple}""",1
+"""+.+.+.+.....+.+.+.+""",1
+"""+.......+{black}{rvs_on}*{purple}{rvs_off}+.......+""",1
+"""aber vorsicht, kommen sie ihnen nicht zu    nahe!""",1
+2900,1
+"""{down}{down}{down}{down}{blue}copyright (c) 1983 by {down}  carsten endewardt   {down}  joerg feldbinder""",1
+"""{down}{down}{down}{green}anleitung (j/n)?""",1
+"""{down}{green}steuerung uebe joy-  stick oder tastatur.""",1
+"""     {red}press a key{up}""",1
+"""moeglich""",1
+"""eingangstuer ist""",1
+"""zugeschlossen""",1
+"""zu wenig  gekillt!!""",1
+"""{clr}{down}{down}{down}{down}sie haben ihre aufgabeerfuellt und damit dieerde gerettet!!""",1
+50500,1
+"""{clr}{rvs_on}           {right}          """,1
+8065,1
+50800,1
+"""****taste druecken****""",1
+"""{SHIFT--} minuten vernichten!{SHIFT--}J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{clr}{down}{right}{right}{right}{right}{right}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I    """,1
+18000,1
+"""{home}{green}{down}{rvs_on}""",1
+"""000500""",1
+"""+.+.............+.+""",1
+"""          AAAA    M   {black}                                           {white}""",1
+"""          AA AA M               AAA    M    """,1
+"""{rvs_on}{right}{right}{right}{right}{right}{right}   {right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}     """,1
+"""{rvs_on}       NM                   N  M            """,1
+"""+.+.+.+.+.+.+.+.+.+""",1
+"""+.+.+.+.+++.+.+.+.+""",1
+3030,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down} s i e g      s i e g """,1
+"""{down}{down}{rvs_on}""",1
+451,1
+653,1
+ (c) by,1
+"""    {down}{down}{down}bitte warten""",1
+ bewegung mensch,1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{CBM-U}""",1
+"""tuer ist zugeschlos-""",1
+"""{SHIFT--}  rechts:'k'        {SHIFT--}{SHIFT--}  schuss:'d'        {SHIFT--}""",1
+"""{down}{down}{down}waeren alle piloten   so unfaehig !?!""",1
+"""beizutragen!""",1
+"""rettung der erde      """,1
+"""schafft ihren teil zur""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_off}sie haben es nicht ge-""",1
+"""U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W} a l e r t {CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-*}I{SHIFT--}    J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K   {SHIFT--}""",1
+"""{SHIFT--} ein scwarm vogoni- {SHIFT--}{SHIFT--} scher ufos greift  {SHIFT--}""",1
+"""{SHIFT--} eine staffel von 4 {SHIFT--}{SHIFT--} jaegern , ein teil {SHIFT--}""",1
+"""{SHIFT--} des irdischen ver- {SHIFT--}{SHIFT--} teidigungssystems. {SHIFT--}""",1
+"""{SHIFT--} um die erde zu ret-{SHIFT--}{SHIFT--} ten muessen sie 1/4{SHIFT--}""",1
+"""{SHIFT--} aller vogonischen  {SHIFT--}{SHIFT--} schiffe in 1:30    {SHIFT--}""",1
+"""{SHIFT--} ihr heimatsystem an{SHIFT--}{SHIFT--} sie fuehren eine   {SHIFT--}""",1
+"""sie haben """,1
+"""{clr}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+40390,1
+1016,1
+"""{clr}{white}{rvs_off}{down}{down}{down}{right}{right}{right}{right}bitte warten{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{down}{down}{down}{down}maschinenprogramm{right}{right}{right}{right}{right}{right}wird{right}eingelesen""",1
+873,1
+"""{down}{down}Steuerung mit dem JOY-{down}STICK !""",1
+"""{clr}Spielanleitung:""",1
+"""{down}{down}{down}Versorgen Sie als Pin-{down}guin Ihren Sproessling{down}mit Nahrung!",1
+"""{down}In diesem Spiel mues- {down}sen Sie einen Pinguin {down}ueber gefaehrliche""",1
+"""   N A A  A  {CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}  N A     AA M        """,1
+""" N A  AAAA AA M       N A  AA     AA M      """,1
+"""{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}    M           {CBM-P}{CBM-P}{CBM-P}{CBM-P}       {CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}""",1
+"""{down}{down}score:""",1
+"""J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}****taste druecken****""",1
+40310,1
+40180,1
+"""{clr}{right}{right}{right}{right}{down}{right}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I    U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W} a l e r t {CBM-Q}{SHIFT-*}{SHIFT-*}{SHIFT-*}I""",1
+"""{SHIFT--}    {CBM-Z}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-X}   {SHIFT--}{SHIFT--}   links:'j'        {SHIFT--}""",1
+"""{down}Er darf sich dabei nur{down}auf ebenem Gelaende   {down}bewegen !""",1
+"""{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}""",1
+"""        {CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}""",1
+"""{down}{down}      Feb. 1984",1
+"""        {rvs_on}PINGI""",1
+"""{down}{down}(C) by Stefan Reusch",1
+"""{CBM-+}EEEEEEEEEEEEE{CBM-+}",1
+"""{CBM-+}             {CBM-+}",1
+"""{CBM-+}    pingi    {CBM-+}",1
+"""{CBM-+}    EEEEE    {CBM-+}",1
+"""{CBM-+} bordesholm  {CBM-+}",1
+"""{CBM-+}RRRRRRRRRRRRR{CBM-+}",1
+"""{CBM-+}ladeprogramm:{CBM-+}",1
+"""{CBM-+}stefan reusch{CBM-+}",1
+953,1
+"""{home}{rvs_on}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{clr}{rvs_on}{down}{down}""",1
+"""drehen""",1
+"""ende!""",1
+"""o=""",1
+"""{down}eine Landschaft durch-{down}quert: 100 P.",1
+"""{down}{down}ein Vogel:  25 P.""",1
+"""{down}{down}eine Kugel: 20 P.""",1
+"""{down}{down}am Ziel:    50*Kraft.""",1
+"""{down}{down}(Die Kraft wird oben  {down}angezeigt)""",1
+"""{down}er wird von Voegeln   {down}attackiert!""",1
+"""{down}Immer oefter fallen   {down}Kugeln auf Pingi und""",1
+"""{down}rutschen (Das Spiel   {down}ist verloren.)""",1
+"""{down}{down}Bewegung:""",1
+"""{down}Joystick links/rechts {down}und ducken.""",1
+"""{clr}Fire - Spring:""",1
+"""{down}Eisberge zu seinem    {down}Jungen steuern. (von  {down}links nch rechts.)",1
+7302,1
+7334,1
+7366,1
+7342,1
+7398,1
+"""pingi2""",1
+"""{clr}Sollten Sie ihn aber  {down}auf unebenen Grund    {down}steuern, wird er aus-""",1
+"""{clr}PUNKTE:""",1
+"""{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}""",1
+"""befehl falsch""",1
+8144,1
+"""{down}{down}such den schluessel""",1
+"""{black}{rvs_on}           """,1
+ car crash,1
+ by georg foltin,1
+ laenge: 4.2k,1
+"""{yellow}'####$""",1
+"""{up}###$  %##&  '""",1
+"""%########""",1
+"""{up}##$""",1
+"""{yellow}%######""",1
+"""$%""",1
+"""{purple}""",1
+"""{down}Je nach Knueppelstel- {down}ung hoch oder flach.""",1
+"""{down}{down}ACHTUNG !""",1
+"""{down}{down} - Taste oder FIRE -""",1
+7399,1
+7303,1
+7406,1
+7407,1
+7335,1
+7367,1
+"""  %##########$""",1
+"""&   '##""",1
+"""   %########&",1
+"""e = ewige bestenl.""",1
+50400,1
+7480,1
+"""karte""",1
+"""car-crash2""",1
+"""{clr}{down}{down}poke44,32:poke8182,0:new""",1
+ cord kielhorn,1
+   &,1
+ georg foltin,1
+6416,1
+6240,1
+"""{rvs_on}{red}{up}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-M}""",1
+"""du bist auf dem""",1
+"""$",1
+"""######################",1
+purpur,1
+green,1
+blue,1
+"""{yellow}""",1
+yellow,1
+down,1
+up,1
+cyan,1
+ *cursorzeichen:*,1
+rvs,1
+rvsoff,1
+white,1
+right,1
+"""   %""",1
+"""pingi""",1
+"""{down}{down}fein... ihr """,1
+"""{down}macht sich auf knopf- {down}druck auf den weg.""",1
+"""{rvs_on} hohoho... sie haben  {down}in dieser runde klaeg-{down}lich versagt!""",1
+"""{rvs_on}{purple}{down}dennoch erreichten sie""",1
+"""punkte.""",1
+8052,1
+"""    '""",1
+"""&",1
+"""%######&",1
+"""%####$""",1
+"""'##&""",1
+"""{home}{rvs_on}{white}sehen sie nur,wie sich{down}ihr soehnchen freut !""",1
+"""   %####&""",1
+"""    '##&""",1
+home,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{purple}{rvs_on}{right}{right}lmn{right}{right}opq{right}{right}rst{right}{right}uvw""",1
+"""{right}{right}{rvs_on}""",1
+853,1
+"""{home}{green}{down}{down}{down}{down}""",1
+2130,1
+7789,1
+"""$  {cyan}({yellow}     %##",1
+8033,1
+"""{home}{rvs_on} """,1
+2190,1
+"""{down}{down}bevor sie starten, ge-{down}ben sie bitte ihrem""",1
+"""{clr}{white}halt !!!""",1
+2128,1
+ landschaften,1
+2070,1
+"""{down}pingi einen namen !{down}""",1
+"""{up}{purple}""",1
+"""{green}{up}   %#########{rvs_on}{CBM-H}{right}{right}{CBM-N}{rvs_off}####{rvs_on}{CBM-H}",1
+"""{cyan}{up}    '###&'##&    ####{rvs_on}{CBM-H}""",1
+"""'###",1
+"""{white}2{yellow}""",1
+4020,1
+"""{home}{rvs_on}{blue} *** {green}spiel vorbei{blue} ***      {purple}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{down}",1
+"""{rvs_on}ziel des spieles ist, {down}nachwuchs zu versorgen{down}nicht baden zu gehen!""",1
+"""{rvs_on}sie haben leider (hi, {down}hi) keine kraft mehr.""",1
+"""dachboden""",1
+"""{rvs_on}{red}{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-Q}""",1
+"""{clr}{down}{down}{down}{red}du bist im garten     {down}du kannst nur durch   {down}die eingangstuer """,1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}H """,1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}H """,1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}H{CBM-K}""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}aktuelles{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}zeichen{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}:""",1
+"""{rvs_on}SSSSSS  pingi  SSSSSS""",1
+"""{down}{down}{down}{down}(c) by stefan reusch""",1
+.005,1
+"""{clr}{white}bestenliste:""",1
+.03,1
+"""{rvs_on}{white}     platz nr.""",1
+"""{rvs_on}{purple}punkte:""",1
+2180,1
+2160,1
+2150,1
+"""{up}%#########""",1
+"""####$ %##&""",1
+8047,1
+"""'##${right}%##""",1
+"""{up}{blue}1111111111111{yellow}%########""",1
+ *  pingi 2  *,1
+"""{clr}{rvs_on}{purple}keine kraft mehr-puust",1
+"""rasen2""",1
+"""{blue}by{yellow} axel heisler{black}""",1
+774,1
+"""{red}r{right}{cyan}a {purple}s {green}e {yellow}n {white}m {purple}a {blue}e {green}h {cyan}e {red}r""",1
+"""!!!!{rvs_on}achtung baum{rvs_off}""",1
+"""{down} {rvs_on}high :""",1
+"""!!!!{rvs_on}achtung hund{rvs_off}""",1
+"""{down} {rvs_on}score:""",1
+"""{down}{down}{down}{down}{rvs_on}    press any key""",1
+"""{rvs_on}{CBM-H}{right}{right}{CBM-N}{rvs_off}####{rvs_on}{CBM-K}{green}""",1
+"""{yellow}{up}""",1
+"""{rvs_on}{CBM-H}{right}{right}{CBM-N}{rvs_off}####{rvs_on}{CBM-H}""",1
+"""$   (  '##",1
+7681,1
+"""{clr}{white}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}{CBM-P}""",1
+912,1
+ invader-move,1
+15239,1
+ ufo,1
+ ** anzeigetafel **,1
+"""{home}01 {rvs_on}""",1
+"""*+,""",1
+ ** ton **,1
+ ** zusammenstoss **,1
+342,1
+"""   {rvs_on}you win the game{down}{down}{down}""",1
+"""  {rvs_on}you lost the game{down}{down}{down}""",1
+""" {rvs_on}time :""",1
+""". """,1
+"""{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{down}""",1
+"""{down} - taste druecken -""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}''''""",1
+"""-./{rvs_on}""",1
+"""()""",1
+"""!!{rvs_on}achtung schlauch{rvs_off}""",1
+"""!!!!{rvs_on}achtung stein{rvs_off}""",1
+854,1
+15936,1
+"""licht""",1
+"""luft=0""",1
+"""ra""",1
+"""wand gerammt""",1
+4601,1
+38393,1
+e6,1
+"""{clr}{green}highscore: """,1
+ spielerschuss weiterbewegen,1
+"""{home}{rvs_on}{down}{right}        das        """,1
+"""{right}{rvs_on}zerbrochene schwert""",1
+"""erscheint der schlues {down}sel, ohne den man den """,1
+"""gesammelt worden sind """,1
+"""{down}{yellow}wenn genuegend punkte """,1
+"""{CBM-Q} inde alle teile des {down}zerbrochenen schwerts """,1
+"""{down}{down}{white}UI""",1
+"""{rvs_on}     {CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{down}{down}{down}""",1
+ ** spielstandanzeige **,1
+"""{clr}{down}{rvs_on}     rasenmaeher""",1
+"""{black}{clr}{down}{rvs_on}     rasenmaeher""",1
+"""{rvs_on}     {CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}{CBM-Y}""",1
+"""{rvs_on}{down}{down}{down}   enter level(1-9)""",1
+***rasenmaeher***,1
+*by axel heisler*,1
+286,1
+"""des schwertes.""",1
+"""{down}{down}{down}{down}{yellow}mit dem schluessel er {down}haelt  man  ein  teil """,1
+"""{clr}{rvs_on}{white}{CBM-A}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-S}""",1
+"""{clr}{cyan}@@@@@@@@@@{green}c{cyan}@@@@@@@@@@@@                    @""",1
+"""{cyan}@{white}                    {cyan}@""",1
+.62,1
+"""      {rvs_on}{red}{CBM-Z}K""",1
+"""      {rvs_on}JI{white}chwert""",1
+"""      {rvs_on}U{CBM-S}""",1
+"""{clr}{rvs_on}{cyan}   das zerbrochene    {red}""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{CBM-B}{CBM-B}{CBM-B}{CBM-B}""",1
+"""zerbrochene2""",1
+"""{clr}{down}{down}poke44,30:poke7680,0""",1
+"""{cyan}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}        taste""",1
+*   m. liebe  *,1
+* (c) 1984 by *,1
+839,1
+851,1
+"""{down}{down}{down}   {cyan}e{yellow}mmmmm{rvs_on}monster""",1
+"""{down}   {purple}b{yellow}mmmmm{rvs_on}schluessel""",1
+"""{down}   {white}c{yellow}mmmmm{rvs_on}tuer""",1
+"""{down}{down}{down}{down}   {rvs_on}{white}f1 = joystick""",1
+"""{down}   {rvs_on}{cyan}f3 = tastatur""",1
+1210,1
+"""@{white}                    {black}@@{white} {black}@@@@@@@@@@@@@@@@@@{white} {black}@""",1
+"""@{white}                    {black}@@@@@@@@@@@@@@@@@@@@@@@{white}""",1
+"""{clr}{black}@@@@@@@@@@{white}c{black}@@@@@@@@@@@""",1
+"""@@@@@@@@@@@@@@@@@@@@@@""",1
+"""@{white}                    {cyan}@""",1
+"""@ @@@@@@@@@@@@@@@@@@ @""",1
+"""{clr}{rvs_on}{red}{CBM-A}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-S}""",1
+"""jeweiligen raum nicht {down}verlassen kann.""",1
+"""{home}         {down}{down}gh{down}{left}{left}ij""",1
+"""{down}{down}{down}{rvs_on}{green}du hast alle teile des{down}schwerts gefunden !!!""",1
+3876,1
+"""{down}{down}{down}{down}{down}        {rvs_on}{cyan}space""",1
+7.5,1
+15103,1
+ tastaturabfrage,1
+14853,1
+15339,1
+ anzahl basen,1
+37955,1
+15794,1
+ bodenblinken,1
+15848,1
+ invaderblinken,1
+14526,1
+5127,1
+15752,1
+ neuer boden,1
+15841,1
+ boden im chr-ram,1
+15669,1
+ basisblinken,1
+832,1
+"""{clr}{cyan}eeeeeeeeee{white}c{cyan}eeeeeeeeeee""",1
+960,1
+940,1
+4138,1
+""" minuten""",1
+"""{down}{down}{rvs_on}score:""",1
+"""slalom2""",1
+"""{down}{down}{down}{rvs_on}{white}zeit: """,1
+"""{clr}{yellow}@@@@@@@@@@@@@@@@@@@@@@""",1
+"""{rvs_on}{green}score =""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{green}                      """,1
+"""{down}{down}{down}{down}{yellow}{rvs_off}@{rvs_on}space{rvs_off}@@@@@@@@@@@@@@@@{home}""",1
+4106,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}score =""",1
+38392,1
+"""{cyan}e{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}eeeeeeeeeeeeeeeeeeeeeee""",1
+"""{cyan}e{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}ee{yellow}a{cyan}eeeeeeeeeeeeeeeeee{yellow}a{cyan}e{yellow}""",1
+864,1
+863,1
+862,1
+"""    score: 000000""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{green}@@@@@@@@@@@@@@@@@@@@@""",1
+5122,1
+5121,1
+16194,1
+1340,1
+1390,1
+ bugfix (rms),1
+783,1
+"""{clr}{black} bitte 7 sek. warten""",1
+* vc-20 grundversion *,1
+4119,1
+38272,1
+4480,1
+sh1,1
+455,1
+374,1
+"""{clr}{cyan}@@@@@@@@@@{white}c{cyan}@@@@@@@@@@@""",1
+"""{cyan}@{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}@@{yellow}a{cyan}@@@@@@@@@@@@@@@@@@{yellow}a{cyan}@{yellow}""",1
+"""{cyan}@{yellow}aaaaaaaaaaaaaaaaaaaa{cyan}@@@@@@@@@@@@@@@@@@@@@@@""",1
+"""{down}    score:""",1
+"""{red}{down}highscore:""",1
+"""{blue}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}oder{left}{left}{left}{left}{left}{left}{down}joystick""",1
+1160,1
+ invaderschuss initialisieren und weiterbewegen,1
+15740,1
+ himmelblinken,1
+ blaue farbe,1
+16018,1
+4136,1
+14916,1
+bodenblinkanzahl,1
+14812,1
+ bodenblinkgeschwindigkeit,1
+15806,1
+ himmelblinkanzahl,1
+"""{home}{black}score:""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{cyan}punkte""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{yellow}L{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{SHIFT-@}""",1
+"""{yellow}{home}{down}{down}{down}{rvs_on}     {CBM-*}{SHIFT-POUND}     """,1
+"""{home}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{yellow}O{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}P""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{yellow}{CBM-G}      {CBM-M}""",1
+"""{blue}{right}{rvs_on}          {cyan}""",1
+"""{home}{yellow}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{CBM-*}{down}{left}{rvs_on}{SHIFT-POUND}{rvs_off}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT-POUND}{rvs_on}{down}{left}{CBM-*}""",1
+"""{rvs_on}{cyan}{right}          """,1
+"""{rvs_on}     {rvs_off}{SHIFT-POUND}{CBM-*}{rvs_on}     """,1
+*stefan isbrecht*,1
+*written 1984 by*,1
+*  double-mam   *,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{red}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}{CBM-+}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{black}{right}b-o-n-u-s--l-e-b-e-n""",1
+"""{black}{down}{down}level:(0-9){home}""",1
+16203,1
+16202,1
+16201,1
+16200,1
+ invadergeschwindigkeit,1
+"""#${rvs_off}  {rvs_on}%&'{rvs_off}  {rvs_on}()*{rvs_off}  {rvs_on}+,-",1
+rektur,1
+517,1
+522,1
+501,1
+"""{blue}{rvs_on} {CBM-O} {down}{left}{left}{left} {red}W{blue} {down}{down}{left}{left}{left} {CBM-I} """,1
+"""{red}{down}{down}steuerung:{up} u{down}{left}{left}h j{down}{left}{left}n""",1
+"""{blue}{down}alle 15000 punkte     ein bonusleeen.""",1
+"""{green}{down}versuchen sie viele   von den {blue}&{green} zu pressen, bitte nicht von den {red}'{green}.""",1
+"""{clr}% # $ double-man % # $ & ' ============ ' &""",1
+"""#:""",1
+"""{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}""",1
+"""{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}""",1
+"""{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}""",1
+"""{rvs_on}{CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  """,1
+"""{purple}{right}{rvs_on}          """,1
+"""{rvs_on} {rvs_off}          {rvs_on} """,1
+"""{clr}{red}{up}  p l a n e t o i d   """,1
+16193,1
+16192,1
+16191,1
+16190,1
+himmelblinkgeschwindigkeit,1
+16196,1
+16195,1
+16199,1
+16204,1
+"""O {down}{left}{left} """,1
+"""{purple} {down}{left}{SHIFT-@}{left}{left} """,1
+"""{purple} {down}{left}L """,1
+.001,1
+.01,1
+"""{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}""",1
+"""{home}{cyan}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+355,1
+335,1
+345,1
+"""{purple} P{down}{left} """,1
+"""{rvs_on}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}""",1
+"""{rvs_on}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}""",1
+"""{rvs_on}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}""",1
+"""{rvs_on} {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND} """,1
+"""{CBM-P}{rvs_on}{SHIFT-POUND}{CBM-*}{SHIFT-POUND}  {CBM-*}{rvs_off}{CBM-@}{CBM-O}{CBM-I}""",1
+15430,1
+15429,1
+15351,1
+15516,1
+15515,1
+15514,1
+15513,1
+265,1
+"""{down}   f1-taste druecken{down}""",1
+"""{blue}    zum spielbeginn""",1
+"""{down}{down}{down}   {white}p l a n e t o i d{down}    {cyan}p.eckbauer software{down}{down}{down}{down}""",1
+"""{down}  ihre punktzahl""",1
+"""{down}{blue} hoechstpunktzahl""",1
+"""{down}{down}{down}{down}{purple}    spielende!""",1
+"""{purple}UI{down}{left}{left}{SHIFT--}{SHIFT--}{down}{left}{left}JK""",1
+"""{purple}{home}{down}{down}{down}{down}""",1
+"""{rvs_on}{purple}geluescht wird, indem du mit dem wagen in   {rvs_off}""",1
+"""{white}der spieler uebernimmtim einer kleinen ort-""",1
+"""schaft die aufgaben   der feuerwehr.es gilt""",1
+"""innerhalb kuerzester  zeit {rvs_on}10{rvs_off} braende zu""",1
+"""zu loeschen.""",1
+305,1
+"""strom    {left}{left}{left}{left}""",1
+285,1
+schussk,1
+ invaderblinkkanzahl,1
+15031,1
+6511,1
+"""inv-game""",1
+"""{clr}load""",1
+15431,1
+15432,1
+""" {rvs_on} {rvs_off}   {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off}""",1
+"""  {rvs_on}     {rvs_off} {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}  {rvs_off}""",1
+"""{red} {rvs_on}   {rvs_off} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}   {rvs_off} {rvs_on}   {rvs_off}""",1
+"""  {rvs_on}  {rvs_off} {rvs_on}  {rvs_off} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}""",1
+"""{down}{down}{yellow}{rvs_on}ein spiel von ellen   und martin bormann    {rvs_off}""",1
+"""(c) 1984""",1
+"""f-5 = spielerklaerung""",1
+"""{down}{down}f-7 = zum daten lesen""",1
+"""{rvs_on}{white} die daten werden nun  eingelesen{rvs_off}""",1
+"""{rvs_on}{white}{down} bitte etwas geduld{rvs_off}""",1
+"""feuerwehr2""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{rvs_on}""",1
+5335,1
+"""{white}achte auf strassen-   sperren und fahr vor  sichtig.""",1
+"""{down}taste druecken""",1
+"""{up}{rvs_on}den brandherd faehrst!{rvs_off}""",1
+* e.+ m.bormann *,1
+* wohldenbergstr*,1
+*    +  19      *,1
+* 3201 holle 7  *,1
+""" {green}bbb{black}niiipl{blue}c{black}j  j{red}d{black}ripmo""",1
+"""  {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}  {rvs_off}  {rvs_on}   {rvs_off} {rvs_on}   {rvs_off}""",1
+"""  {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}""",1
+"""  {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}   {rvs_off}""",1
+16197,1
+16198,1
+"""inv-gfx""",1
+8157,1
+6147,1
+""" {rvs_on} {rvs_off}   {rvs_on}   {rvs_off} {rvs_on}   {rvs_off} {rvs_on}   {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}""",1
+""" {rvs_on} {rvs_off}   {rvs_on} {rvs_off}   {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on} {rvs_off}   {rvs_on}  {rvs_off}""",1
+""" {rvs_on}  {rvs_off}  {rvs_on}  {rvs_off}  {rvs_on} {rvs_off} {rvs_on} {rvs_off} {rvs_on}  {rvs_off}  {rvs_on}   {rvs_off}""",1
+"""{rvs_on}{up}schliessenden beratungzurueck.einen augen-  {rvs_off}""",1
+"""{up}{rvs_on}{black}moeglich, dich weiter zu finanzieren. a d e {rvs_off}""",1
+"""{rvs_on}{red}neuer loescheinsatz         (j/n)?          {rvs_off}""",1
+"""{rvs_on}vererauch:{rvs_off}""",1
+"""{rvs_on}unfaelle:{rvs_off}""",1
+"""{rvs_on}zeit:{rvs_off}""",1
+"""{green}h   bbbbb{black}riqiis{blue}c{black}j{green}b{red}d{black}j{green}h""",1
+"""{rvs_on}du hast dich in heldenfaeter weise einge-   {rvs_off}""",1
+"""{rvs_on}{red}...wirst du befoerdertzum {blue}brandmeister{red}!!!!{rvs_off}""",1
+"""{clr}{rvs_on}{red}{right}{right}{right}{down}{down}{down}{down}{down}{down}feuer geldescht!!{rvs_off}""",1
+"""{rvs_on}{black}zeit:{rvs_off}""",1
+"""   {green}hhhh""",1
+"""   {black}ffff{green}bbhhb    hhhhh""",1
+"""{green}h{red}tu    {green}b{black}kiil{blue}eee{green}b{black}kimil""",1
+"""{black}fwwil{green}bhh{black}j{green}b{blue}d{black}riil j{green}h{black}j{red}e{black}j""",1
+* ein spiel von *,1
+"""{up}{rvs_on}putzputz{rvs_off}""",1
+"""{rvs_on}{purple}...wirst du degradiertzum loescheimer putzen{rvs_off}""",1
+"""{up}{rvs_on}gefahren bist.kennst  du dein dorf nicht??? {rvs_off}""",1
+"""{up}{rvs_on}leider reicht es nichtzum brandmeister,weil {rvs_off}""",1
+"""{down}{blue}...wirst du befoerdertzum {red}loeschzugfuehrer{blue}  {rvs_off}""",1
+"""{up}{rvs_on}du nicht die kuerzes- ten wege zum brandherd{rvs_off}""",1
+"""{rvs_on}{black}der oberste feuerwehr-rat zieht sich zur ab-{rvs_off}""",1
+"""{down}{red}@@@@@@@@@@eevvvvvvvvvv""",1
+38519,1
+7799,1
+"""{black}{home}{right}{right}{right}{right}{right}""",1
+"""{rvs_on}{black}..wirst du entlassen. bei ceiner hohen an-  {rvs_off}""",1
+"""{up}{rvs_on}{black}zahl von unfaellen istes der gemeinde nicht {rvs_off}""",1
+"""{rvs_on}{purple}aufgrund deiner beson-deren verdienste......{rvs_off}""",1
+"""{rvs_on}{black}b e u r t e i l u n g {rvs_off}""",1
+"""{rvs_on}{up}blick geould bitte    {rvs_off}""",1
+8124,1
+38880,1
+7903,1
+38609,1
+7889,1
+38632,1
+7912,1
+38801,1
+8081,1
+38569,1
+"""{red}@@@@@@@@@@@{black}vvvvvvvvvvv""",1
+"""{up}{rvs_on}im inwendienst!!      {rvs_off}""",1
+"""{up}{rvs_on}ten.eu bleibst bis aufweiteres feuerwehrmann{rvs_off}""",1
+"""{rvs_on}{blue}...wirst du zur erneu-ten fahrpruefung gebe-{rvs_off}""",1
+"""{up}{rvs_on}setzt.sei weiterhin   ein leuchtendeg ver-  {rvs_off}""",1
+"""{up}{rvs_on}bild und trink nicht  mehr soviel.prost!!!!!{rvs_off}""",1
+"""{black}fjfffj{green}e {blue}e{black}jfj {red}d{green}h{red}d{black}nimis""",1
+"""{green}h{black}j{green}b{green}hb{black}kipil{green}b{black}j{yellow}c{black}niis{blue}e{yellow}c{blue}e{black}j""",1
+"""{black}fko{yellow}c {green}be{black}j{red}eee{black}jdj{green}bb{black}riiis""",1
+"""{green}b {black}jdniimipiqimo{red}c{black}j{blue}c{red}e{purple}e{black}j""",1
+""" {black}fkis{green}bbba{black}j{green}b{black}j{yellow}c{black}fjdriipl""",1
+"""{black}f{green}bbb{black}kiiiis{red}e{black}j{red}d{green}b{black}risfcjf""",1
+"""{green}h{black}j   j {green}b{black}j{green} e{black}j{green}b{red}dd{green}h{green}b{black}j{green}bh{black}j""",1
+"""{black}fj {green}h{blue}e{black}j{blue}e {black}j{blue}e {black}jf{blue}cc{black}ffj{green}b{black}fj""",1
+38615,1
+7895,1
+"""  {black}e{red}e{purple}ee{green}f{blue}e{yellow}e{black}f{blue}e{black}nio{blue}ee{green}ee{purple}e{yellow}c""",1
+38623,1
+"""{green}h{black}nil{yellow}c{black}j {green}b{black}riis{yellow}cc{black}j{green}hhh{black}j {red}d""",1
+38629,1
+7909,1
+38844,1
+"""{green}b{black}j{green}b{black}f j {green}b{black}riiqiimiis{red}e {black}j""",1
+"""{black}f{purple}ee{black}nipiio{green}b {black}j kpiiio{red}d{green}c""",1
+7853,1
+"""{home}{rvs_on}{purple}loescheinsatz beendet!{rvs_off}""",1
+"""{rvs_on}{black}deine zeit:{rvs_off}""",1
+"""{down}{rvs_on}{black}energieverbrauch:{rvs_off}""",1
+"""{down}{rvs_on}{red}enfaelle:{rvs_off}""",1
+8067,1
+38792,1
+38721,1
+38744,1
+8024,1
+38579,1
+38787,1
+"""{black}fj   {black}j{blue}e {black}j{blue}e {black}riiiiimo j""",1
+"""{green}b{black}riiis ekpis{green}b{black}cfc{green}b{purple}e{black}jej""",1
+38869,1
+7760,1
+"""{clr}{white}{right}bitte {yellow}{rvs_on}play{rvs_off}{white} druecken.""",1
+"""{down}{down}{down}{left}{left}{left}- ok -{black}""",1
+"""diamanten2""",1
+" mannheim,juni84",1
+"""{black}fjf dj{green}e {black}j{green}bb{black}jddj{red}ee{black}nmio""",1
+"""geh balkon""",1
+"""bild""",1
+47000,1
+"""schlaf""",1
+"""inv-mc""",1
+"""wand""",1
+"""{clr}{down}{down}{red}der weg verzweigt""",1
+"""{down}du kannst nach        {down}osten  (o)            {down}westen (w)""",1
+"""{down}sueden (s)""",1
+"""{clr}{down}{red}{right}{right}{right}ZZZZZZZZZZZZZZZZZ""",1
+"""{right}{right}{right}Z {white}              {red}Z""",1
+"""{right}{right}{right}ZZZZZZZZZZZZZZZZZ""",1
+"""{down}{down}{down}{yellow}{right}{right}von ramin irannejad""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}>> bitte waehlen <<""",1
+"""{cyan}{down}{right}{right}{right}{right}{right}{rvs_on}f5{rvs_off}{green} spielstart""",1
+31107,1
+"""{clr}{white}? einhgabefehler{down}{down}{down}""",1
+"""{cyan}{down}{down}{right}{right}{right}{right}{right}{rvs_on}f3{rvs_off}{green} erklaerung""",1
+7527,1
+8149,1
+7781,1
+38480,1
+38501,1
+38848,1
+8128,1
+""";""",1
+60000,1
+"""%""",1
+"""{up}disassembler ?""",1
+"""{rvs_on}noch eine bonusminute.""",1
+"""{rvs_on}dranstoesst, taucht er{down}an einem anderen ort  {down}wieder auf, was fuer""",1
+"""{clr}{blue}{rvs_on}{down}{down}die felsbrocken {rvs_off}{green}!{blue}{rvs_on} ver-{down}sperren ihnen den weg,""",1
+"""{rvs_on}wenn aber ein robotter""",1
+"""{rvs_on}{down}aeugie wesen bewachen.""",1
+"""{blue}{down}{rvs_on}sie sind in einer dia-{down}{right}mantenmine, die ein-""",1
+"""{rvs_on}{down}sie sehr gefaehrlich  {down}werden kann, denn sie""",1
+"""{rvs_on}{right}{right}{right}{right}{down}{black}spielanleitung""",1
+"""{right}{right}{right}{red}================""",1
+     zeichen,1
+   definierung,1
+ ramin irannejad,1
+    anleitung,1
+"""diamanten3""",1
+"""{rvs_on}{down}um die schwierigkeits-{down}stufe einzustellen,   {down}bitte joystick nach""",1
+7353,1
+7511,1
+"""{purple}{down}{down}{down}fuer vc20 grundversion""",1
+7257,1
+7535,1
+"""{rvs_on}{down}wenn sie nach drei min{down}mindestens 500 punkte {down}erreicht haben,gibt es""",1
+"""{down}osten (o)             {down}sueden (s),           {down}westen (w)""",1
+14210,1
+"""{down}wieder ins            {down}spukschloss""",1
+"""{clr}{down}{down}{red}du bist auf dem       {down}flur                  {down}du kannst nach""",1
+sedbplbmibvcbvsbccbcsbnebeqjsrequdfborg,1
+brkphpclcplpsecrtiphaclirtsplaseideytxatyatxstaytaxclvtsxinydexcldinxnop,1
+oraaslbitandroleorlsrjmpadcrorstystastxldyldaldxcpycmpdeccpxsbcinc,1
+"""{down}{rvs_off}{right}{right}{right}{right}{blue}l{rvs_on} = 60 punkte""",1
+"""{rvs_off}{red}{down}t{rvs_on}{blue} = 100 punte ---{black} und:""",1
+"""{blue}{rvs_on}{down}wenn sie einen diaman-{down}ten gefunden haben,   {down}koennen sie fuer eine""",1
+"""{right}{right}{right}{right}{rvs_off}{yellow}k{blue}{rvs_on} = 40 punkte""",1
+"""{rvs_off}{yellow}{right}{right}{right}{right}j{blue}{rvs_on} = 30 punkte""",1
+"""{clr}{down}{rvs_on}{purple}{right}{right}{right}{right}{right}schatztruhe:""",1
+"""{black}{rvs_off}{down}w{rvs_on}{blue}=zufaellige punktzahl""",1
+"""{rvs_on}{purple}{down}{right}{right}{right}{right}d i a m a n t:""",1
+"""{yellow}{right}{right}{right}{right}i{blue}{rvs_on} = 20 punkte""",1
+"""{clr}{rvs_on}{blue}{down}{down}ein {black}{rvs_off}u{rvs_on}{blue} kennzeichnet ei-{down}nen verborgenen schatz""",1
+"""{rvs_on}- wenn sie ihn schnell{down}genug erwischen, heben{down}sie ihn und bekommen""",1
+"""{down}{left}{left}{left}{left}{red}{rvs_on}punkte:{down}{left}{left}{left}{left}{left}{left}{left}{left}{cyan}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}""",1
+"""{rvs_on}{black}{right}{right}{right}{right}{right}{right}goldstaub""",1
+"""{rvs_off}{yellow}{right}{right}{right}{right}h{blue}{rvs_on} = 10 punkte""",1
+"""{rvs_on}{down}haben nur ein leben !""",1
+"""{clr}? error{down}{down}{down}""",1
+7828,1
+"""{left}{left}{left}{white}b{cyan}o{yellow}n{green}u{blue}s{left}{left}{left}{left}{left}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}""",1
+"""{black}qrs""",1
+"""{rvs_off}{purple}e""",1
+"""{rvs_off}{purple}fg""",1
+"""{right}{white}bitte {rvs_on}{yellow}play{rvs_off}{white} druecken.{black}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}""",1
+"""taste druecken""",1
+"""{rvs_on}{down}sich die mine etwas !""",1
+"""{rvs_on}gegengehen, um sie zu {down}erwischen zu koennen !""",1
+"""{clr}{down}{rvs_on}{blue}es wird mit dem joy-  {down}stick gespielt.""",1
+"""{rvs_on}{down}oben druecken""",1
+"""{down}spielstart:'fire'knopf""",1
+"""{rvs_on}{purple}bei jeder schwierig-  {down}keitsstufe veraendert""",1
+"""{down}{down}{rvs_on}da sie so schnell wie {down}die robotter sind,    {down}muessen sie ihnen ent-""",1
+"""{rvs_on}{red}{left}{CBM-*}""",1
+"""#$%""",1
+7360,1
+"""qrs""",1
+"""{left}vvv""",1
+"""{home}{black}v@qrs""",1
+"""{home}{black}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}""",1
+"""{down}{rvs_on}best.zeit die robotter{down}fangen:""",1
+"""{clr}{down}{down}{down}{right}{right}{right}{right}{purple}l{blue}{rvs_on} = 20 punkte""",1
+"""{rvs_off}{right}{right}{right}{right}{green}l{blue}{rvs_on} = 40 punkte""",1
+"""{rvs_off}     """,1
+8093,1
+7956,1
+7992,1
+8123,1
+7929,1
+"""{clr}{cyan}{down}you must find the way {down}to the treasure.""",1
+"""  *{red}      by       {cyan}*""",1
+"""  *{purple}  markus wolf  {cyan}*""",1
+"""{clr}{cyan}{down}{down}{down}  *****************""",1
+"""  *{green} adventureland {cyan}*""",1
+"""v&'(""",1
+50005,1
+"""dann {rvs_on} p {rvs_off} druecken!""",1
+"""{down}cassette zurueckspulen""",1
+"""editor ?""",1
+"""kill gehilfe""",1
+14255,1
+"""such das messer""",1
+14340,1
+"""{rvs_on}{up}{up}{up}{right}{right}{right}{right}{right}{right}Z""",1
+"""{rvs_on}{red}{left}{SHIFT--}""",1
+ monster or,1
+ loch,1
+ eingang,1
+ *adventureland*,1
+ *     by      *,1
+ * markus wolf *,1
+ schluessel,1
+ wand,1
+690,1
+7735,1
+7734,1
+7713,1
+"""lp""",1
+"""{red}{down}{down}{down}hit any key""",1
+"""adventurelnd2""",1
+"""{yellow}{down}{down}but it is very danger-{down}ous, so you must be   {down}careful.""",1
+38455,1
+7705,1
+7423,1
+ hebel 1,1
+ hebel 2,1
+ monster ur,1
+ kugeln,1
+ plattform,1
+ zauberstab,1
+"""  *****************{white}""",1
+7722,1
+ mauer,1
+ pistole,1
+ tuer,1
+ monster ul,1
+ monster ol,1
+14270,1
+"""du hast den gehilfen""",1
+"""hast keinen""",1
+"""du bist in der gruft""",1
+"""a  a  aaaaaaaaaaaaaa a""",1
+"""a  a{blue}ee{white}aaaaaaaaaaaaa  a""",1
+"""a  a  a           a  a""",1
+"""a  aaaa           a  a""",1
+"""a  aaaaaaaaaaaaaaa aaa""",1
+ zauberring,1
+ mann links,1
+ mann,1
+ mann rechts,1
+ tuer senkrecht,1
+38433,1
+38454,1
+"""a  a    a a a a      a""",1
+"""a  a    a a a a aaa{blue}ee{white}a""",1
+"""a@ a    a   a   a    a""",1
+ spaten,1
+7927,1
+ bugfix joystick(rms),1
+"""a  a               a a""",1
+14400,1
+46300,1
+"""der gehilfe ist tot""",1
+14258,1
+6160,1
+"""{down}einladen vom:{down}",1
+"""adr error in""",1
+"""   """,1
+14267,1
+au,1
+"""a                  {red}u{white}da""",1
+"""a                  {red}u{white} a""",1
+"""a  a              a  a""",1
+"""a  aaaaaaaaaaaaaaaa  a""",1
+"""{clr}{white}aaaaaaaaaaaaaaaaaaaaaa""",1
+8121,1
+13190,1
+14300,1
+""")""",1
+"""(""",1
+"""opcode error in""",1
+"""{clr}{down}homecomputer-assembler{down}",1
+38863,1
+8143,1
+"""a  a      a   a      a""",1
+"""{home}{purple}dddddddddddddddddddddd""",1
+38830,1
+"""000041""",1
+"""{clr}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{rvs_on}game over""",1
+"""{down}{down}{down}   {rvs_on}taste druecken""",1
+"""{clr}aaaaaaaaaaaaaaaaaaaaaa""",1
+"""a    a              @a""",1
+"""aaaffa               a""",1
+8036,1
+8035,1
+20015,1
+"""{home}{rvs_on}{down}{down}{down}{down}{down}{down}{down}{down}{right}you did not make it """,1
+"""{blue}{clr}   Congratulation""",1
+"""{down}{down}{down}You found the right   {down}way to the treasure.""",1
+7698,1
+7697,1
+1060,1
+314,1
+313,1
+312,1
+292,1
+293,1
+294,1
+"""{del}{del}{del}{del}{del}{del}   in der metz 7      **********************",1
+"""{del}{del}{del}{del}{del}{del}                         st.wendel(urweiler)",1
+"""{del}{del}{del}{del}{del}{del}                         by andre koelsch",1
+"""{del}{del}{del}{del}{del}{del}**********************",1
+"""{down}geldsack = 1 punkt""",1
+""" {black} """,1
+""" {blue}{rvs_off}a{rvs_on}""",1
+"""{up}{rvs_on}{purple}pu.""",1
+"""d{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}d""",1
+"""wohin (zeilennummer)""",1
+"""copy-bereich""",1
+ copy,1
+"""{down}{right}{rvs_on}e{rvs_off}dit [a][-][e]",1
+14100,1
+ij,1
+13160,1
+"""{clr}{down}{down}{down}{down}{down}{down}{right}{right}highscore=""",1
+"""{clr}{down}{down}{down}ihren namen bitte""",1
+"""{down}sie muessen inerhalb  {down}von 40 secunden 20    {down}goldsaecke einsammeln""",1
+"""{down}wenn sie auf das mon- {down}ster stossen verlieren{down}sie 0-3 leben""",1
+"""{down}haben sie es bis dahin{down}geschaft erscheint ein{down}neues spielfeld""",1
+"""{down}dann erscheint ein    {down}gitter das sie auch   {down}noch nehmen muessen""",1
+"""hindern sie daran.""",1
+"""geister und tueren """,1
+"""langen. doch monster,""",1
+"""{down}{down}vorsicht! wenn sich """,1
+"""zeit zu zeit. """,1
+"""die tueren oeffnen und""",1
+"""{down}gitter   = 10 punkte""",1
+"""{down}bei jeder neuen runde {down}bekommen sie ein frei-{down}leben""",1
+2090,1
+"""{down}unfaellen ist das     {down}spiel beendet""",1
+"""{down}wenn sie an die mauer {down}stossen verlieren sie {down}ein leben.bei drei""",1
+"""{down}{right}{right}von """,1
+"""{down}{down}{up}{up}{up}""",1
+ edit,1
+1015,1
+ verify,1
+"""?verify error in""",1
+50528,1
+515,1
+ 9570 ossiach,1
+ ostriach 102,1
+ strauss jun.,1
+"""des bildschirms zu ge-""",1
+"""{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}-taste-""",1
+"""schatz in der mitte """,1
+"""das ziel ist es, zum""",1
+"""dies machen sie indem""",1
+"""-gen.""",1
+"""einmal die mauer spren""",1
+"""sen, so koennen sie""",1
+"""fruechte am rand fres-""",1
+"""wenn sie eine der """,1
+"""durchgang, ist das """,1
+"""sie befinden sich im """,1
+"""die tuer schliesst und""",1
+"""zyklo3""",1
+482,1
+38631,1
+"""schliessen sich von""",1
+"""{right}{right}{right}{right}{right}{down}{down}{right}{right}-taste-""",1
+"""spiel zu ende.""",1
+"""{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}-taste-""",1
+"""{right}{down}{right}{right}{right}{right}{right}{right}space""",1
+"""{down}{down}{right}{right}{right}{right}{right}{right}{right}-taste-""",1
+"""{right}{down}{right}{right}{right}{right}{right}{right}l-+-;""",1
+"""{right}{down}{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT--}""",1
+"""{white}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}p""",1
+"""{right}{down}{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT--} """,1
+"""{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}""",1
+"""{yellow}steuerung:""",1
+"""zyklo2""",1
+"""{down}{down}versager!!""",1
+"""{down}{down}punkte:""",1
+"""{down}{down}{right}{right}{right}noch einmal?""",1
+"""   1 1 4 11411 4 1 1  """,1
+271,1
+279,1
+ (c) by johann,1
+"""{down}{down}{down}wenn sie nun eine""",1
+"""taste druecken,wird """,1
+"""das programm geloescht""",1
+"""und sie muessen load""",1
+"""eingeben.""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}spielanleitung?(j/n)""",1
+"""sie ':' und dann die""",1
+"""eintasten.""",1
+"""gewuenschte richtung""",1
+"""   1 4 1 4 6 4 1 4 1  """,1
+"""{down}{down}bravo!!""",1
+"""{down}{down}{down}{down}das spiel ist aus""",1
+fg,1
+439,1
+"""@@@@@@@@@@@@@@@@@@@@@""",1
+"""{rvs_on}{down}{down}{red}steuerung mit joystick{rvs_off}{blue}{down}{down}viel glueck!!""",1
+2035,1
+"""5  11111111111111111 5""",1
+"""   1               1  """,1
+"""   4  11111111111  4  """,1
+"""   1  4         4  1  """,1
+"""   1 11 1114111 11 1  """,1
+"""   1 1           1 1  """,1
+"""   1   114111411   1  """,1
+"""   1 1 1       1 1 1  """,1
+=    fresser  =,1
+=             =,1
+=  punkte -   =,1
+"""{down}aber vorsicht die mon-ster wollen sie toeten""",1
+"""{down}{down}sie muessen versuchen alle punkte zu fressenum dafuer punkte zu   erhalten.""",1
+"""{down}{rvs_on}{red}     punktefresser    {rvs_off}{blue}""",1
+278,1
+100556,1
+"""{up}{rvs_on}ergebnis:""",1
+"""{rvs_on}{up}{white}""",1
+317,1
+321,1
+363,1
+399,1
+415,1
+"""   1 1 1 1   1 1 1 1  """,1
+"""{down}{yellow}Raum-Sektor zu fliegen      {down}  !!!! """,1
+"""{purple}Sie haben die Aufgabe erhalten, Patroullie  durch einen vom Imp-  erium besetzten""",1
+"""{down}{down}Sie sind der Pilot    eines Patroullien-    Schiffes der Rebellen-Flotte.{down}""",1
+"""{down}{down}{down} {rvs_on}[O]=Links Rechts=[P]{rvs_off}      {down}{rvs_on} [F]=Feuer""",1
+"""{down}{down}{down}{white}Sie steuern den       X-Wing-Fluegler       mit den Tasten:""",1
+8108,1
+38872,1
+"""{home}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}fgh{down}{left}{left}{left}ijk""",1
+"""{rvs_on}{blue}{down}{down}{down}{down} zerstoeren sie die    feindlichen           tie-jaeger  {white}      [{rvs_off}b{rvs_on}]""",1
+"""{rvs_on}{blue}{down} aber treffen sie      bloss nicht die hoch- explosiven @-minen{white}[{rvs_off}{yellow}s{rvs_on}{white}]""",1
+"""{rvs_on}{cyan}{down} es koennte ihr        letzter schuss sein         !!!!!!""",1
+"""{down}{down} bitte warten sie nun!  der vc-20 laedt      {down}   {red} {rvs_on}star-wars 2{white}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{rvs_on}taste!""",1
+8130,1
+"""f{left}{clr}{down}{down}{down}{down}{down}{rvs_on}{green}    punktefresser     {rvs_off}{blue}""",1
+"""{white}{up}@@@@@@@@@@@@@@@@@@@@@""",1
+"""jagt""",1
+"""der gehilfe ist ver-""",1
+ append,1
+ insert,1
+4015,1
+2019,1
+"""@:robot.zchn      """,1
+"""{down}firebutton = jump left""",1
+"""{down}j.s. right = right""",1
+"""{down}j.s. left = left""",1
+"""{clr}j.s. up = jump right""",1
+"""{up}{up}press any key.........""",1
+"""{down}{down}press any key.........""",1
+"""{yellow}====== mr. jump ======""",1
+"""{home}{down}{right}{right}{right}{right}{right}{SHIFT--}{rvs_on}Star-Wars{rvs_off}{SHIFT--}""",1
+"""{right}{right}{right}{right}{right}{CBM-Z}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-X}""",1
+4905,1
+4930,1
+8152,1
+"""{white}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}datas werden gelesen!""",1
+7682,1
+7704,1
+"""mister-jump2""",1
+"""\""",1
+"""kill dracula""",1
+13140,1
+13150,1
+"""mit pflock""",1
+"""mit hammer""",1
+"""und womit noch ?""",1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}H {CBM-Y}{SHIFT-*}{SHIFT-*}{CBM-W} O O  l """,1
+21010,1
+"""{blue}(((({right}(((((((({right}((((((((""",1
+"""{right}{right}{right}{right}{right}{right}#{right}{right}{right}{right}{right}{right}{right}{right}{right}#{right}{right}""",1
+"""{blue}((((((((((((((((((({right}((""",1
+"""{right}{right}{right}#{right}{right}{right}{right}#{right}{right}{right}{right}##{right}#{right}{right}#{right}{right}""",1
+"""{blue}((((((((((({right}((((((((((""",1
+"""* oliver schwarz 1984""",1
+"""{down}{white} collec all moenybags  in  the time !! """,1
+"""{down} <<<< please wait >>>>""",1
+"""{down}this is only the first part of the programm load second part later""",1
+"""{red}${blue} # = nails and steel =do not jump in them {white}""",1
+"""{green}) = key to next stage""",1
+"""{yellow}% = points""",1
+"""{down}& = you""",1
+"""000030""",1
+"""{down}{down}{down}{green}""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}now enter next stage !""",1
+"""{down}{purple}{right}'{red}{right}$${right}{yellow}%{red}{right}{right}${right}{right}{right}{right}{right}{right}${right}{right}{purple}'{red}${right}""",1
+"""{down}{down}{right}{right}{right}{red}${right}${right}{right}{right}{right}{right}{right}{right}$${right}{yellow}%{red}{right}{purple}'{red}${right}{yellow}%""",1
+"""{down}{right}{right}{red}${right}{purple}'{red}${right}{right}$${yellow}%{right}{red}${purple}'{red}{right}${right}{right}{right}{right}{yellow}%{right}""",1
+"""{yellow}{red}{right}{right}${right}{right}{yellow}%{red}$${right}${purple}'{red}{right}${right}{right}{right}${right}{right}{right}{yellow}%""",1
+"""{down}     try again &",1
+"""{down}{down}      money{yellow}%{white}bags",1
+"""{clr}{white}   you forgot some",1
+"""{down}{down}{white}&...{yellow}%...{red}){right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{blue}((((((((((((((((((((((""",1
+"""{down}{down}{down}{down}-- press s to start --""",1
+"""moneybags""",1
+"""* 1984 oliver schwarz""",1
+"""{clr}{white}===== game over ======""",1
+"""{down}{down}you collected """,1
+"""{blue}((((((((((((((((((((((""",1
+"""{right}#{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}#""",1
+"""{blue}(((((((((((((((((( (((""",1
+"""{down}{rvs_on}       f{down}{right}i{right}s{up}{right}h""",1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{blue}     bitte warten""",1
+*catch the fish*,1
+* (c) 1984  by *,1
+* andreas holy *,1
+* pantucekg. 33*,1
+* 1110 wien    *,1
+* oesterreich  *,1
+*    vc-20     *,1
+"""{blue}{right}#{right}{right}{right}{right}{right}{right}{right}{right}{right}#{right}{right}{right}{right}{right}#{down}""",1
+"""{red}{down}{right}{right}${right}{right}{right}{right}${right}${green}){red}$${right}{right}$${right}{right}${right}{right}""",1
+"""{down}{down}{right}{red}{right}{right}{right}$${right}${right}{right}${right}{right}{yellow}%{red}{right}{right}{right}{right}${purple}'{right}{right}{right}""",1
+"""{down}{red}{right}{right}{right}{right}${purple}'{yellow}%{red}{right}{red}${yellow}%{red}${right}{right}{right}{purple}'{red}${right}{right}${right}{right}{right}$""",1
+"""{right}{yellow}%{red}{right}${right}{right}{right}$${right}${purple}'{right}{right}{right}{right}{red}{right}{right}${right}${yellow}%""",1
+"""{down}{red}{right}$${right}{right}{yellow}%{red}{right}${right}{right}${right}{right}{right}{right}${yellow}%{red}{right}{right}{purple}'{right}{right}""",1
+"""{down}{red}{right}${green}){right}{right}{red}${right}{right}$${right}{right}${right}${right}{right}$${right}{right}""",1
+"""{down}{right}{rvs_on}i{rvs_off}nsert [a]",1
+"""{down}{right}{rvs_on}a{rvs_off}dd",1
+"""{down}befehl""",1
+"""{down}{right}{rvs_on}v{rvs_off}erify [a][-][e]",1
+"""{down}{right}{rvs_on}s{rvs_off}ave [a][-][e]",1
+"""{down}{right}{rvs_on}ap{rvs_off}pend [a]",1
+"""{clr}{right}homecomputer editor""",1
+"""{down}homecomputer""",1
+"""{rvs_on}{home}{down}{down}{down}{down}{down}{down}{down}{blue}{CBM-Y}{CBM-T}{CBM-Y}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-Y}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-Y}{CBM-T}{CBM-T}{CBM-T}{CBM-Y}{CBM-Y}{CBM-T}{CBM-T}{CBM-Y}""",1
+"""{black}{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{CBM-I}{CBM-O}{CBM-P}{CBM-@}{rvs_off}{green}h{rvs_on}{black}{CBM-@}{CBM-P}{CBM-O}{CBM-I}{CBM-O}{CBM-I}{CBM-I}{CBM-O}{CBM-P}{CBM-O}{CBM-I}{CBM-P}{CBM-@}{rvs_off}{green}h{rvs_on}{black}{CBM-@}{CBM-P}{CBM-I}""",1
+38664,1
+"""000200""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{blue}time:""",1
+"""  st:""",1
+"""{down}{down}{down}{down}{rvs_on}        t{up}{right}h{down}{right}e""",1
+"""{clr}{rvs_on}{red}{down}{down}{down}{down}      c{down}{right}a{down}{right}t{up}{right}c{up}{right}h""",1
+vc,1
+7972,1
+"""{rvs_on}     L{CBM-@} MN MN MN""",1
+"""{rvs_on}{down}{yellow}     O{CBM-T} NM NM NM           L  {CBM-G}  {CBM-G}  M            {CBM-G}  {CBM-G}P {CBM-G}P  M""",1
+"""{rvs_on}  MN {CBM-G}{CBM-M} MN MN  {CBM-G} MN""",1
+"""{rvs_on}{white}  NM {CBM-G}{CBM-M} NM NM {CBM-T}O NM N   {CBM-G}  L{SHIFT-@} {CBM-G} {CBM-G}M   {CBM-G} M      {CBM-G}P {CBM-G}{CBM-M} {CBM-G} {CBM-G} M  {CBM-G}  M""",1
+* grundversion *,1
+ graphik,1
+"""{down}{down}{up}{up}{up}",1
+""" {up}",1
+ list,1
+ save,1
+"""{down}{right}{rvs_on}q{rvs_off}uit -> ass + disass",1
+"""{down}{right}{rvs_on}c{rvs_off}opy",1
+"""{down}{right}{rvs_on}l{rvs_off}ist [a][-][e]",1
+"""{down}{right}{rvs_on}d{rvs_off}elete [a][-][e]",1
+4110,1
+"""{down}{cyan}{rvs_on}mit den kursortasten{right}{right}koennen sie einen{right}{right}{right}{right}{right}kursor ueber den""",1
+"""{rvs_on}bildschirm bewegen.""",1
+"""{down}{cyan}{rvs_on}mit 'space' koennen{right}{right}{right}sie ein zeichen aus{right}{right}{right}der oberen reihe ho-""",1
+"""{rvs_on}len,und mit 'space'{right}{right}{right}im unteren bereich{right}{right}{right}{right}wieder absetzen.""",1
+"""{home}{down}{down}{down}{down}{down}{rvs_on}sie koennen auch{right}{right}{right}{right}{right}{right}selbst bilder erfin-{right}{right}den.""",1
+"""{down}{rvs_on}{cyan}wollen sie wissen wie{right}(j/n) ?""",1
+"""{home}{rvs_on}sind sie im menue,so{right}{right}koennen sie ihre{right}{right}{right}{right}{right}{right}bilder durch 'f5' auf""",1
+"""{rvs_on}auf kassette speichernbzw durch 'f3' von{right}{right}{right}{right}kassette laden.""",1
+"""zeit""",1
+"""{home}{black}{rvs_on}punkte""",1
+"""{down}{rvs_on}       -taste-        """,1
+"""{down}{rvs_on}   highscore = """,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}      game over      """,1
+24000,1
+22000,1
+"""ghosts-egg2""",1
+7667,1
+686,1
+"""{home}{white}{rvs_on}sind sie im menue,so{right}{right}druecken sie 'f7'.""",1
+2049,1
+"""K""",1
+"""{CTRL-A}""",1
+"""{clr}{down}assembler einladen ?",1
+"""assembler""",1
+"""{up}disassembler ?      """,1
+ add,1
+502,1
+ delete,1
+"""{rvs_on} are you sure ? {rvs_off}""",1
+"""{clr}",1
+"""{down}suche jane""",1
+"""{right}lpppppp""",1
+"""{down}{yellow}{rvs_on}sie koennen auch{right}{right}{right}{right}{right}{right}eingegebene bilder{right}{right}{right}{right}mit 'clr home' loe-{right}{right}{right}schen.""",1
+"""{up}{rvs_on}auf der tastatur{right}{right}{right}{right}{right}{right}unterbrechen.""",1
+"""{home}{rvs_on}mit 'f7' kommen sie{right}{right}{right}zurueck ins menue.""",1
+"""{down}{rvs_on}{cyan}achten sie darauf,{right}{right}{right}{right}dass sie immer eier{right}{right}{right}und spieler ein-""",1
+"""{rvs_on}zeichnen,da das pro-{right}{right}gramm sonst nicht{right}{right}{right}{right}{right}richtig arbeitet.""",1
+"""{down}{green}{rvs_on}sie koennen aber das{right}{right}spiel jederzeit durch{right}druecken einer taste""",1
+"""{down}{green}{rvs_on}gesprungen wird mit{right}{right}{right}fire.""",1
+"""{cyan}{rvs_on}die steuerung erfolgt{right}ueber den joystick.""",1
+"""edd{home}""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{purple}kennen sie die regeln (j/n) ?""",1
+"""@bjjjjjj""",1
+"""r{right}c""",1
+"""{right}nnnnq{right}{right}{right}{right}@biiiii""",1
+"""@b""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}t{right}{right}{right}{right}{right}q{down}{left}{left}{left}{left}{left}{left}{left}{yellow}@aaaaab""",1
+"""c{right}{right}{right}kdd""",1
+"""{rvs_on}game over""",1
+"""oq""",1
+"""{rvs_on}rollen ({rvs_off}ij{rvs_on}),da sie{right}{right}{right}{right}sich drehen.""",1
+"""{rvs_on}{green}achten sie auch auf{right}{right}{right}die mauer ({rvs_off}{red}p{green}{rvs_on}),da sie{right}{right}zerfaellt,und die""",1
+"""{home}{rvs_on}falls sie herunter-{right}{right}{right}fallen,kann sie nur{right}{right}{right}das trampolin oder""",1
+"""{rvs_on}die bremsfeder retten.""",1
+"""{rvs_on}bremsfedern ({rvs_off}{yellow}e{cyan}{rvs_on}) be-{right}{right}{right}nutzen.""",1
+"""{home}{rvs_on}sammeln sie ({rvs_off}t{rvs_on}) alle{right}{right}eier ({rvs_off}q{rvs_on}) auf,ohne von{right}geistern ({rvs_off}rs{rvs_on}) ge""",1
+"""fang-{right}en zu werden.""",1
+"""{down}{rvs_on}{cyan}sie koennen dabei{right}{right}{right}{right}{right}trampolins ({rvs_off}fgh{rvs_on}),{right}{right}{right}{right}{right}leitern ({rvs_off}{white}c{rvs_on}{cyan}),""",1
+"""{rvs_on}beamplatten ({rvs_off}{green}d{rvs_on}{cyan}),{right}{right}{right}{right}{right}{right}aufzuege ({rvs_off}{yellow}klmn{cyan}{rvs_on}),{right}{right}{right}{right}{right}{right}superpillen ({rvs_off}o{rvs_on}) und""",1
+"""{right}l{right}{right}fggh""",1
+"""{right}{right}{right}{right}q""",1
+"""@aaaab{right}{right}{right}c{right}{right}{right}k""",1
+"""c{right}{right}{right}kq""",1
+40300,1
+21020,1
+"""{down}{down}{right}{right}f7............edit""",1
+"""{down}{down}{right}{right}f5............save""",1
+"""{down}{down}{right}{right}f3............load""",1
+"""{clr}{white}{down}{down}{down}{down}{down}{right}{right}f1/fire......start""",1
+"""{home}{rvs_on}s""",1
+"""@abcdefghijklmnopqrs""",1
+"""os""",1
+"""{right}{right}t{right}{right}{right}{right}@aab""",1
+"""{down}q{right}mmmmmmmm""",1
+"""{right}@ab""",1
+"""{clr}{black}p1=7748:gO{white}""",1
+"""load""",1
+"""{home}{white}{down}{down}{down}{down}{rvs_on}wiederholen der (w)   regeln                spiel starten (s)""",1
+"""ghosts-egg3""",1
+9560,1
+fox,1
+"""{home}{yellow}@ab{white}c{green}d{yellow}e{cyan}fgh{green}ij{yellow}klmn{cyan}o{red}p{white}qrs{right}t""",1
+402,1
+"""18""",1
+"""36""",1
+"""54""",1
+"""cassette zurueckspulen",1
+"""bis zum anfang des""",1
+"""assembler-files!",1
+"""{down}dann {rvs_on} p {rvs_off} druecken!",1
+"""du bist im labor""",1
+"""tisch""",1
+"""zieh hebel""",1
+"""geht nicht""",1
+"""drueck hebel""",1
+"""{home}{down}{down}{red}vvv{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}vvv""",1
+hunt,1
+"""{right}{right}{right}{right}{right}{up}{up}bitte warten""",1
+"""{right}{right}J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{right}{right}{SHIFT--}{white}*              *{blue}{SHIFT--}""",1
+"""{down}{down}{down}{down}{down}{down}{down}{right}{right}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I""",1
+"""{down}{down}{white} bitte warten sie nun!  der vc-20 laedt     {down}   {red}{rvs_on}fox-hunt 2{rvs_off}{black}""",1
+"""fox-hunt2""",1
+"""{white}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}U{SHIFT-*}{SHIFT-*}{SHIFT-*}I{down}{left}{left}{left}{left}{left}{SHIFT--}   {SHIFT--}{down}{left}{left}{left}{left}{left}J{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{blue}[{yellow}return{blue}]""",1
+"""{down}{down}{down}{green}{right}{rvs_on}sie sind ein jaeger,  der frueh morgens     zur jagd geht.""",1
+"""{down}{right}{white}{rvs_on}sie spielen mit dem   joystick:""",1
+"""original-zeichensatz:   k = komplett          b = nur buchstaben  """,1
+351,1
+9520,1
+9530,1
+"""{rvs_on}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{SHIFT-POUND}""",1
+"""zimmer""",1
+"""du bist im schlaf-""",1
+"""{rvs_on}{red}{up}{up}{right}{right}{right}{right}{right}{CBM-Q}""",1
+"""{down}{down}{red}{rvs_on} biberfalle = j.n.u. {down}{down}{rvs_off}{black}     mnowx{rvs_on}-soft {rvs_off}y{rvs_on}.{up}""",1
+"""{down}{right}{rvs_on}{yellow}versuchen sie nun     bis zum sonnenaufgang soviele fuechse""",1
+"""{rvs_on}{right}wie moeglich abzu-    schiessen.""",1
+"""{down}{rvs_on}{right}{white}aber passen sie auf   den hinterlistigen    biber auf !""",1
+"""{down}{down}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{blue}[{white}return{blue}]""",1
+"""{up}{red}vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv{black}""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}U{SHIFT-*}{SHIFT-*}{SHIFT-*}I{down}{left}{left}{left}{left}{left}{SHIFT--}   {SHIFT--}{down}{left}{left}{left}{left}{left}J{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{up}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{purple}fox{green}{down}{left}{left}{left}{CBM-T}{CBM-T}{CBM-T}{down}{left}{left}{left}{left}{rvs_off}{black}k{red}{right}@{black}{right}k""",1
+"""{down}{down}{down}{down}{down}{down}{right}{right}{right}{black}l{rvs_on}{white} by {rvs_off}{black}mnowx{rvs_on}{white}soft {rvs_off}{black}y""",1
+"""vvv{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}vvv""",1
+"""vv{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}vv""",1
+"""{down}{red}vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv""",1
+7491,1
+7911,1
+"""{rvs_on}{blue}{down}{right}j.stick nach oben :{rvs_off}{black}{left}{left}{left}{left}{left}{left}{left}{left}{left}{down}{down}{down}de{up}{left}{left}fj""",1
+"""{rvs_on}{blue}{down}{down}{right}j.stick nach li/re:{rvs_off}{black}{left}{left}{left}{left}{left}{left}{left}{left}{left}{down}{down}{down}de{up}{left}{left}hg{right}{right}{right}{right}{down}de{up}{left}{left}fi""",1
+"""{down}{down}{rvs_on}{right}feuerknopf = schuss""",1
+"""kamin""",1
+"""{rvs_on}{red}{home}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-G}""",1
+"""{rvs_on}{red}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-+}""",1
+"""du bist im esszimmer""",1
+"""du hast dracula """,1
+"""getoetet""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}H{CBM-I}{SHIFT-*}{SHIFT-*}{CBM-K}V{CBM-I}{SHIFT-*}{SHIFT-*}{CBM-K}O{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}I{CBM-Y}{SHIFT-*}{SHIFT-*}{CBM-W} {CBM-Y}{SHIFT-*}{SHIFT-*}{CBM-W}N{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}J {SHIFT-*}{SHIFT-*}   {SHIFT-*}{SHIFT-*} M{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}K         L{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{home}{red}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{clr}{white}{down}{down}{down}{down}{down}{down} {rvs_on}Viel Spass wuenscht {rvs_off}  {rvs_on}Ihnen Frogsoft Ltd.!""",1
+904,1
+1099,1
+8096,1
+"""{home}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}k{rvs_on}game over{rvs_off}k""",1
+7383,1
+11001,1
+7376,1
+8041,1
+8088,1
+8107,1
+"""{blue}{home}zz{rvs_on}{SHIFT-POUND}{CBM-*}{rvs_off}zzzzzzzzzzzzzzzzzz""",1
+12050,1
+12002,1
+0.016,1
+"""000059""",1
+8002,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{black}sc=""",1
+"""z{rvs_on}{SHIFT-POUND}  {CBM-*}{rvs_off}zzzzzzzzzz{rvs_on}{SHIFT-POUND}{CBM-*}{rvs_off}zzzzz""",1
+"""abcabcaba{black}{rvs_on}{CBM-M}NM{CBM-G}{rvs_off}abcabacac""",1
+"""{white}         {rvs_on}{black}{CBM-M}MN{CBM-G}""",1
+"""         {rvs_on} {rvs_off}de{rvs_on}{CBM-G}""",1
+"""{red}      {black}fg""",1
+"""{rvs_off}          {green}abc{down}{down}  abc   {down}  {down}abc""",1
+"""{rvs_on}{SHIFT-POUND}                    {CBM-*}""",1
+"""{blue}{rvs_on}{CBM-I}{CBM-I}{CBM-I}{CBM-O}{CBM-O}{CBM-O}{CBM-P}{CBM-P}{CBM-P}{CBM-@}{CBM-@}{CBM-@}{CBM-P}{CBM-P}{CBM-P}{CBM-O}{CBM-O}{CBM-O}{CBM-I}{CBM-I}{CBM-I}{CBM-I}""",1
+"""{rvs_on}{green} X X    {white}U{SHIFT-*}{SHIFT-*}{SHIFT-*}I{green} X  X {rvs_off}{black}k{rvs_on}{green}   X {cyan}Q{green}    {white}{SHIFT--}{rvs_off}{purple}pqr{rvs_on}{white}{SHIFT--}{green}  XX {black}N{CBM-T}M{green} X   X   {white}J{SHIFT-*}{SHIFT-*}{SHIFT-*}K{green}{down}X X""",1
+"""{rvs_on} {green}X{blue}      {black}NM{green} X X   X{blue}  {CBM-*}{rvs_off}z""",1
+"""{rvs_on}  {green}X   X{blue} {CBM-*}{SHIFT-POUND}{CBM-*}{rvs_off}zz{rvs_on}{SHIFT-POUND}{green}X{blue}   {CBM-*}{rvs_off}zzz""",1
+"""{rvs_on}{SHIFT-POUND}    {CBM-*}{rvs_off}zzzzzzzz{rvs_on}{SHIFT-POUND}  {CBM-*}{rvs_off}zzzz""",1
+"""{red}vvvvvvvvvvvvvvvvvvvvvv""",1
+"""{red}vv{black} l {rvs_on}by {rvs_off}mnowx{rvs_on}-soft{rvs_off}{black} y{red}vv""",1
+"""iiii@iiii@iii@iii@iiii""",1
+"""{red}vvvvvvvvvvvvvvvvvvvvv""",1
+""" von dem sie einen    {down} holen muessen dann""",1
+"""{down} bei 10 punkte er-    {down} scheinen 2 schluessel""",1
+"""{down} gehen sie zur tuer   {down} in den naechsten raum""",1
+""" bei anderen 1 punkt""",1
+"""{clr}{down} bei manchen mauern   {down} verlieren sie 1 leben""",1
+"""{down}{down}        {rvs_on}taste""",1
+"""collector2""",1
+"""{down} ihnen im haupt-      {down} programm erklaert""",1
+"""{down} sie haben die wahl   {down} von 4 levels,die """,1
+"""{clr}{rvs_on}                             collector      ",1
+"""{down} sie muessen ingesammt {down}durch 6 raeume laufen""",1
+"""l@@@@@@@@@@@@@@@@@@@@l""",1
+"""llllllllllllllllllllll""",1
+"""{black}{clr}llllllllllllllllllllll""",1
+"""dddddddd@@dddddddd@@@d""",1
+"""dddd@ddd@@d@@d@@@@@@@d""",1
+"""d@@dd@@d@@d@@d@@@@@@@d""",1
+38542,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{left} s.""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}pu:""",1
+"""{left} le""",1
+"""{clr}{cyan}iiiiiiiiiiiiiiiiiiiiii""",1
+"""{black}dddddddddddddddddddddd""",1
+"""{blue}dddddddddddddddddddddd""",1
+"""iiii@iiiiiiii@iiiiiiii""",1
+"""i@@@iiiii@iii@iiiiii@i""",1
+"""iiiii@iii@iiiiiiiiii@i""",1
+"""iiiiiiiiiiiii@iiii@iii""",1
+"""iiiiiiii@iiii@iii@iiii""",1
+"""iiiiii@@iiiiiiiiii@iii""",1
+          mine,1
+          grug,1
+           schluessel,1
+          tuer,1
+xx0,1
+"""{del}{del}{del}{del}{del}{del}{del}{del}{del}",1
+"""{down}{yellow} level 4 = monster und           schritte""",1
+"""iiiiiiii@@iiiiiii@iiii""",1
+"""iiiiiiii@@ii@@iiiiiiii""",1
+"""ii@@@@@@@@@@@@@@@@@@@i""",1
+"""d@@@@@@d@@@@@d@@@@@@@d""",1
+"""{clr}{white}dddddddddddddddddddddd""",1
+"""d@d@@d@@@@d@d@@@@@@@@d""",1
+"""d@@@@d@d@@d@dddd@ddddd""",1
+"""d@d@@d@d@@d@@@@@@@@@@d""",1
+"""d@@@@@@d@@d@d@@@@@@@@d""",1
+1005,1
+"""{down}von """,1
+"""{clr}{down}{down}{down}{down}{down}{white}deinen namen bitte""",1
+"""{clr}{down}{down}{white}highscore""",1
+ m.rechts,1
+ m.links,1
+     mauer,1
+ m. gerade,1
+  nix,1
+"""d@@@@@@d@@d@@dddd@dddd""",1
+"""d@@@@@@d@@d@@d@@@@@@@d""",1
+"""ddddddddddd@@d@@@@@@@d""",1
+"""{blue}iiiiiiiiiiiiiiiiiiiiii""",1
+           baum,1
+           fels,1
+           monster,1
+""" {CBM-C}  {CBM-X} {CBM-X}{CBM-C}HHOOsO {CBM-X} {CBM-C}{CBM-X} {CBM-X}""",1
+"""  {CBM-X} {CBM-C}  {CBM-X}H{CBM-Y}{SHIFT-*}{CBM-L} O {CBM-X}{CBM-X} {CBM-C}  """,1
+""" hv  O HHO    O      """,1
+""" HO  O H{CBM-H}O   {SHIFT-*}Q{SHIFT-*}{SHIFT-*}    """,1
+""" HO {CBM-K} {CBM-K}GGGGGGH  Ot   """,1
+""" HO  {CBM-K} HHO   H  Os   """,1
+"""{CBM-C} {CBM-X} {CBM-K}            {CBM-I}{CBM-X}{CBM-C} """,1
+"""   hiO HSP {CBM-+}{CBM-+}{CBM-+}O      """,1
+"""     u H   {CBM-+}{CBM-+}{CBM-+}O      """,1
+"""{down}{down}{rvs_on}{cyan}welcher level""",1
+"""{down}{red}""",1
+"""{down}{green} level 3 = schritte""",1
+"""{clr}{rvs_on}{white}       collector      ",1
+"""{down}{down}{green} level 1 = monser erst{down}           ab raum 5""",1
+"""{down}{yellow} level 2 = monster""",1
+"""{down}{down}      {rvs_on} taste {rvs_off}""",1
+"""{right}{right}{right}{right}{right}{rvs_on}{CBM-Z}{SHIFT-*}again-?{SHIFT-*}{CBM-X}""",1
+"""{right}{right}{right}{right}{right}{rvs_on}{SHIFT--}game over{SHIFT--}""",1
+"""{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}""",1
+"""{rvs_on}{CBM-V}{up}{left}{CBM-K}{down}{down}{down}{rvs_off}     select level",1
+"""{down}{down}     {rvs_on}f-1{rvs_off} beginner{down}          {rvs_on}f-2{rvs_off} advanced{down}          {rvs_on}f-3{rvs_off} expert""",1
+"""*  (c) 84 by michael kraus creative computing software  """,1
+"""{CBM-F}{rvs_off}{CBM-K}{down}{left}{rvs_on}{CBM-C}{rvs_off}""",1
+"""{clr}{white}{down}   {rvs_on}{CBM-D}""",1
+"""  {rvs_on}{CBM-K}""",1
+"""{clr}{down}{down}das war gift""",1
+"""{down}du bist tot""",1
+"""{clr}{down}{down}{down}{red}du stehst vor dem     {down}{down}{down}spukhaus""",1
+"""{down}{down}{down}es ist 14.00 uhr""",1
+""" {CBM-X} {CBM-C} {CBM-K}          {CBM-I}{CBM-C}{CBM-X} {CBM-C}""",1
+""" {CBM-X}  {CBM-X} {CBM-C} H    O{CBM-C}  {CBM-X}   """,1
+"""    {CBM-C} {CBM-X}{CBM-C}H {SHIFT-*}{SHIFT-*} O{CBM-X}   {CBM-C}  """,1
+"""{CBM-I}{CBM-I}{CBM-I}{CBM-I}{rvs_on}{CBM-V}""",1
+"""{down}{down}{rvs_on}{CBM-D}""",1
+"""{right}{right}{CBM-K}{right}{right}{right}{right}{right}{right}{CBM-C}{rvs_off}""",1
+8165,1
+"""{white}{clr}score: 0     level: 1""",1
+"""balls:""",1
+"""    minus: 0{right}{CBM-I}{CBM-I}""",1
+7746,1
+8075,1
+8500,1
+"""{down}{down}{down}{right}{right}{rvs_on}{red} bonus:""",1
+"""{home}{down}{white}""",1
+"""{home}{right}{right}{right}{right}{right}{right}""",1
+"""{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-F}{right}{right}{right}{right}{right}{right}{rvs_off}{CBM-K}  """,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{rvs_on}{yellow}{CBM-A}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-S}""",1
+*   sohinger   *,1
+"""{left} points {right}{right}{right}{right}{black}{rvs_off}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}{CBM-I}""",1
+"""{down}{down}{right}{right}{cyan}{rvs_on} prepare for next {right}{right}{right}{right}     level        """,1
+"""{home}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{rvs_on}{green}*************{right}{right}{right}{right}{right}{right}{right}{right}{right}*{yellow} well done {green}*{right}{right}{right}{right}{right}{right}{right}{right}{right}*************""",1
+"""{home}{down}{right}{right}{right}{right}{right}{right}""",1
+"""{right}{right}{black}""",1
+"""{right}{green}""",1
+"""{right}{right}{yellow}""",1
+"""{right}{right}{purple}""",1
+"""{right}{white}""",1
+"""{home}{down}{down}{down}{down}{right}{cyan}""",1
+"""{rvs_on}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}""",1
+22.5,1
+"""{home}{right}{right}{right}{right}{right}{right}{white}""",1
+"""{cyan}{down}{right}{right}{right}{right}{right}{rvs_on}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{up}{up}{CBM-T}{up}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{right}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{right}{CBM-T}{CBM-T}{down}{left}{left}{CBM-T}{down}{left}{CBM-T}{CBM-T}{down}{left}{left}{CBM-T}{CBM-T}""",1
+"""   {CBM-K}  {rvs_on} breakout {right}{right}{CBM-K}{right}{right}{right}{right}{right}{right}{rvs_off}{CBM-K}{right}{right}{rvs_on}""",1
+"""{down} doch das ganze wird""",1
+"""{down} erschwert durch eine""",1
+"""{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{up}{left}{CBM-T}{down}{CBM-T}{up}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}{down}{left}{CBM-T}""",1
+"""{rvs_on}* high *""",1
+"""{right}{rvs_on}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}{right}{CBM-T}""",1
+32000,1
+58648,1
+"""y""",1
+"""{clr}{green}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}q-bert{down}{left}{left}{left}{left}{left}{left}{left}========""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{blue}by",1
+"""{down}{down}{down}{down}{right}{right}{right}{right}{right}{green}bitte warten""",1
+*    q-bert    *,1
+*      by      *,1
+*   oliver r.  *,1
+*tel.02129/8792*,1
+* 5657 haan 1  *,1
+485,1
+"""{down} es {red}25{blue} punkte. """,1
+"""{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{down}{down}{green}        {rvs_on}({rvs_off}j{rvs_on}/{rvs_off}n{rvs_on}){rvs_off}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{blue}      < taste >       """,1
+"""{down}{down}{down}{down}{blue}        q-bert{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on}========""",1
+"""{down}{down}{down}{down}{down}{blue} instruktion {rvs_on}?{rvs_off}""",1
+"""{green}        q-bert{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on}========""",1
+"""{green}     spielbeginn{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}============={rvs_off}""",1
+"""{down}{down}{blue} zum spielbeginn er-""",1
+"""{down} scheint erst einmal""",1
+"""{down} ein auswahlmen;.""",1
+"""{down} durch dr;cken der""",1
+"""{down}{down}{blue} bei q-bert m;ssen""",1
+"""{down} sie felder einer""",1
+"""{down} pyramide umf<rben.""",1
+"""{down}{down}{blue} den level kann man""",1
+"""{down}{down}                  {rvs_on}{red}>>>{rvs_off}""",1
+"""{down} schlange, die ihren """,1
+"""{down} weg von links unten """,1
+"""{down} bis nach oben geht.""",1
+"""{down}                  {rvs_on}{red}>>>{rvs_off}""",1
+"""{down} f1 oder space taste""",1
+"""{down} beginnt das spiel.""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{green}  noch ein mal {rvs_on}?{rvs_off}""",1
+"""{down}{down}          {rvs_on}({rvs_off}j{rvs_on}/{rvs_off}n{rvs_on}){rvs_off}""",1
+"""{down}{down}{down}{down}{down}{down}{down}""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{home}""",1
+"""{blue}        q-bert{down}{left}{left}{left}{left}{left}{left}{left}{rvs_on}========""",1
+"""{down}{down}{green} einen moment bitte""",1
+"""{down}{down}  ich lade das hp.""",1
+475,1
+""" es ein q-bert dazu.""",1
+"""  n = nichts aendern    """,1
+22528,1
+34816,1
+10080,1
+"""{down}{down}{green} {rvs_on}***{rvs_off} viel spass {rvs_on}***{rvs_off}""",1
+"""{down}{down}                 {rvs_on}{red}>>>{rvs_off}""",1
+"""q-bert2""",1
+"""{down} gef<rbte feld gibt""",1
+"""{down}{down}{blue} f;r jedes um-""",1
+"""{down} des joysticks ver-""",1
+"""{down} <ndern. dr;ckt man""",1
+"""{down} den joystick nach """,1
+"""{down} rechs {red}-{blue} gibt es ein""",1
+"""{down} level dazu {red}-{blue} .""",1
+"""{down} durch bedienung """,1
+"""{right}{green}f5{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}hi.score sa.""",1
+"""{right}{green}f7{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}neues spiel """,1
+"""    {green}level-auswahl{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}===============""",1
+"""{down} sind spielstufen.""",1
+"""    {green}punktewertung{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}===============""",1
+"""{down} die level{rvs_on}'{rvs_off}s {red}1{blue}-{red}9{blue}""",1
+"""{down} sehr kompliziert.""",1
+"""{blue} dr;ckt man den joy-""",1
+"""{down} stick nach links """,1
+"""{down} {red}-{blue} gibt es ein level""",1
+"""{down} weniger {red}-{blue} .""",1
+"""{down} level {rvs_on}({rvs_off}{red}0{blue}{rvs_on}){rvs_off} ist ein """,1
+"""{down} ;bungslevel, denn""",1
+"""{down} die steuerung ist """,1
+343,1
+"""{down} alle {red}5000{blue} punkte gibt""",1
+"""       {CBM-K}      {CBM-I}      """,1
+"""  S     {CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}V   P """,1
+""" {CBM-K}  SP           SP {CBM-I}""",1
+""" H  HO   {SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}    HO O""",1
+""" H  H{CBM-L}  {CBM-K}{CBM-X}{CBM-X}{CBM-X}{CBM-X}{CBM-I}   {CBM-H}O O""",1
+"""      S        P     """,1
+"""     {CBM-K}          {CBM-I}    """,1
+"""   {CBM-K}    {CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}   {CBM-I}  """,1
+"""{right}{right}{right}{right}{right}^__[^__[^__[""",1
+"""{right}^__[^__[^__[^__[^__[{home}""",1
+"""{right}]*_\]*_\]*_\]*_\]*_\""",1
+"""{clr}{right}{right}{right}{right}{right}{right}{right}{right}{green}q-bert{down}{left}{left}{left}{left}{left}{left}{left}{red}{rvs_on}========""",1
+"""{down}{right}{right}{right}{right}{right}{blue}score:""",1
+"""{down}{right}{right}hi.score:""",1
+"""{down}{down}{right}{green}f1{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}spiel""",1
+"""{down}{right}{green}f3{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}hi.score lo.""",1
+"""{down}       druecken.""",1
+"""{right}{green}f8{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}spiel stop  """,1
+"""{right}{green}f4{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}schwarz""",1
+"""{down}{right}{green}f6{right}{right}{right}{blue}{rvs_on}={rvs_off}{right}{right}{right}{green}weis""",1
+"""{down}{right}{right}{right}{red}cursor kontrolle{home}""",1
+"""{right}{right}{right}^__[^__[^__[^__[""",1
+"""{clr}{right}{right}{right}{right}{right}{right}{right}{right}{green}q-bert""",1
+"""{down}{down}q-bert:  {blue}]*_\""",1
+"""{right}{right}{right}]*_\]*_\]*_\]*_\""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}L         K{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+4220,1
+"""{rvs_on}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-G}""",1
+""" HO{CBM-K} {CBM-K}      O{CBM-J}GGGjk  """,1
+""" HO {CBM-K}    UVUV {CBM-I}    jk""",1
+""" H{CBM-K}        UVUV {CBM-I}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}""",1
+""" HO{CBM-K}      UVUV {CBM-I}     """,1
+"""{right}{right}{rvs_on}{CBM-K}{rvs_off}{CBM-K} {rvs_on}{CBM-D}{CBM-I}{CBM-I}{CBM-F}{rvs_off} {CBM-I}{CBM-I}{rvs_on}{CBM-V}{rvs_off} {rvs_on}{CBM-K}{rvs_off}{CBM-K} {rvs_on}{CBM-C}{rvs_off}{CBM-I}{CBM-I}{CBM-I}{home}""",1
+"""{down}{down}{down}{down}{red}{right}{rvs_on}{CBM-I}{CBM-F}{CBM-D}{CBM-I}{CBM-D}{CBM-I}{CBM-I}{CBM-F}{CBM-I}{CBM-D}{CBM-I}{CBM-I}{CBM-I}{CBM-F}{CBM-D}{CBM-I}{CBM-D}{CBM-I}{CBM-I}{CBM-I}""",1
+"""{right}{right}{right}{rvs_on}    {right}    {right}    {right}    """,1
+"""{right}{right}{right}{up}{rvs_on} {right}{right} {right} {right}{right} {right} {CBM-K}{rvs_off}{CBM-K}{rvs_on} {right} """,1
+"""{right}{right}{right}{right}{right}]*_\]*_\]*_\""",1
+"""{right}{right}{right}{right}{right}{right}{right}^__[^__[""",1
+"""{right}{right}{right}{right}{right}{right}{right}________""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}________""",1
+"""{green}score:{right}{blue}]*_\]*_\ {green}level:{blue}""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}^__[""",1
+"""{f8}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}""",1
+"""{f6}""",1
+1255,1
+"""{down}{green}gefunden.""",1
+"""{clr}{white}{down}{down}{down}{down}{down}{green}  {rvs_on}'{rvs_off}record{rvs_on}' & '{rvs_off}play{rvs_on}'{rvs_off}""",1
+"""{left}{inst} {up} """,1
+"""{CBM-@}""",1
+"""{down} {left}""",1
+7671,1
+7544,1
+"""{down}{blue} ok.""",1
+"""{down}{down}{blue} ok.""",1
+"""{clr}{white}{down}{down}{down}{down}{down}{green}  {rvs_on}'{rvs_off}play{rvs_on}'{rvs_off} druecken.""",1
+1261,1
+348,1
+"""{clr}{green}""",1
+"""{rvs_on} {right}{right} {right} {right}{right} {right}   {right}{right}  {CBM-*}""",1
+"""{rvs_on} {right}{right} {right} {right}{right} {right} {right}{right}{right}{right} {rvs_off}{CBM-*}{rvs_on} {CBM-*}""",1
+"""{rvs_on}    {right}{right}  {right}{right}    {right} {right}{rvs_off}{CBM-*}{rvs_on} """,1
+"""{rvs_on} {right}{right} {right} {right}{right} {right} {right}{right}{right}{right}    """,1
+"""{right}{right}{rvs_on}{CBM-K}{rvs_off}{CBM-K} {CBM-K}  {rvs_on}{CBM-K}{rvs_off} {rvs_on}{CBM-C}{rvs_off}{CBM-I}{CBM-I} {rvs_on}{CBM-K}{rvs_off}{CBM-K} {rvs_on}{CBM-C}{rvs_off}{CBM-I}{CBM-I}""",1
+525,1
+7882,1
+8079,1
+8014,1
+"""{down}{down}   der hubschrauber     {down}wird mit joy-stick       {down}gesteuert !""",1
+"""{right}{right}{right}{rvs_on} {right}{right}{right}{right} {right}{right} {right} {CBM-K}{rvs_off}{CBM-K}{rvs_on} {right} """,1
+"""{rvs_on} {right}{right} {right} {right}{right} {right} {right}{right}{right}{right} {right}{right} """,1
+"""{right}{right}{right}{rvs_on} {right}{right} {right} {right}{right} {right} {right}{right} {right} """,1
+"""{right}{right}{right}{rvs_on}    {right} {right}{right} {right} {right}{right} {right}    """,1
+"""{down}{down}{rvs_on}    {right} {right}{right} {right}    {right}    """,1
+"""{right}{right}{right}{rvs_on} {right}  {right}    {right} {right}{right} {right}   """,1
+"""{up}{left}""",1
+"""{down}{down}{down}{cyan}  **{purple} computer laedt {cyan}**  *{purple}  hauptprogramm! {cyan} *{red}{up}{up}""",1
+"""{clr}{down}{down}{down}{down} {purple}*** {green}tape laufen  {purple}***   *    {green}lassen!     {purple}*""",1
+"""{down}{left}""",1
+"""{home}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{rvs_on}{blue} """,1
+"""{clr}{red}{rvs_on}""",1
+8062,1
+8057,1
+7925,1
+7839,1
+7964,1
+7832,1
+"""rg     e    s  csbuh  b        t  h              laserka  e  r           =  =  =""",1
+"""{black}{white}{red}{cyan}{purple}{green}{blue}{yellow}""",1
+"""      e g a v l a s      {CBM-U}                 taste druecken     e           {CBM-U}     """,1
+"""l  e  r  e  {CBM-U}                     {CBM-U}                                k  n     r  {CBM-U}""",1
+"""          = gewitterwo  n  e  b  {CBM-U}     w e r c     {CBM-U}                            """,1
+"""          n  i  a  {CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}                       o  g  u  {CBM-U}             {CBM-U}   """,1
+"""{up} {left}""",1
+"""{left}{CBM-T}{left}""",1
+"""{up}{right}""",1
+"""{right}{right}:={right}::::>{right}{right}::::::::::{right}{right}::{right}<:""",1
+"""{rvs_off}{home}{down}{down}{down}{black}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right};::={right}{right}{right}{right}{right}=""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}<:::={right}{right}{right}{right}:::::""",1
+"""<::>{right}{right}::{right}{right}{right}{right}{right}{right}{right}:::{right}{right}{right}{right}{right}::{right}{right};:>{right}""",1
+""";:::::::::::>{right}::>{right}{right}{right}{right}{right}::::{right}{right}{right}{right}""",1
+"""::::={right};::={right}{right}::::{right}{right}{right}{right}{right}{right}::::::::::={right}:::>{right}{right}{right}{right}""",1
+"""<:::::{right}{right}{right}{right}{right}{right}:::{right}{right}{right}{right}{right}{right}{right}{right}<::::{right}{right}{right}{right}{right}{right}""",1
+""":::::>{right}{right}{right}{right};:::::{right}{right}{right}:::::::>{right}{right}{right}{right}{right}""",1
+"""   {SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}""",1
+"""{clr}{down}{down}{down}{down}{down}{down}    {red}steuerung des         {down}hubschraubers:""",1
+2010,1
+"""salvage cre2""",1
+.94,1
+7770,1
+30721,1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{blue} schwierigkeitsgrad?""",1
+"""{down}{right}{right}{right}{right}{right}zeit: """,1
+"""{up}{up}{up}{white}press stop on tape""",1
+"""{right}{right}{right}{right}{right}{right}89{down}{left}{left}889{down}{left}{left}{left}89{down}{down}{down}{left}""",1
+"""{left}{left}{black}={down}{left}:{right}{purple}89{right}{right}{right}{right}{right}{right}{right}{down}{black};{down}{left}:{down}{left}:{down}{left}<:{down}{down}{left}{left}{left}{left}{left}{left}{left}{left}{left};{down}{left}:""",1
+"""{right}{right}{right}{right}{right}{right}{purple}89{down}{left}{left}889{down}{left}{left}{left}89{down}{down}{down}{left}""",1
+"""899{down}9{up}{left}898989""",1
+"""{black}{left}{left}{left}{left}{left}{left}{down}{down}{down}:>{down}{left}{left}:{down}{left}:{down}{left}""",1
+""">{left}{left}{left}{left}{left}{left}{left}{left}{left}{up}{purple}89{black}""",1
+"""{down}{down}{right}{right}{right}{right}{right}{right}<{down}{left}{left}={rvs_on}  {rvs_off}{down}{left}{left}{left}:{down}{left}::""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}:""",1
+7739,1
+7738,1
+7867,1
+"""::::::::::{left}{inst}:""",1
+""";::::::::::=;::={right}{right}{right}{right}{right};:::::::::::::::::::::""",1
+""":>{right}{right}{right}::::::::::{right}{right}::{right}{right}{right}{right}{right}{right}{right}""",1
+"""{up}{up}89899{right}{right}{right}899{down}{left}{left}899{down}{left}{left}89{down}{down}{down}{down}{left}{left}{left}{left}{left}{left}899{down}{left}{left}89""",1
+"""{home}{down}{down}{down}89{right}{right}{up}89{up}{left}8989899{up}{left}{left}{left}{left}""",1
+"""898989{down}{left}{left}{left}{down}{left}89{down}{down}""",1
+"""{home}{down}{down}{left}{left}{left}{purple}898{down}{left}8{down}{down}{left}{left}{left}{left}8{right}{down}9{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}""",1
+"""899{right}{right}{down}{black}:{down}{left}:{down}{left}:{down}{left}>{down}{down}{down};:{down}{down}{down}{left}{left}{left}{left}:{left}{left}{left}{left}{left}{up};{down}{left}:""",1
+"""{up}{up}{right}::{down}{left}:{up}{up}{up}{up}{up}{up}{up}{up}{up}::{up}{left}:""",1
+"""{black}{right}:{down}{left}:{down}{down}{left}:{down}{left}::{down}{left}{left}::""",1
+"""{black};:::{down}{left}{left}{left}{left}::::{down}{left}{left}{left}{left}:>""",1
+"""{down}{down}{down}{left}{left}{left}{left}{left}""",1
+"""{up}{up}{up}{left}{left}{left}89""",1
+"""{right}{right};::::::::{right}{right}{right}{right}{right}{right}{right};::{right}{right}{right}:::""",1
+"""::>{right}{right}{right}{right}{right}::::{right}{right}{right}{right}{right}{right}{right}{right}{right};:>""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}::::{right}{right}{right}{right}:::::{right}{right}{right}{right}{right}{right}{right}{right}{right}""",1
+""";::::::::{right}{right}{right}{right}{right}::{right};:>{right};:::::::::""",1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}gerettet:""",1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{purple}{rvs_on}                        g a m e   o v e r                         """,1
+"""{black}{down}{down}2.Spieler: P=Loop {down}{left}{left}{left}{left}{left}{left}{left}nach unten""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}L=Loop{down}{left}{left}{left}{left}{left}{left}nach oben""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}F=Feuer""",1
+"""{down}{red} Schiessen Sie Ihren   Gegner ab . Achten    Sie dabei auf Ihren   Treibstoff!""",1
+fight,1
+dog,1
+"""{home}{down}{down}{down}{down}{rvs_on}{right}{right}{right}{right}Gleich{left}{down}{down}geht's{left}los!!!""",1
+"""{down}{black}{right}{right}{right}{right}w{rvs_on}opyright 1984""",1
+"""{down}{right}{right}{right}{right}{red}u{rvs_on}{right}{black}dog  fight{rvs_off}{right}{red}u""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{red}xyz[\{rvs_on}{right}{blue}-{right}soft {rvs_off}%""",1
+"""{down}{left}<{down}{down}{right}{right}{right}{right};:{right}{right}{right}{right}{right}{right}:{down}:{up}{left}::::{left}{left}{left}{left}{down}{down}:{up}{left}::::{down}{left}<""",1
+"""{right}{right}{right}{right}{right}{right}:{right}::{right}{down}:""",1
+"""{home}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{purple}89{down}{left}9{up}8{up}89{down}{left}{left}989{down}889""",1
+"""{home}{purple}89""",1
+"""{up}{up}{up}989{right}{right}{right}{down}89{down}{left}89{down}{left}{left}889{down}{left}{left}88989{down}{left}{left}{left}{left}{left}899""",1
+"""{home}{right}{right}8989899{down}{left}{left}{left}{left}{left}{left}89""",1
+.08,1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{red}v{rvs_on}{blue}taste{rvs_off}{red}v""",1
+5270,1
+gummersbach,1
+123456789012345678901234567890,1
+"""{home}{blue}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{home}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{black}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I{down}{left}{left}{left}{left}{left}{left}{left}{SHIFT--}{rvs_off}]^_!{rvs_on}{right}{SHIFT--}{down}{left}{left}{left}{left}{left}{left}{left}{SHIFT--}{rvs_off}""",1
+"""{down}{down}{black} @""",1
+""" @""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}q{rvs_on}{SHIFT--}{down}{left}{left}{left}{left}{left}{left}{left}J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}:{down}{left}{left}::{down}{left}{left}{left}::>""",1
+"""{purple}{home}{down}{left}{left}{left}{left}{left}{left}898989{left}{left}{left}{left}{left}{down}89""",1
+"""{down}{down}{left}{left}{left}{left}89""",1
+303,1
+"""{down}{right}{right}{right}{right}{right}{rvs_on} Steuerung:{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_off}{CBM-T}{CBM-T}{CBM-Y}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-Y}{CBM-T}{CBM-T}""",1
+"""{down}{down}1.Spieler: Joystick""",1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U} {SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}OO {CBM-I} {CBM-I}O """,1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U} {CBM-K}      {CBM-J}{CBM-R}  {CBM-I} {CBM-R} """,1
+"""{CBM-U}{CBM-U}{CBM-U} OGPGGGGGPPP    {CBM-I} """,1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U} {CBM-K}        {CBM-J}H  {CBM-I}  """,1
+""" H  HO  S{CBM-F}GGG{CBM-F}H  HO O""",1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}H HSPO O O  O """,1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}GGGGGGP{CBM-I}{CBM-I} {CBM-I} O """,1
+"""{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}{CBM-U}H HHOO O O  O """,1
+7988,1
+"""{home}{rvs_on}{black}{SHIFT-POUND}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-*}""",1
+"""dog-fight2""",1
+"""{down}{down}{down}lO""",1
+"""{home}{black}{rvs_on}bitte laden sie jetzt""",1
+"""    den 2. teil von          dog-fight       {white}""",1
+*ende es 1. teils,1
+"""{black}{down}{down}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{blue}TASTE!""",1
+7479,1
+7472,1
+"""{home}{down}{down}{down}{down}{down}{rvs_on}{white}spieler 2 hat verloren""",1
+"""{home}{down}{down}{down}{down}{down}{rvs_on}{yellow}spieler 1 hat verloren""",1
+8118,1
+8099,1
+"""{down}{right}{right}{white}w{right}{right}{black}{rvs_on}by{rvs_off}{yellow}{right}xyz[\{right}{black}{rvs_on}{black}soft{rvs_off}{white}%{up}""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{black}p{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}p{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_on}{yellow}fuel1:{right}{right}{right}{right}{right}{white}fuel2:""",1
+"""    S  U{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}  P   """,1
+""" {CBM-X}  {CBM-C}   RHOOtQ  {CBM-X} {CBM-C} {CBM-C}""",1
+"""  {CBM-X}    {CBM-K} HO{CBM-K}  {CBM-I}{CBM-C}    {CBM-X}""",1
+""" {CBM-X} {CBM-C}{CBM-C} {CBM-K}  GG    {CBM-I} {CBM-X} {CBM-C} """,1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}M         J{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}N         I{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{SHIFT-*}ABDEDBA{SHIFT-*}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}OT        H{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""#$",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I{down}{left}{left}{left}{left}{left}{left}{SHIFT--}{rvs_off}]^_!{rvs_on}{SHIFT--}{down}{left}{left}{left}{left}{left}{left}{SHIFT--}{rvs_off}""",1
+"""{rvs_on}{white}s t o p !{rvs_off}""",1
+7255,1
+"""j.mc carroll""",1
+"""by""",1
+"""schwitzbad""",1
+25600,1
+9026,1
+"""error in lines 23 - 33""",1
+8208,1
+7344,1
+"""#$@""",1
+ember that only     frogsoft ltd. is     the right frogsoft,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{yellow}{right}{right}{right}{right}{right}{right}{right}{rvs_on}""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}""",1
+8111,1
+"""error in lines 12 - 22""",1
+7256,1
+"""error in lines 45 - 49""",1
+5541,1
+"""schwitzbad2""",1
+"""error in lines 34 - 44""",1
+8226,1
+"""sc""",1
+8207,1
+7668,1
+8174,1
+"""fff""",1
+0.020,1
+"""{home}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}game{down}{down}{down}{down}{down}{down}{down}{left}{left}{left}{left}over""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{rvs_on}{SHIFT--}{down}{left}{left}{left}{left}{left}{left}J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{down}{down}die forscher sind die {down}einzigen, die die erde{down}vor der bevorstehenden""",1
+"""{down}katastrophe schuetzen {down}koennen.""",1
+"""{clr}doch passen sie auf:  {down}es erscheinen auch    {down}marsianer !""",1
+"""score""",1
+7700,1
+"""{rvs_on}     {home}""",1
+"""wxy{down}{left}{left}{left}jkl{down}{left}{left}{left}{left}zmnoz""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+7658,1
+8162,1
+7898,1
+"""t{down}{left}t{down}{left}t{down}{left}u""",1
+"""{left}]{up}{left}\{up}{left}\{up}{left}\""",1
+7726,1
+"""{white}e""",1
+"""{rvs_on}well done""",1
+30740,1
+"""{down}{down}{down}{down}{right}{yellow}written by o.gumtau""",1
+"""{down}{down}{right}{right}{right}{right}{right}{right}{yellow}(okt.'85)""",1
+"""{rvs_on}2000{home}{rvs_off}""",1
+"""e{home}""",1
+"""{clr}{yellow}{down}{down}{down}{down}{right}{right}{right}{right}ein funkspruch""",1
+"""{down}{right}{right}von der erde, sir !""",1
+309,1
+492,1
+"""earth-rescue2""",1
+"""{clr}{red}druecken sie bitte    {down}>{green}play{red}< zum laden des  {down}hauptprogramms !""",1
+1001,1
+"""{down}{down}{right}{right}{right}{right}{right}{right}{red}feuerknopf{green}""",1
+"""{down}sich die katastrophe  {down}auf der erde nicht    {down}mehr verhindern !""",1
+"""{clr}wenn sie aus versehen {down}3 marsianer zur erde  {down}gebeamt haben, laesst""",1
+"""{clr}{green}fliegen sie sofort zum{down}mars und beamen sie   {down}8 unserer forscher zur{down}erde.""",1
+"""{clr}{rvs_off}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{green}U{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}I""",1
+"""{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{red}score:""",1
+"""{home}{down}{right}{right}{right}{right}{right}{blue}earth rescue""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}J{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}K""",1
+"""{down}{down}diese tragen wie die  {down}forscher raumanzuege, {down}doch keine helme.""",1
+"""{clr}{yellow}{down}{down}entspannen sie sich !""",1
+"""{down}der autopilot fliegt   {down}sie jetzt zum {red}mars""",1
+"""{yellow}{down}{down}{down}{down}{down}ich melde mich wieder""",1
+7920,1
+"""{clr}{right}{rvs_on}{blue}   {right}{green}{SHIFT-POUND} {CBM-*}{right}{blue}  {CBM-*}{right}{green}   {right}{blue} {right} """,1
+"""{right}{rvs_on} {right}{right}{right}{green} {right} {right}{blue} {right} {right}{right}{green} {right}{right}{blue} {right} """,1
+"""{right}{rvs_on}  {right}{right}{green}   {right}{blue}  {rvs_off}{SHIFT-POUND}{right}{right}{rvs_on}{green} {right}{right}{blue}   """,1
+"""{right}{rvs_on} {right}{right}{right}{green} {right} {right}{blue} {rvs_off}{CBM-*}{rvs_on}{CBM-*}{right}{right}{green} {right}{right}{blue} {right} """,1
+"""{right}{rvs_on}   {right}{green} {right} {right}{blue} {right} {right}{right}{green} {right}{right}{blue} {right} """,1
+"""{down}{down}{purple}{right}{right}r{right}{right}e{right}{right}s{right}{right}c{right}{right}u{right}{right}e""",1
+30874,1
+5090,1
+"""G""",1
+9500,1
+"""P""",1
+"""N""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}  12345678{up}""",1
+"""T""",1
+"""{black}yy{left}{left}{down}""",1
+"""{down}{down}{right}{right}{right}{right}{right}{yellow}nochmal (j/n)""",1
+"""{yellow}{down}{down}{down}{down}{down}also, auf ein neues !""",1
+"""{down}retten koennen""",1
+"""{clr}{rvs_off}{down}{down}{purple}die forscher haben,   {down}dank ihnen, die erde""",1
+38641,1
+38620,1
+341,1
+"""{down}{down}{right}{right}{right}highscore:""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT--}{purple}over{green}{SHIFT--}""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT--}{purple}game{green}{SHIFT--}""",1
+"""{blue}gh{left}{left}{down}""",1
+"""{cyan}kl{left}{left}{down}mn""",1
+"""{green}ij{left}{left}{down}""",1
+"""{cyan}op{left}{left}{down}qr""",1
+"""  {left}{left}{down}  {left}{left}{down}  """,1
+"""{rvs_on}{white}{CBM-A}{CBM-S}{left}{left}{down}{down}{CBM-Z}{CBM-X}{rvs_off}""",1
+earthrescue,1
+writtenby,1
+gumtau,1
+"""{right}{right}{right}{right}{right}{right}{yellow}ab{right}{right}{right}{right}{right}{purple}wx\]^_wx""",1
+"""{right}{right}{right}{right}{right}{right}{green}cd{right}{right}{right}{blue}z[{purple}yyyyyyyy""",1
+"""{right}{right}{right}{yellow}ab{right}{green}ef{right}{right}{right}{blue}yy{purple}y{right}y{black}yy{purple}y{right}y""",1
+"""{rvs_on}{green}{CBM-A}{CBM-S}{left}{left}{down}  {left}{left}{down}{CBM-Z}{CBM-X}""",1
+58640,1
+"""{right}{right}{right}{green}ef{right}{right}{right}{right}{right}{right}{blue}{rvs_on}{CBM-*}{rvs_off}y{purple}yyy{black}yy{purple}yyy""",1
+"""{green}st{right}{right}{right}{right}st""",1
+7921,1
+"""{purple}uv{right}{right}{right}{right}uv""",1
+"""{rvs_on}{blue}{CBM-*}{rvs_off}{purple}yyy{black}yy{purple}yyy""",1
+7958,1
+38678,1
+7963,1
+38683,1
+"""{down}{black}<@={rvs_on}{CBM-U}{rvs_off}<@=>? :{rvs_on}{CBM-Y}{rvs_off};<=<@=>{rvs_on}{CBM-Y}{rvs_off}?""",1
+"""5{left}{left}{left}{left}{down}6789""",1
+"""{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{red}mars""",1
+"""{home}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{yellow}landung auf""",1
+"""{home}{right}{right}{right}{right}{right}{right}{right}#$%&{left}{left}{left}{left}{down}'()*{left}{left}{left}{left}{down}+,-.{left}{left}{left}{left}{down}/012{left}{left}{left}{left}{down}34{blue}y""",1
+7833,1
+"""Eine Rakete versorgt  """,1
+"""von zwei Panzern einen""",1
+"""Feind, der Sie ver -  """,1
+"""nichten will besiegen!""",1
+"""ein Flugzeug mit Ener-""",1
+"""{down}Sie muessen mit Hilfe """,1
+"""{rvs_on}       T A N K        {rvs_off}""",1
+"""gie, welche zu einem  """,1
+"""zeug erreichen um Sie,""",1
+"""zweiten Flugzeug ge-  """,1
+"""zerstoert ist das     """,1
+"""Ist der eine Panzer   """,1
+"""zer, zu zerstoeren.   """,1
+"""d.h. Ihren einen Pan- """,1
+"""kete das erste Flug-   """,1
+"""bracht wird.          """,1
+"""{clr}{down}{down}Dreimal muss die Ra-  """,1
+ anleitung,1
+"""{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}[\{down}{left}{left}]^",1
+"""Spiel verloren.""",1
+"""nein""",1
+"""ja""",1
+"""{down}{rvs_on}""",1
+"""{down}{down}{rvs_on}kennen sie die regeln""",1
+"""{up}{up}{up}{right}{right}{right}{right}{right}{right}{right} lmnopqr """,1
+"""tank2""",1
+"""{down}{right}{right} P = Pause",1
+"""{down}{right}{right}f2 = Panzer 2",1
+"""{right}{right}f1 = Panzer 1",1
+"""{rvs_on}{down}{down}{down}{down}{down}{rvs_on}laden sie nun teil  2  """,1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}[\{down}{left}{left}]^",1
+ ende des vorprogramms,1
+"""{home}{down}{down}{right}{right}{right}{right}{right}{rvs_on}t a n k",1
+ titelbild,1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}@""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{up}h""",1
+"""{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}i""",1
+"""{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}j""",1
+"""{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}d""",1
+"""{up}{up}{up}",1
+"""{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}y{down}{left}wx",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{up}f""",1
+"""{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}k""",1
+"""{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}g""",1
+"""{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}e""",1
+ vorprogramm,1
+"""{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down} stuv wx z lmnopqr",1
+"""{down}y z {rvs_on}clock software",1
+"""{down}{white}{right}{right}6789 :; l [\]^_!#""",1
+ fuer vc-20 + 3k,1
+ hommelsheimstr.34,1
+ 5308 rheinbach,1
+      flerzheim,1
+ tel.:(02225)/13316,1
+ (c) 1985,1
+ *********************,1
+ michael steinheimer,1
+"""  01       01   01",1
+" titelbild:poke36867,43",1
+"""{yellow}   3            2",1
+"""{rvs_on} nochmal(j/n)?""",1
+""" $ %$ $ $ % $ $&$''%",1
+""" $ %$$$ $ %$$ $$''{rvs_on}L""",1
+""" $ %$'$ $ $'$ $$'{rvs_on}L{rvs_off}",1
+"""{green}{right}jjjj{black}p{green}jjjjjjjjj{black}p{green}j",1
+"""{up}{up}{up}{up}{green}{right}{right}{right}{right}mno{right}{right}{right}{right}{right}{right}{right}mno",1
+""" $ %$ $ $$''$ $'$'",1
+"""$$$'$$$ $''{rvs_on}L{rvs_off}$ $ *$'",1
+"""'  '*  '*'{rvs_on}L{rvs_off}u''*'%''%",1
+""" ))) ))) )   ) )u )",1
+"""   {rvs_on}presents{rvs_off}     st",1
+"""zy       st",1
+"""{white}wx {rvs_on}soft{rvs_off}    st",1
+'siegerehrung',1
+"""{rvs_on}{down}ihre punkte:""",1
+"""{rvs_on}bravo!!! sie haben    alle feinde besiegt!!!""",1
+""" $' $'$'$'  $'$' $'                01",1
+"""h",1
+"""{rvs_on}{black}punkte:""",1
+"""{rvs_on}{down}wollen sie ihr glueck nochmal versuchen ?""",1
+ ===pyra-soft===,1
+ ====andreas====,1
+"""{green}  ++++++++++++++",1
+"""   {cyan}defg{green}jj{red}p{green}jj{blue}4$$5{white}v :;",1
+"""  {yellow}q{white}abc  {green}m{red}n{green}o  {blue}45{white}=>?<",1
+"""{rvs_on}{black}y{blue}o{red}u{black} l{red}o{blue}o{cyan}s{purple}e{green}d!""",1
+ spielende,1
+4080,1
+ bewegung panzer 2,1
+318,1
+"""{rvs_on}wollen sie ihr gluck  nochmal versuchen ?""",1
+*********************** tank (c) 1985 by   ** michael steinheimer*,1
+ bewegung panzer 1,1
+"""{green}{right}mnojjj{black}p{green}jjjjjjjjjj{black}p",1
+"""{green}{right}jj{black}p{green}jjmnoj{black}p{green}jjjjjjmno",1
+"""{green}{down}{right}{right}mno{right}{right}{right}{right}mno""",1
+"""{rvs_on}{home}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{black}is loading!{yellow}{up}{up}""",1
+38822,1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}defg",1
+"""{down}{down}{down}{down}{down}{down}{down}{black}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}abc",1
+"""{up}{black}st""",1
+"""{green}{right}j{black}p{green}jjjjjjjjmnojjjjj",1
+"""{green}{right}jjjjjjjjjjj{black}p{green}jjjjjj               {black}abc {green}mno    jjjjjjjjjjj{black}defg{green}j{black}p{green}j",1
+"""{black}{right}{right}{right}{right}{right}{right}{right},-{right}{right}{right}{right}{right}{right}{right}45{right}{right}{right}{green}  jjjjjj{black}./{green}jjjjjj{black}4$$5{green}""",1
+"""{blue}{home}{down}{right}{right}01{right}{right}{right}{right}{right}{right}{right}{right}{right}    01{blue}      01      01   {cyan} 2",1
+"""{up}{left}{black}t@@@@@@@@@@@@@""",1
+" spielfeld:rem36867,32",1
+"""{black}{up}@""",1
+"""{black}{up}@@""",1
+"""{black}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}{up}@""",1
+"""{down}{right}{right}{black}ro{purple}{right}{right}{rvs_on}presents{right}{right}{rvs_off}{black}uy""",1
+ === terra 2 ===,1
+"""{rvs_on}aber hueten sie sich{right}{right}vor radioaktiven{right}{right}{right}{right}{right}{right}blitzen,die neue ver-{right}seuchte """,1
+"""{rvs_on}felsen ({rvs_off}n{rvs_on}){right}{right}{right}{right}produzieren!""",1
+ ===spindler====,1
+ ==moselstr.10==,1
+ =6522 osthofen=,1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{up}{black}{rvs_on}{CBM-T}""",1
+"""{right}{right}{right}{rvs_off}q{right}{right}{green}g{rvs_on}{black}{right}M{right}{SHIFT--}{right}N{right}y{right}o{right}{rvs_off}n{right}{right}{right}{right}{right}{right}{right}{rvs_off}q{right}{right}{green}h{rvs_on}{black}{right}M{SHIFT--}N{right}p{right}p{right}{rvs_off}n{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{green}i""",1
+"""{right}{right}{right}{blue}d{rvs_on}{black}{right}M{right}M{right}M{SHIFT--}N{CBM-M}NM{CBM-G}{right}m{right}r{right}{right}{right}{rvs_off}wj{right}{blue}e{rvs_on}{black}{right}M{right}M{right}{SHIFT--}{right}{CBM-M}{right}N{right}a{right}e{right}{right}{right}{right}{rvs_off}tk{right}{right}{green}f{rvs_on}{black}{right}M{right}M{SHIFT--}N{CBM-M}N{right}r{right}w""",1
+"""{rvs_on}{right}{right}M{right}M{right}M{right}M{right}{SHIFT--}{right}N{right}N{CBM-G}N{right}N{right}{right}{right}{right}{blue}{rvs_off}b{rvs_on}{black}{right}M{right}M{right}M{right}M{SHIFT--}N{right}N{CBM-G}{CBM-G}{right}N{right}d{right}{right}{right}{right}{rvs_off}{blue}c{rvs_on}{black}{right}M{right}M{right}M{right}{SHIFT--}{right}{CBM-M} {CBM-G}{CBM-G}N{right}i""",1
+"""{clr}{rvs_on}{black}{right}{right}{right}{right}{right}{right}{right}{right}{right}N{SHIFT--}M{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}NM{SHIFT--}NM""",1
+"""{rvs_on}{right}{right}{right}{right}{right}{right}{right}NM{right}{SHIFT--}{right}NM{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}NM{right}M{SHIFT--}N{right}NM""",1
+"""{rvs_on}{right}{right}{right}{right}{right}NM{right}M{right}{SHIFT--}{right}N{right}NM{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}NM{right}M{right}M{SHIFT--}N{right}N{right}NM{right}{right}{right}{right}{right}{right}{right}{right}NM{right}M{right}M{right}{SHIFT--}{right}N{right}N{right}NM""",1
+7768,1
+"""{rvs_on}{down}{right}{right}WWW terra  2 WWW{right}{right}""",1
+"""{rvs_on}{right}{right}NM{right}M{right}M{right}M{SHIFT--}N{right}N{right}{right}{right}NM""",1
+38823,1
+"""{down}{rvs_on}rang :{down}""",1
+"""oberleutnant""",1
+"""{right}l{right}{right}{right}{right}{right}{red}q{right}{right}{right}{right}{purple}n{white}{right}{right}{right}{right}{right}{right}{right}l""",1
+"""{right}l{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{purple}n{white}{right}l""",1
+"""{right}lvsx{blue}@ a bcdefghi{white}svsl""",1
+8102,1
+8103,1
+"""lO""",1
+"""terra 2-2""",1
+"""{right}l{right}{right}{right}{right}{right}{right}{purple}n{white}{right}{right}{right}{right}{right}{red}q{right}{right}{purple}n{white}{right}{right}l""",1
+"""{down}{right}{white}lppmpzmzpmmpzmpzmzml""",1
+"""{down}{purple}{right}@{right}a{rvs_on}{right}{blue}andreas{right}{green}spindler{up}{up}{up}{up}""",1
+"""{rvs_on}{right}{black}{rvs_off}ro{white}{rvs_on}{right}{right}{CBM-G}{CBM-G} {black}terra 2{white} {CBM-M} {right}{black}{rvs_off}uy{white}""",1
+"""{rvs_on}{right}{right}{right}{right}{right}ML{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{SHIFT-@}""",1
+"""{rvs_on}{down}{black}dringen sie in die    unterwelt von terra 2 vor und sammeln /""",1
+"""{rvs_on}schiessen sie das plutonium ({rvs_off}q{rvs_on}) hinfort !?""",1
+""" H  HO   GG WRQ  {CBM-Y}{SHIFT-*}{CBM-W}O""",1
+""" {CBM-X}  {CBM-C}{CBM-X}  H    O{CBM-C}{CBM-X}  {CBM-C}  """,1
+"""@abc {CBM-C} {CBM-X}H    O{CBM-C} {CBM-X} def""",1
+"""  {CBM-K}  W   {SHIFT-*}{SHIFT-*}        {CBM-I} """,1
+""" {CBM-K}  SP  ORRH        {CBM-I}""",1
+""" H  SO  WRRH SP  {CBM-I}{SHIFT-*}{CBM-K}O""",1
+""" H  HO  ORRH{CBM-S}{SHIFT-*}{SHIFT-*}{CBM-E} {SHIFT-*}{SHIFT-*}{SHIFT-*}O""",1
+"""{clr}{rvs_on}{white}{right}{right}{right}{right}{right}NO{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}{CBM-T}P""",1
+"""{home}{rvs_on}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{black}""",1
+"""general""",1
+"""captain""",1
+"""major""",1
+"""{down}{rvs_on}score : """,1
+"""{down}{rvs_on}lives :""",1
+"""commander""",1
+"""brigadegeneral""",1
+11220,1
+""":""",1
+"""{down}{rvs_on}used time for{down}""",1
+"""{down}{down}{down}run{up}{up}{up}{left}{left}{left}""",1
+"""{down}{down}{rvs_on}press fire-button """,1
+12020,1
+"""{rvs_on}mit >> f1 << kommen{right}{right}{right}sie weiter !""",1
+"""  {CBM-C}  {CBM-X}{CBM-X}{CBM-C}H    O  {CBM-X}    """,1
+""" {CBM-U}          UVUV H   """,1
+"""        S    P       """,1
+"""         {CBM-K}UT{CBM-I}        """,1
+"""{CBM-U}{CBM-U}  O   {SHIFT-*}R    O     {CBM-I}""",1
+"""          {CBM-K}{CBM-I}         """,1
+"""         {CBM-K}  {CBM-I}        """,1
+"""        {CBM-K}    {CBM-I}       """,1
+"""    @abcSGGGGPdefg   """,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{purple}pzmlllpzmlllllpmmllpmzm""",1
+"""{up}   mlp   mlllp   mp""",1
+"""    z     mlp""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}z""",1
+"""{right}{right}{right}{right}{right}{right}x{right}{right}{right}{right}{right}{right}{right}{right}""",1
+"""{rvs_on}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}""",1
+""" ** terra 2 ** """,1
+hoehle,1
+grotte,1
+"""wassertraeger fuer{right}{right}{right}{right}goofy !""",1
+"""selbstmoerder""",1
+"""officer""",1
+"""leutnant""",1
+"""pilot""",1
+"""mechaniker""",1
+"""co - pilot""",1
+"""{rvs_on}{down}{right}{right}press {red}fire{black} - button""",1
+"""{rvs_on}{blue}{home}{right}{right}{right}{right}** terra 2 **""",1
+"""{rvs_on}{black}{down}time:""",1
+""" score:""",1
+"""    by    o. sohinger""",1
+"""{clr}{blue}{down}{down}{rvs_on}{CBM-D}{CBM-F}{right}{CBM-D}{CBM-F}{right}{CBM-D}{CBM-I}{right}{right}{right}{CBM-D}{rvs_off}{CBM-B}{rvs_on}{right}{CBM-D}{CBM-F}{right}{rvs_off}{CBM-K}{right}{right}{CBM-K}""",1
+"""{rvs_on}{CBM-C}{CBM-V}{right}{CBM-C}{CBM-V}{right}{rvs_off}{CBM-K}{right}{right}{right}{right}{rvs_on}{CBM-C}{CBM-B}{right}{CBM-C}{CBM-V}{right}{rvs_off}{CBM-K}{right}{right}{CBM-K}""",1
+"""{CBM-K}{right}{right}{CBM-K}{rvs_on}{CBM-K}{rvs_off}{right}{CBM-K}{right}{right}{right}{right}{rvs_on}{CBM-D}{rvs_off}{CBM-B}{right}{CBM-K}{rvs_on}{CBM-K}{rvs_off}{right}{CBM-K}{right}{right}{CBM-K}""",1
+"""{green}{down}{down}{right}{right}{right}{right}{right}{right}{right}flipper{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}daten werden geladen""",1
+"""{home}{blue}""",1
+"""{down}{down}{down}{rvs_on}""",1
+"""{right}{right}{right}{right}{right}slv{right}{right}{right}{right}{right}{right}{right}x""",1
+"""{right}{right}{right}{right}slllv{right}{right}{right}{right}{right}slv""",1
+"""{right}{right}{right}{right}lllll{right}{right}{right}{right}slllv""",1
+"""{right}{right}{right}slllllv{right}{right}slllllv""",1
+"""vxslllllllvslllllllvsx""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}               """,1
+"""{down}{down}{down}{down}{right}{blue} instruktion   <{rvs_on}j{rvs_off}/{rvs_on}n{rvs_off}>""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{blue}by""",1
+"""{home}{blue}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}      < taste >""",1
+"""{home}{green}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}  daten {red}sind {green}geladen """,1
+"""{down}{down}{blue} ich lade jetzt den""",1
+"""{down}{down} zweiten teiel{down}""",1
+"""bewegt.""",1
+"""{down}{down}{blue}clr home taste wird   {down}der pac-man in die    {down}entsprechende richtung""",1
+"""{down}und mit der       {red}>>>{home}""",1
+"""{down}man's ausgewaehlt""",1
+krater,1
+erdspalte,1
+"""{clr}{black}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}@{right}a{right}bcdefghi{right}tk{up}{left}{left}wj_""",1
+"""{rvs_on}{blue}{down}{down}{right}{right}andreas spindler{down}{black}{right}{right}{right}{right}""",1
+"""{rvs_on}{right}all rights reserved!{black}{down}{right}""",1
+"""{down}beim pac-man spiel    {down}wird mit der taste 1  {down}die richtung des pac-""",1
+"""{down}  linker  schlaeger :       taste 1.""",1
+"""{down}  rechter schlaeger :       clr home""",1
+"""{down}{down}{down}{down}{right}{blue} noch ein mahl <{rvs_on}j{rvs_off}/{rvs_on}n{rvs_off}>""",1
+* 01.03.1986 *,1
+*     in     *,1
+* 5657  haan *,1
+* o.sohinger *,1
+*     by     *,1
+*  pac-ball  *,1
+"""{blue}{down}{down}die steuerung ist ganz{down}enfach :""",1
+"""pac-ball2""",1
+"""{down}{rvs_on}                  {red}>>>{home}""",1
+"""{rvs_on}loch trifft sich das  {down}bild veraendert und   {down}aus dem flipper ein """,1
+"""{CBM-K}{right}{right}{CBM-K}{rvs_on}{CBM-K}{right}{CBM-C}{rvs_off}{CBM-I}{right}{right}{right}{rvs_on}{CBM-C}{CBM-B}{right}{rvs_off}{CBM-K}{rvs_on}{CBM-K}{right}{CBM-C}{rvs_off}{CBM-I}{right}{rvs_on}{CBM-C}{rvs_off}{CBM-I}""",1
+"""{home}{red}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+"""{down}{rvs_on}das sich nur dadurch  {down}unterscheidet das wenn{down}der ball in dieses ({rvs_off}3{rvs_on})""",1
+"""{down}{blue}{rvs_on}pac-ball ist ein spiel{down}fuer flipper freunde.""",1
+"""{clr}{right}{green}{rvs_on}pac-ball instruktion{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}======================""",1
+"""{down}{rvs_on}pac-man spiel wierd.""",1
+7847,1
+7835,1
+"""{up}x  4  x{white}8{red}x{white}8{red}x{white}8{red}xxxxxxxx{white}8{red}x""",1
+"""{clr}{red}xxxxxxxxxxxxxxxxxxxxxx""",1
+"""{up}x     x{white}888{red}x{white}8888888888{red}x""",1
+"""{up}x 7 {white}6{red} x{white}8{red}x{white}8{red}x{white}8{red}x{white}888888{red}x{white}8{red}x""",1
+"""{up}x  5  x{white}8{red}x{white}8{red}x{white}8{red}x{white}8{red}x{white}8{red}xx{white}8{red}x{white}8{red}x""",1
+"""{up}xxxxxxx{white}8{red}x{white}888{red}x{white}8{red}xx{white}888{red}x{white}8{red}x""",1
+"""{up}x{white}9888888{red}x{white}8{red}xxx{white}8{red}xx{white}8{red}xxx{white}8{red}x""",1
+"""{up}x{white}8{red}xxxxxxx{white}88888{red}xx{white}88888{red}x""",1
+"""{up}x     x{white}8{red}x{white}8{red}x{white}8{red}x{white}8{red}x{white}88{red}x{white}8{red}x{white}8{red}x""",1
+"""{home}{down}{down}{right}{right}{right}{white}4{down}{left}{left}{red}7 6{down}{left}{left}5""",1
+"""x{white}, .{black}""",1
+"""{home}{down}{down}{right}{right}{right}{red}4{down}{left}{left}7 {white}6{red}{down}{left}{left}5""",1
+"""{home}{down}{down}{right}{right}{right}{red}4{down}{left}{left}7 6{white}{down}{left}{left}5""",1
+"""{home}{down}{down}{right}{right}{right}{red}4{down}{left}{left}{white}7 {red}6{down}{left}{left}5""",1
+"""rxxxxxx{white}fg   bc{red} 'xx${white} {red}j""",1
+""" {red}t{rvs_on}{white}pac-{rvs_off}{red}x{white}de   @a{red}w '&{white} {red}l""",1
+"""s{rvs_on}{white}ball{rvs_off}{red}xx(000000'xxx%{white} {red}k""",1
+"""txxxxxxx(   'xxxxxxx&""",1
+"""/////////////////////{home}""",1
+""" {red}sxxxxx(     'xw %{white} {red}k""",1
+""" {red}rx)*           1${white} {red}j""",1
+"""x{red}  j{white} {red}j""",1
+"""{up}x{white}8{red}x{white}8888888{red}x{white}8{red}x{white}8{red}xx{white}8{red}x{white}8{red}x{white}8{red}x""",1
+"""   {red}s    {white}# 3 #{red}  k{white} {red}k""",1
+"""  x{red}t           l{white} {red}l""",1
+"""  {red}r             {red}j{white} {red}j""",1
+"""{rvs_on}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{CBM-+}""",1
+"""speisekammer""",1
+"""      {CBM-K}U      L{CBM-I}     """,1
+"""  {red}s             k{white} {red}k""",1
+"""  {red}t             l{white} {red}l""",1
+"""{rvs_on}pac-ball{up}{left}{left}{left}{left}{left}{left}{left}{rvs_off}""",1
+"""{clr}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}""",1
+1440,1
+"""{up}x{white}8{red}x{white}8{red}xxxxxxx{white}8{red}x{white}8{red}x{white}88{red}x{white}8{red}x{white}8{red}x""",1
+1360,1
+"""{up}x{white}8{red}x{white}8{red}xxxxx{white}888{red}x{white}8{red}x{white}8{red}xx{white}8{red}x{white}8{red}x""",1
+"""{up}x{white}8{red}x{white}8888888{red}x{white}8{red}x{white}888888{red}x{white}8{red}x""",1
+"""{up}x{white}8{red}xxxxxxx{white}8{red}x{white}8{red}xxxxxxxx{white}8{red}x""",1
+"""{up}x{white}888888888{red}x{white}8888888888{red}x""",1
+"""{up}xxxxxxxxxxxxxxxxxxxxxx""",1
+"""      {white}{rvs_on}pac - ball{rvs_off}""",1
+38500,1
+"""    x{red}!  {white}#   #  {red}z""",1
+"""    {red}m{white}           {red}j""",1
+"""    {red}n{white}           {red}k""",1
+"""   x{red}o    {white}+ -    {red}l""",1
+"""   {red}r    """,1
+"""{home}{red}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}m{down}{left}n{down}{left}o""",1
+"""{clr}{white}      xxxxxxxxx""",1
+"""{rvs_on}ball{rvs_off}  xxxxxxxxx""",1
+"""{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}""",1
+"""FG{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}{CBM-@}G""",1
+"""  {SHIFT-*}ABCDEFGU GFEDCBA{SHIFT-*} """,1
+"""{rvs_on}{up}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{SHIFT-POUND}""",1
+"""ok hast getrunken""",1
+"""iss""",1
+"""ok hast gegessen""",1
+1085,1
+40100,1
+"""fenster""",1
+"""{rvs_on}{red}{up}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{CBM-M}""",1
+"""{rvs_off}   x       x""",1
+"""      xxxxxxxxx""",1
+"""     {red}]xx{white}     {red}[\$""",1
+"""     ^_   {white}#    {red}y""",1
+"""{down}{down}{right}{right}f1  {red}={white}  spiel begin""",1
+"""{down}{right}{right}f2  {red}={white}  farbe (blk)""",1
+"""{down}{right}{right}f4  {red}={white}  farbe (blu)""",1
+"""{down}{down}{down}{right}{right}{right}cursor kontrolle""",1
+"""{clr}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{red}pac-ball{down}{left}{left}{left}{left}{left}{left}{left}{left}{left}{white}==========""",1
+"""{down}{down}{down}{down} noch ein spiel""",1
+"""{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}<{rvs_on}j{rvs_off}/{rvs_on}n{rvs_off}>""",1
+1580,1
+"""{home}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}game over""",1
+"""{right}{right}{right}{right}{right}{right}game over""",1
+"""{right}{right}{right}{right}{right}{right}{right}game over""",1
+"""{down}{right}{right}{right}{right}{right}getilt !{$a0}!{$a0}!""",1
+1530,1
+1380,1
+"""{rvs_on}super bonus{up}{left}{left}{left}{left}{left}{left}{left}{left}{left}{left}{rvs_off}""",1
+"""{clr}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{black}""",1
+"""{clr}{down}{down}{down}{white} du hast den flipper""",1
+"""     {CBM-K}    SP  X {CBM-I}    """,1
+"""    {CBM-K}     RQ  {SHIFT-+}  {CBM-I}   """,1
+"""   {CBM-K}          {CBM-*}   {CBM-I}  """,1
+"""       {CBM-Y}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{SHIFT-*}{CBM-W}      """,1
+3420,1
+"""geh treppe""",1
+"""hoch""",1
+425,1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}v{down}{left}v{down}{left}v{down}{left}{left}v{down}{left}v{down}{left}v""",1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}de {down}{left}{left}{left}fg{up}{right}{right} @a{down}{left}{left}bc""",1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}hia{left}{left}{down}00""",1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}dqp{left}{left}{left}{down}00""",1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}uu{right}{right}{right}{right}{right}{right}{right}uu""",1
+"""{home}{white}{rvs_on}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}Q""",1
+"""{home}{white}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right} {down}{left} {down}{left} """,1
+"""{clr}{down}{down}{down}{down}{rvs_on}{white} der ball ist weg !!!!""",1
+1800,1
+"""{down}{down}{down}{down}{rvs_on}       <taste>""",1
+428,1
+"""{down}{down}{down}{down}{green}   mit""",1
+"""punkten""",1
+"""{down}{down}{down}{green}        <taste>""",1
+"""{right}{right}{right}{right}{right}{right}{right}{right}game over""",1
+v4,1
+38642,1
+38790,1
+8070,1
+7856,1
+8009,1
+38729,1
+38576,1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{red}        """,1
+"""{down}bitte geben sie nur   ganze natuerliche     zahlen ein.""",1
+"""{down}nach jeder runde wird eine rangliste aus-   gegeben.""",1
+"""{black}jeder mitspieler wird pro runde(=ein tag)   einmal aufgerufen.""",1
+"""{clr}{down}{down}{down}{red}falsche eingabe!{black}""",1
+"""{down}ihre namen,welche sie eingeben,sollten nichtmehr als 10 buchstabenhaben.""",1
+"""{down}wollen sie die spiel- regeln nochmals lesen""",1
+"""{home}{rvs_on}{white}{down}{down}""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}'null-verkauf'{right}{right}{right}{right}{right}{right}{right}{right}entstehen    """,1
+"""{black}{down}{down}{down}{down}wer ueberschreitet am hoechsten die 1000 dm marke?""",1
+655,1
+"""{home}{down}{down}{down}{down}   doch vorsicht!!!   auch der pleitegeier  wartet,falls ihnen der""",1
+"""{up}erfolg nicht treu ist!                     """,1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}              {right}{right}{right}{right}{right}{right}{right}{right}              {right}{right}{right}{right}{right}{right}{right}{right}              """,1
+"""{clr}{black}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}von""",1
+"""{down}heinz doetzl""",1
+"""{clr}{black}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}{right}austria{left}{left}{left}{left}{left}{left}{down}{down}1 9 8 6""",1
+"""{clr}{black}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}  fuer 2-6 personen""",1
+"""{black}{down}ein""",1
+"""{down}wirtschaftsspiel""",1
+"""{clr}{down}{down}{down}{black}computer laedt haupt-""",1
+"""programm""",1
+"""economy2""",1
+"""{clr}{down}{down}{down}{black}wollen sie die spiel- regeln lesen""",1
+""" {yellow}{CBM-+}{green}{CBM-+}{red}{CBM-+}{CBM-+}""",1
+"""{clr}{down}{down}{down}{down}{down}{purple} a u s w e r t u n g""",1
+4510,1
+"""{black}{rvs_on}      {rvs_off}""",1
+"""{CBM-*}{rvs_on}    {rvs_off}{SHIFT-POUND}""",1
+"""  {rvs_on}  {rvs_off}""",1
+4200,1
+"""{down}{down}{down}{down}{down}{down}{black}bitte ton einschalten""",1
+"""{home}{down}{down}{down}{down}wenn sie diese daten  eingegeben haben,ist  folgendes fuer den   """,1
+"""tages-(runden)erfolg  entscheidend:        """,1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}die           {right}{right}{right}{right}{right}{right}{right}{right}wetterlage   """,1
+"""{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}              {right}{right}{right}{right}{right}{right}{right}{right}die hoehe des {right}{right}{right}{right}{right}{right}{right}{right}eispreises   """,1
+638,1
+"""{up}{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}und die hoehe {right}{right}{right}{right}{right}{right}{right}{right}der fixkosten,{right}{right}{right}{right}{right}{right}{right}{right}die auch bei""",1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}verkaufen   """,1
+"""{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}und zu welchem{right}{right}{right}{right}{right}{right}{right}{right}preis werden  {right}{right}{right}{right}{right}{right}{right}{right}sie ihr eis   """,1
+"""{black}{down}""",1
+0.25,1
+"""geben sie bitte die   anzahl der spieler ein""",1
+"""{red}wetterbericht:{black}""",1
+"""windstaerke:""",1
+"""{clr}{blue}""",1
+"""km/h""",1
+"""{black}{down}eine portion eis      kostet    {red} dm""",1
+"""{home}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}{down}  leertaste druecken""",1
+"""{clr}{down}{down}{red}ihr kapital ist zu    klein!{black}""",1
+"""V""",1
+"""{clr}{down}{down}poke44,28:poke7168,0:clr""",1
+"""{up}{up}{up}{up}{right}{right}{right}{right}{right}{right}{right}{right}wieviel werbe-{right}{right}{right}{right}{right}{right}{right}{right}tafeln werden {right}{right}{right}{right}{right}{right}{right}{right}sie benoetigen""",1
+"""{home}{blue}{down}{down}{down}{down}sie sind ein eisver-  kaeufer!""",1
+"""bei beruecksichtigung der wetterlage muessensie nun entscheiden:""",1
+"""{down}{down}{down}{right}{right}{right}{right}{right}{right}{right}{right}wieviel por-  {right}{right}{right}{right}{right}{right}{right}{right}tionen eis    {right}{right}{right}{right}{right}{right}{right}{right}moechten sie""",1
+"""{up}{up}{up}um wieviel wollen sie das eis verkaufen""",1
+"""{down}{down}verkaufte portionen   eis:{red}""",1
+"""{black}{down}erzeugte portionen    eis:{red}""",1
+"""{red}{down}{down}bankrott{black}""",1
+"""{black}{down}{down}neues kapital:{red}dm""",1
+"""{blue}{down}{down}{down}{down}  leertaste druecken{black}""",1
+"""{black}{down}gewinn:       {red}dm""",1
+1.2,1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}              {right}{right}{right}{right}{right}{right}{right}{right}              {right}{right}{right}{right}{right}{right}{right}{right}              """,1
+"""{up}{right}{right}{right}{right}{right}{right}{right}{right}            """,1
+5118,1
+5117,1
+"""lers""",1
+ro,1
+"""      {red}{down}{down}bankrott!{black}""",1
+7829,1
